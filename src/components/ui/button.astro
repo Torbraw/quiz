@@ -1,0 +1,24 @@
+---
+type Props = {
+  variant?: "primary" | "secondary" | "ghost";
+  size?: "icon" | "md";
+  id?: string;
+};
+
+const { variant = "primary", size = "md", id } = Astro.props;
+---
+
+<button
+  id={id}
+  class:list={[
+    {
+      "h-9 w-9": size === "icon",
+      "h-9 px-4 py-2": size === "md",
+      "hover:bg-slate-300": variant === "ghost",
+      "bg-slate-900 text-white": variant === "primary",
+      "bg-slate-300 text-slate-900": variant === "secondary",
+    },
+  ]}
+>
+  <slot />
+</button>

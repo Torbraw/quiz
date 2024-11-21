@@ -3,18 +3,24 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.13"
-  },
-  "devdependencies": {
+    "@astrojs/tailwind": "^5.1.2",
+    "@biomejs/biome": "^1.9.4",
     "astro": "^4.16.13",
+    "tailwindcss": "^3.4.15"
+  },
+  "devDependencies": {
     "@astrojs/check": "^0.9.4",
-    "typescript": "^5.6.3"
+    "@typescript-eslint/parser": "^8.15.0",
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.15.0"
   }
 }

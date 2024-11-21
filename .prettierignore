@@ -1,0 +1,14 @@
+# Directories
+.astro
+dist
+node_modules
+public
+
+# Formatted by Biome
+**/*.json
+**/*.js
+**/*.ts
+**/*.tsx
+**/*.jsx
+**/*.mjs
+**/*.cjs
