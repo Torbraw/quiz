@@ -22,7 +22,7 @@ import Button from "../components/ui/button.astro";
 </Button>
 
 <script is:inline>
-  const theme = localStorage.getItem("theme") ?? "light";
+  const theme = localStorage.getItem("theme") ?? "dark";
   const html = document.querySelector("html");
   html.classList.add(theme);
 
