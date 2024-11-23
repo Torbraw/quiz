@@ -10,13 +10,13 @@ import Link from "./ui/link.astro";
   <nav class="flex-1">
     <ul>
       <li>
-        <Link href="/">New Game</Link>
+        <Link href="/" ariaLabel="new-game">New Game</Link>
       </li>
     </ul>
   </nav>
   <div class="flex flex-row gap-2">
     <ThemeToggle />
-    <Link href="https://github.com/Torbraw/quiz" target="_blank" variant="icon">
+    <Link href="https://github.com/Torbraw/quiz" target="_blank" variant="icon" ariaLabel="github">
       <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path
           fill="currentColor"

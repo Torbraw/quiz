@@ -2,14 +2,16 @@
 type Props = {
   variant?: "link" | "icon";
   href: string;
+  ariaLabel: string;
   target?: string;
 };
 
-const { href, target = "_self", variant = "link" } = Astro.props;
+const { href, ariaLabel, target = "_self", variant = "link" } = Astro.props;
 ---
 
 <a
   href={href}
+  aria-label={ariaLabel}
   target={target}
   class:list={[
     {
