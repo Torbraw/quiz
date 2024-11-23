@@ -12,12 +12,12 @@ const { variant = "primary", size = "md", id } = Astro.props;
   id={id}
   class:list={[
     {
-      "focus-visible:ring-ring inline-flex items-center justify-center rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50": true,
+      "inline-flex items-center justify-center rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50": true,
       "h-9 w-9": size === "icon",
       "h-9 px-4 py-2": size === "md",
       "hover:bg-accent hover:text-accent-foreground": variant === "ghost",
-      "bg-primary text-primary-foreground hover:bg-primary/90 shadow": variant === "primary",
-      "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-sm": variant === "secondary",
+      "bg-primary text-primary-foreground shadow hover:bg-primary/90": variant === "primary",
+      "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/90": variant === "secondary",
     },
   ]}
 >

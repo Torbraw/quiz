@@ -1,16 +1,12 @@
-import { defineCollection , z } from "astro:content";
+import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
-const category = z.enum(["general"])
+const category = z.enum(["general"]);
 
-const mediaType = z.enum([
-  "image",
-  "video",
-  "audio"
-])
+const mediaType = z.enum(["image", "video", "audio"]);
 
 const questions = defineCollection({
-  loader: glob({ pattern: "**\/*.json", base: "./src/content/questions" }),
+  loader: glob({ pattern: "**/*.json", base: "./src/content/questions" }),
   schema: z.object({
     question: z.string().max(200),
     category: category,
@@ -22,4 +18,4 @@ const questions = defineCollection({
   }),
 });
 
-export const collections = {questions};
+export const collections = { questions };

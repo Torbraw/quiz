@@ -13,9 +13,9 @@ const { href, target = "_self", variant = "link" } = Astro.props;
   target={target}
   class:list={[
     {
-      "focus-visible:ring-ring inline-flex items-center justify-center rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 disabled:pointer-events-none disabled:opacity-50": true,
+      "inline-flex items-center justify-center rounded-md text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50": true,
       "text-primary underline-offset-4 hover:underline": variant === "link",
-      "hover:bg-accent hover:text-accent-foreground h-9 w-9": variant === "icon",
+      "h-9 w-9 hover:bg-accent hover:text-accent-foreground": variant === "icon",
     },
   ]}
 >
