@@ -1,0 +1,17 @@
+---
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const questions = await getCollection("questions");
+  return questions.map((question) => ({
+    params: { id: question.id },
+    props: { question },
+  }));
+}
+
+const { question } = Astro.props;
+---
+
+<div>
+  {question.data.question}
+</div>

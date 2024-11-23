@@ -4,7 +4,7 @@ dist
 node_modules
 public
 
-# Formatted by Biome
+# Linted by Biome
 **/*.json
 **/*.js
 **/*.ts
