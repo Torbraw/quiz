@@ -5,6 +5,7 @@ export default {
   trailingComma: "all",
   printWidth: 120,
   tabWidth: 2,
+  endOfLine: "crlf",
   plugins: ["prettier-plugin-astro", "prettier-plugin-tailwindcss"],
   overrides: [
     {

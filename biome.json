@@ -23,7 +23,8 @@
     "lineWidth": 120,
     "indentWidth": 2,
     "indentStyle": "space",
-    "formatWithErrors": false
+    "formatWithErrors": false,
+    "lineEnding": "crlf"
   },
   "javascript": {
     "formatter": {
