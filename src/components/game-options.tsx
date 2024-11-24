@@ -1,6 +1,6 @@
 import { type Component, For, Show, createSignal, onMount, splitProps } from "solid-js";
 import { createStore, produce } from "solid-js/store";
-import type { QuestionWithId } from "../lib/types";
+import type { GameOptions as GameOptionsType, QuestionWithId } from "../lib/types";
 import { fisherYatesShuffle } from "../lib/utils";
 import { GearIcon, TagIcon, TimerIcon } from "./common/icons";
 import { Badge } from "./ui/badge";
@@ -15,14 +15,14 @@ const MAX_TIMER_DURATION = 300;
 const MIN_NUMBER_OF_QUESTIONS = 1;
 const MAX_NUMBER_OF_QUESTIONS = 20;
 
-type GameOptionsProps = {
+type Props = {
   questions: QuestionWithId[];
   categories: string[];
 };
-export const GameOptions: Component<GameOptionsProps> = (props) => {
+export const GameOptions: Component<Props> = (props) => {
   const [local, _] = splitProps(props, ["questions", "categories"]);
 
-  const [timer, setTimer] = createSignal<boolean>(true);
+  const [showTimer, setShowTimer] = createSignal<boolean>(true);
   const [timerDuration, setTimerDuration] = createSignal<number>(60);
 
   const [autoShowAnswer, setAutoShowAnswer] = createSignal<boolean>(true);
@@ -67,37 +67,30 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
     const finalCategories = selectedCategories.length > 0 ? selectedCategories : categories;
     const selectedCategoryNames = finalCategories.map((category) => category.category);
 
-    const questions = pickQuestions(selectedCategoryNames, numberOfQuestions());
-    if (questions.size === 0) {
+    const questionIds = pickQuestionIds(selectedCategoryNames, numberOfQuestions());
+    if (questionIds.length === 0) {
       alert("No questions found for the selected categories");
       return;
     }
 
     const gameOptions = {
-      timer: timer(),
+      showTimer: showTimer(),
       timerDuration: timerDuration(),
       autoShowAnswer: autoShowAnswer(),
-      questions,
-    };
-
+      questionIds,
+    } satisfies GameOptionsType;
     localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
 
-    const [_, value] = questions.entries().next().value!;
-    window.location.href = `/questions/${value.id}?st=${timer()}&td=${timerDuration()}&sa=${autoShowAnswer()}&nq=${numberOfQuestions()}&cq=0`;
+    window.location.href = `/questions/${questionIds[0]}?st=${showTimer()}&td=${timerDuration()}&sa=${autoShowAnswer()}&nq=${numberOfQuestions()}&i=0`;
   };
 
-  const pickQuestions = (includedCategories: string[], count: number) => {
+  const pickQuestionIds = (includedCategories: string[], count: number) => {
     const filteredQuestions = local.questions.filter((question) => {
       return includedCategories.includes(question.category);
     });
 
     const shuffled = fisherYatesShuffle(filteredQuestions);
-    const selectedQuestions = shuffled.slice(0, count);
-
-    return selectedQuestions.reduce((map, question) => {
-      map.set(question.id, question);
-      return map;
-    }, new Map<string, QuestionWithId>());
+    return shuffled.slice(0, count).map((question) => question.id);
   };
 
   onMount(() => {
@@ -138,13 +131,13 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
             <span class="font-semibold text-xl">Timer</span>
           </div>
           <div class="grid grid-cols-2 gap-2">
-            <Switch class="flex items-center gap-2 mt-5" checked={timer()} onChange={(e) => setTimer(e)}>
+            <Switch class="flex items-center gap-2 mt-5" checked={showTimer()} onChange={(e) => setShowTimer(e)}>
               <SwitchControl>
                 <SwitchThumb />
               </SwitchControl>
               <SwitchLabel class="text-sm font-medium leading-none">Enabled</SwitchLabel>
             </Switch>
-            <Show when={timer()}>
+            <Show when={showTimer()}>
               <div class="grid w-full max-w-sm items-center gap-1.5">
                 <Label for="timerDuration">Duration (s)</Label>
                 <Input
