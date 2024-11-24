@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/base-layout.astro";
 
 export async function getStaticPaths() {
   const questions = await getCollection("questions");
@@ -12,6 +13,22 @@ export async function getStaticPaths() {
 const { question } = Astro.props;
 ---
 
-<div>
+<BaseLayout title={`Question #${question.id}`}>
   {question.data.question}
-</div>
+  <button id="next-btn">Test</button>
+</BaseLayout>
+
+<script is:inline>
+  // Test code, remove later
+  const queryParams = new URLSearchParams(window.location.search);
+  const hideBtn = queryParams.get("hideBtn");
+  if (hideBtn === "true") {
+    const btn = document.getElementById("next-btn");
+    btn?.classList.add("hidden");
+  }
+
+  const btn = document.getElementById("next-btn");
+  btn?.addEventListener("click", () => {
+    console.log("clicked");
+  });
+</script>

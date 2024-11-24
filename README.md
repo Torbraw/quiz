@@ -5,6 +5,7 @@ TODO
 - [x] Sidebar (home)
 - [x] dark/light mode
 - [x] Content collections for questions
+- [x] Main screen
 - [ ] Start game screen
 - [ ] Game description
 - [ ] Game options
