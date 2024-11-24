@@ -146,11 +146,12 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
             </Switch>
             <Show when={timer()}>
               <div class="grid w-full max-w-sm items-center gap-1.5">
-                <Label>Duration (s)</Label>
+                <Label for="timerDuration">Duration (s)</Label>
                 <Input
                   max={MAX_TIMER_DURATION}
                   min={MIN_TIMER_DURATION}
                   type="number"
+                  id="timerDuration"
                   class="w-32"
                   value={timerDuration()}
                   onInput={(e) => handleDurationChange(e)}
@@ -179,11 +180,12 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
             </Switch>
 
             <div class="grid w-full max-w-sm items-center gap-1.5">
-              <Label>Number of Questions</Label>
+              <Label for="numberOfQuestions">Number of Questions</Label>
               <Input
                 max={MAX_NUMBER_OF_QUESTIONS}
                 min={MIN_NUMBER_OF_QUESTIONS}
                 type="number"
+                id="numberOfQuestions"
                 class="w-32"
                 value={numberOfQuestions()}
                 onInput={(e) => handleNumberOfQuestionsChange(e)}

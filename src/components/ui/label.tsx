@@ -2,7 +2,7 @@ import { type ComponentProps, type ParentComponent, splitProps } from "solid-js"
 import { cn } from "../../lib/utils";
 
 export const Label: ParentComponent<ComponentProps<"label">> = (props) => {
-  const [local, rest] = splitProps(props, ["class", "for"]);
+  const [local, rest] = splitProps(props, ["class"]);
 
   return (
     // biome-ignore lint/a11y/noLabelWithoutControl: This is a label component
