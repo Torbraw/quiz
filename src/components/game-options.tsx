@@ -81,7 +81,7 @@ export const GameOptions: Component<Props> = (props) => {
     } satisfies GameOptionsType;
     localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
 
-    window.location.href = `/questions/${questionIds[0]}?st=${showTimer()}&td=${timerDuration()}&sa=${autoShowAnswer()}&nq=${numberOfQuestions()}&i=0`;
+    window.location.href = `/questions/${questionIds[0]}?st=${showTimer()}&td=${timerDuration()}&sa=${autoShowAnswer()}&c=${numberOfQuestions()}&i=0`;
   };
 
   const pickQuestionIds = (includedCategories: string[], count: number) => {

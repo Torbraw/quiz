@@ -15,3 +15,4 @@ TODO
 - [ ] Category translations
 - [ ] Responsive until 1024px
 - [ ] Question list
+- [ ] Optimize image/video/audio (@unpic/solid / compress)
