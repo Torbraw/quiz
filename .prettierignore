@@ -1,5 +1,6 @@
 # Directories
 .astro
+.vscode
 dist
 node_modules
 public

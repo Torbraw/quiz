@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import { GameOptions } from "../components/game-options";
+import { Card, CardHeader, CardTitle } from "../components/ui/card";
+import { CardDescription } from "../components/ui/card";
+import { CATEGORIES } from "../content.config";
+import BaseLayout from "../layouts/base-layout.astro";
+
+const questions = await getCollection("questions");
+const data = questions.map((q) => ({
+  ...q.data,
+  id: q.id,
+}));
+---
+
+<BaseLayout title="Quiz - New Game">
+  <div class="flex h-full flex-col items-center justify-center">
+    <Card>
+      <CardHeader>
+        <CardTitle>Quiz Options</CardTitle>
+        <CardDescription>Alter the game settings to your liking</CardDescription>
+      </CardHeader>
+      <GameOptions questions={data} categories={CATEGORIES.options} client:only="solid" />
+    </Card>
+  </div>
+</BaseLayout>

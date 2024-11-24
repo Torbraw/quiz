@@ -6,10 +6,12 @@ TODO
 - [x] dark/light mode
 - [x] Content collections for questions
 - [x] Main screen
-- [ ] Start game screen
-- [ ] Game description
-- [ ] Game options
-- [ ] Questions in mdx
+- [x] Start game screen
+- [x] Game description
+- [x] Game options
+- [x] Questions in json
 - [ ] Question screen
 - [ ] i18n
+- [ ] Category translations
 - [ ] Responsive until 1024px
+- [ ] Question list
