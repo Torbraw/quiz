@@ -33,7 +33,7 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
       category: string;
       selected: boolean;
     }[]
-  >([]);
+  >(local.categories.map((category) => ({ category, selected: false })));
 
   const handleCategorySelect = (category: string) => {
     setCategories(
@@ -102,7 +102,6 @@ export const GameOptions: Component<GameOptionsProps> = (props) => {
 
   onMount(() => {
     localStorage.removeItem("gameOptions");
-    setCategories(local.categories.map((category) => ({ category, selected: false })));
   });
 
   return (

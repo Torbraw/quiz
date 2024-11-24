@@ -20,7 +20,7 @@ const data = questions.map((q) => ({
         <CardTitle>Quiz Options</CardTitle>
         <CardDescription>Alter the game settings to your liking</CardDescription>
       </CardHeader>
-      <GameOptions questions={data} categories={CATEGORIES.options} client:only="solid" />
+      <GameOptions questions={data} categories={CATEGORIES.options} client:load />
     </Card>
   </div>
 </BaseLayout>
