@@ -200,9 +200,7 @@ export const GameOptions: Component<Props> = (props) => {
         </div>
       </CardContent>
       <CardFooter class="justify-end">
-        <Button type="submit" size="lg">
-          Start Game
-        </Button>
+        <Button type="submit">Start Game</Button>
       </CardFooter>
     </form>
   );

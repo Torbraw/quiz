@@ -125,3 +125,17 @@ export const InfoIcon: ParentComponent<ComponentProps<"svg">> = (props) => {
     </svg>
   );
 };
+
+export const ArrowRightIcon: ParentComponent<ComponentProps<"svg">> = (props) => {
+  const [local, rest] = splitProps(props, ["class"]);
+
+  return (
+    <svg class={local.class} {...rest} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+      <title>arrow-right</title>
+      <path
+        fill="currentColor"
+        d="m221.66 133.66l-72 72a8 8 0 0 1-11.32-11.32L196.69 136H40a8 8 0 0 1 0-16h156.69l-58.35-58.34a8 8 0 0 1 11.32-11.32l72 72a8 8 0 0 1 0 11.32"
+      />
+    </svg>
+  );
+};

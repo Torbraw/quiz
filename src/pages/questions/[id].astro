@@ -15,7 +15,7 @@ const { question } = Astro.props;
 ---
 
 <BaseLayout title={`Question #${question.id}`}>
-  <div class="flex h-full flex-col items-center justify-center">
+  <div class="flex h-full flex-col items-center justify-center py-4 relative">
     <QuestionContainer client:load question={question.data} />
   </div>
 </BaseLayout>
