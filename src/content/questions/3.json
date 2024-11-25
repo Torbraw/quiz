@@ -1,0 +1,9 @@
+{
+  "question": "What is this sound?",
+  "category": "animals",
+  "answer": "meow",
+  "difficulty": 1,
+  "hint": "Animal",
+  "mediaUrl": "/src/assets/audios/meow.wav",
+  "mediaType": "audio/wav"
+}

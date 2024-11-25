@@ -1,6 +1,8 @@
 {
-  "question": "What is the capital of Quebec?",
-  "category": "general",
-  "answer": "Quebec",
-  "difficulty": 1
+  "question": "What game is this image from?",
+  "category": "video-games",
+  "answer": "Doom",
+  "difficulty": 3,
+  "mediaUrl": "/src/assets/images/doom.webp",
+  "mediaType": "image"
 }

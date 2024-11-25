@@ -17,9 +17,10 @@ export const CATEGORIES = z.enum([
   "animals",
   "video-games",
   "four-pics-one-word",
+  "for-kids",
 ]);
 
-const MEDIA_TYPES = z.enum(["image", "video", "audio"]);
+const MEDIA_TYPES = z.enum(["audio/mp3", "audio/wav", "video/mp4", "image"]);
 
 const questionSchema = z.object({
   question: z.string().max(200),
