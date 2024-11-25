@@ -14,6 +14,7 @@ type Props = {
 export const QuestionContainer: Component<Props> = (props) => {
   const question = () => props.question;
 
+  const [clearTimer, setClearTimer] = createSignal(false);
   const [showTimer, setShowTimer] = createSignal(false);
   const [duration, setDuration] = createSignal(0);
   const [questionCount, setQuestionCount] = createSignal(0);
@@ -66,7 +67,7 @@ export const QuestionContainer: Component<Props> = (props) => {
     <div class="flex flex-col gap-4">
       <Show when={showTimer()}>
         <div class="absolute top-8 left-8">
-          <Timer duration={duration()} onEnd={() => onTimerEnd()} />
+          <Timer duration={duration()} onEnd={() => onTimerEnd()} clear={clearTimer()} />
         </div>
       </Show>
 
@@ -83,6 +84,7 @@ export const QuestionContainer: Component<Props> = (props) => {
               size="lg"
               type="button"
               onClick={() => {
+                setClearTimer(true);
                 setShowAnswer(true);
               }}
             >

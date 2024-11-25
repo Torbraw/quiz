@@ -1,16 +1,32 @@
 import { createTimer } from "@solid-primitives/timer";
-import { type Component, createSignal, onMount } from "solid-js";
+import { type Component, createEffect, createSignal, onMount } from "solid-js";
 
 type Props = {
   duration: number;
   onEnd: () => void;
+  clear?: boolean;
 };
 export const Timer: Component<Props> = (props) => {
-  const [duration] = createSignal(props.duration);
+  const duration = () => props.duration;
+  const clear = () => props.clear ?? false;
   const [timeLeft, setTimeLeft] = createSignal(duration());
   const [pauseTimer, setPauseTimer] = createSignal(false);
 
   const progress = () => (1 - timeLeft() / duration()) * 100;
+
+  const formatTime = () => {
+    const minutes = Math.floor(timeLeft() / 60)
+      .toString()
+      .padStart(2, "0");
+    const seconds = (timeLeft() % 60).toString().padStart(2, "0");
+    return `${minutes}:${seconds}`;
+  };
+
+  createEffect(() => {
+    if (clear()) {
+      setTimeLeft(0);
+    }
+  });
 
   onMount(() => {
     createTimer(
@@ -26,14 +42,6 @@ export const Timer: Component<Props> = (props) => {
       setInterval,
     );
   });
-
-  const formatTime = () => {
-    const minutes = Math.floor(timeLeft() / 60)
-      .toString()
-      .padStart(2, "0");
-    const seconds = (timeLeft() % 60).toString().padStart(2, "0");
-    return `${minutes}:${seconds}`;
-  };
 
   return (
     <div
