@@ -9,35 +9,43 @@ type Props = {
   questionIndex: number;
 };
 export const Question: Component<Props> = (props) => {
-  const question = props.question;
+  const question = () => props.question;
+  const questionCount = () => props.questionCount;
+  const questionIndex = () => props.questionIndex;
+
   return (
-    <Card class="max-w-6xl min-w-[30dvw] relative">
-      <CardHeader class="items-center">
-        <CardTitle class="max-w-2xl text-center">{question.question}</CardTitle>
+    <Card class="max-w-6xl min-w-[40dvw] min-h-32 relative">
+      <CardHeader
+        classList={{
+          "items-center justify-center": true,
+          "h-full": !question().mediaUrl,
+        }}
+      >
+        <CardTitle class="max-w-2xl text-center">{question().question}</CardTitle>
       </CardHeader>
-      <CardContent class="justify-center flex">
-        <Show when={question.mediaUrl && question.mediaType}>
+      <Show when={question().mediaUrl && question().mediaType}>
+        <CardContent class="justify-center flex">
           <Switch>
-            <Match when={question.mediaType === "image"}>
-              <img src={question.mediaUrl} alt={question.answer} class="max-h-[50dvh] rounded-2xl" />
+            <Match when={question().mediaType === "image"}>
+              <img src={question().mediaUrl} alt={question().answer} class="max-h-[50dvh] rounded-2xl" />
             </Match>
-            <Match when={question.mediaType!.startsWith("audio")}>
+            <Match when={question().mediaType!.startsWith("audio")}>
               <audio controls>
-                <source src={question.mediaUrl} type={question.mediaType} />
+                <source src={question().mediaUrl} type={question().mediaType} />
                 <track kind="captions" />
               </audio>
             </Match>
-            <Match when={question.mediaType!.startsWith("video")}>
+            <Match when={question().mediaType!.startsWith("video")}>
               <video controls class="max-h-[50dvh] rounded-2xl">
-                <source src={question.mediaUrl} type={question.mediaType} />
+                <source src={question().mediaUrl} type={question().mediaType} />
                 <track kind="captions" />
               </video>
             </Match>
           </Switch>
-        </Show>
-      </CardContent>
+        </CardContent>
+      </Show>
       <Badge variant="outline" class="text-md absolute top-2 left-2">
-        Question {props.questionIndex + 1} of {props.questionCount}
+        Question {questionIndex() + 1} of {questionCount()}
       </Badge>
     </Card>
   );

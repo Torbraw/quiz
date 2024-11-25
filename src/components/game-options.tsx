@@ -87,7 +87,6 @@ export const GameOptions: Component<Props> = (props) => {
     localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
 
     window.location.href = buildQuestionUrl({
-      questionCount: numberOfQuestions(),
       duration: timerDuration(),
       autoShowAnswer: autoShowAnswer(),
       showTimer: showTimer(),

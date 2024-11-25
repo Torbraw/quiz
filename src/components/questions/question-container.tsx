@@ -12,7 +12,7 @@ type Props = {
   question: QuestionType;
 };
 export const QuestionContainer: Component<Props> = (props) => {
-  const question = props.question;
+  const question = () => props.question;
 
   const [showTimer, setShowTimer] = createSignal(false);
   const [duration, setDuration] = createSignal(0);
@@ -21,10 +21,8 @@ export const QuestionContainer: Component<Props> = (props) => {
   const [nextId, setNextId] = createSignal<string>();
   const [autoShowAnswer, setAutoShowAnswer] = createSignal(false);
   const [showAnswer, setShowAnswer] = createSignal(false);
-  const [showAnswerButton, setShowAnswerButton] = createSignal(false);
 
   const onTimerEnd = () => {
-    setShowAnswerButton(true);
     if (autoShowAnswer()) {
       setShowAnswer(true);
     }
@@ -32,8 +30,6 @@ export const QuestionContainer: Component<Props> = (props) => {
 
   onMount(() => {
     const params = new URLSearchParams(window.location.search);
-    const count = +(params.get("c") ?? "10");
-    setQuestionCount(count);
 
     const timerDuration = params.get("td") ?? "60";
     setDuration(+timerDuration);
@@ -45,7 +41,6 @@ export const QuestionContainer: Component<Props> = (props) => {
     setShowTimer(show);
 
     if (!show) {
-      setShowAnswerButton(true);
       if (showAnswer) {
         setShowAnswer(true);
       }
@@ -58,6 +53,7 @@ export const QuestionContainer: Component<Props> = (props) => {
     if (gameOptions) {
       try {
         const options = JSON.parse(gameOptions) as GameOptions;
+        setQuestionCount(options.questionIds.length);
         const next = options.questionIds[index + 1];
         setNextId(next);
       } catch (e) {
@@ -70,18 +66,18 @@ export const QuestionContainer: Component<Props> = (props) => {
     <div class="flex flex-col gap-4">
       <Show when={showTimer()}>
         <div class="absolute top-8 left-8">
-          <Timer duration={2} onEnd={() => onTimerEnd()} />
+          <Timer duration={duration()} onEnd={() => onTimerEnd()} />
         </div>
       </Show>
 
-      <Information question={question} />
+      <Information question={question()} />
 
-      <Question question={question} questionCount={questionCount()} questionIndex={questionIndex()} />
+      <Question question={question()} questionCount={questionCount()} questionIndex={questionIndex()} />
 
-      <Show when={showAnswerButton()}>
-        <Show
-          when={showAnswer()}
-          fallback={
+      <Show
+        when={showAnswer()}
+        fallback={
+          <div class="flex justify-center">
             <Button
               variant="secondary"
               size="lg"
@@ -92,35 +88,50 @@ export const QuestionContainer: Component<Props> = (props) => {
             >
               Show Answer
             </Button>
-          }
-        >
-          <div class="flex justify-center">
-            <div class="flex min-w-[48rem] max-w-3xl min-h-12 justify-center items-center rounded-xl font-bold border text-success-foreground border-success/60 bg-success/10 shadow">
-              {question.answer}
-            </div>
           </div>
-        </Show>
+        }
+      >
+        <div class="flex justify-center">
+          <div class="flex min-w-[48rem] max-w-3xl min-h-12 justify-center items-center rounded-xl font-bold border text-success-foreground border-success/60 bg-success/10 shadow">
+            {question().answer}
+          </div>
+        </div>
       </Show>
 
-      <Show when={nextId() && showAnswer()}>
+      <Show when={showAnswer()}>
         <div class="flex justify-center">
-          <a
-            aria-label="next question"
-            classList={{
-              [buttonVariants({ size: "lg" })]: true,
-              "gap-2": true,
-            }}
-            href={buildQuestionUrl({
-              questionCount: questionCount(),
-              duration: duration(),
-              autoShowAnswer: autoShowAnswer(),
-              showTimer: showTimer(),
-              nextId: nextId()!,
-              index: questionIndex() + 1,
-            })}
+          <Show
+            when={nextId()}
+            fallback={
+              <a
+                aria-label="new-game"
+                classList={{
+                  [buttonVariants({ size: "lg" })]: true,
+                  "gap-2": true,
+                }}
+                href="/options"
+              >
+                New Game
+              </a>
+            }
           >
-            <span>Next Question</span> <ArrowRightIcon class="h-6 w-6" />
-          </a>
+            <a
+              aria-label="next-question"
+              classList={{
+                [buttonVariants({ size: "lg" })]: true,
+                "gap-2": true,
+              }}
+              href={buildQuestionUrl({
+                duration: duration(),
+                autoShowAnswer: autoShowAnswer(),
+                showTimer: showTimer(),
+                nextId: nextId()!,
+                index: questionIndex() + 1,
+              })}
+            >
+              <span>Next Question</span> <ArrowRightIcon class="h-6 w-6" />
+            </a>
+          </Show>
         </div>
       </Show>
     </div>

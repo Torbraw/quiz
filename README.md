@@ -10,7 +10,7 @@ TODO
 - [x] Game description
 - [x] Game options
 - [x] Questions in json
-- [ ] Question screen
+- [x] Question screen
 - [ ] i18n
 - [ ] Category translations
 - [ ] Responsive until 1024px

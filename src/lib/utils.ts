@@ -15,7 +15,6 @@ export const fisherYatesShuffle = <T>(array: T[]): T[] => {
 };
 
 export const buildQuestionUrl = (params: {
-  questionCount: number;
   duration: number;
   autoShowAnswer: boolean;
   showTimer: boolean;
@@ -23,7 +22,6 @@ export const buildQuestionUrl = (params: {
   index: number;
 }) => {
   const url = new URL(`questions/${params.nextId}`, window.location.origin);
-  url.searchParams.set("c", params.questionCount.toString());
   url.searchParams.set("td", params.duration.toString());
   url.searchParams.set("sa", params.autoShowAnswer.toString());
   url.searchParams.set("st", params.showTimer.toString());
