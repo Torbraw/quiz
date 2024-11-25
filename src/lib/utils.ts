@@ -13,3 +13,20 @@ export const fisherYatesShuffle = <T>(array: T[]): T[] => {
   }
   return result;
 };
+
+export const buildQuestionUrl = (params: {
+  questionCount: number;
+  duration: number;
+  autoShowAnswer: boolean;
+  showTimer: boolean;
+  nextId: string;
+  index: number;
+}) => {
+  const url = new URL(`questions/${params.nextId}`, window.location.origin);
+  url.searchParams.set("c", params.questionCount.toString());
+  url.searchParams.set("td", params.duration.toString());
+  url.searchParams.set("sa", params.autoShowAnswer.toString());
+  url.searchParams.set("st", params.showTimer.toString());
+  url.searchParams.set("i", params.index.toString());
+  return url.toString();
+};

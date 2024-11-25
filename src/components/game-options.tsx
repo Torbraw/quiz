@@ -1,7 +1,7 @@
 import { type Component, For, Show, createSignal, onMount, splitProps } from "solid-js";
 import { createStore, produce } from "solid-js/store";
 import type { GameOptions as GameOptionsType, QuestionWithId } from "../lib/types";
-import { fisherYatesShuffle } from "../lib/utils";
+import { buildQuestionUrl, fisherYatesShuffle } from "../lib/utils";
 import { GearIcon, TagIcon, TimerIcon } from "./common/icons";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -63,6 +63,11 @@ export const GameOptions: Component<Props> = (props) => {
   const handleSubmit = (e: Event) => {
     e.preventDefault();
 
+    if (autoShowAnswer() && !showTimer()) {
+      alert("Auto show answer requires timer to be enabled");
+      return;
+    }
+
     const selectedCategories = categories.filter((category) => category.selected);
     const finalCategories = selectedCategories.length > 0 ? selectedCategories : categories;
     const selectedCategoryNames = finalCategories.map((category) => category.category);
@@ -81,7 +86,14 @@ export const GameOptions: Component<Props> = (props) => {
     } satisfies GameOptionsType;
     localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
 
-    window.location.href = `/questions/${questionIds[0]}?st=${showTimer()}&td=${timerDuration()}&sa=${autoShowAnswer()}&c=${numberOfQuestions()}&i=0`;
+    window.location.href = buildQuestionUrl({
+      questionCount: numberOfQuestions(),
+      duration: timerDuration(),
+      autoShowAnswer: autoShowAnswer(),
+      showTimer: showTimer(),
+      nextId: questionIds[0]!,
+      index: 0,
+    });
   };
 
   const pickQuestionIds = (includedCategories: string[], count: number) => {
