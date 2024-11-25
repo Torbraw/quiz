@@ -94,7 +94,7 @@ export const QuestionContainer: Component<Props> = (props) => {
         }
       >
         <div class="flex justify-center">
-          <div class="flex min-w-[48rem] max-w-3xl min-h-12 justify-center items-center rounded-xl font-bold border text-success-foreground border-success/60 bg-success/10 shadow">
+          <div class="flex min-w-[48rem] text-lg max-w-3xl min-h-12 justify-center items-center rounded-xl font-bold border text-success-foreground border-success/60 bg-success/10 shadow">
             {question().answer}
           </div>
         </div>
