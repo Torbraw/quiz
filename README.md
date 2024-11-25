@@ -14,5 +14,6 @@ TODO
 - [ ] i18n
 - [ ] Category translations
 - [ ] Responsive until 1024px
+- [ ] Fix assets in build (dynamic src not bundled)
 - [ ] Question list
 - [ ] Optimize image/video/audio (@unpic/solid / compress)
