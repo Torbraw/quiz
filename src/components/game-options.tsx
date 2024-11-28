@@ -131,7 +131,7 @@ export const GameOptions: Component<Props> = (props) => {
                   size="lg"
                   classList={{ "!bg-primary": category.selected }}
                 >
-                  {category.category}
+                  {t(`categoryEnum.${category.category}` as keyof typeof t)}
                 </Button>
               )}
             </For>

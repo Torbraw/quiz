@@ -73,7 +73,7 @@ export const QuestionContainer: Component<Props> = (props) => {
         </div>
       </Show>
 
-      <Information question={question()} showHintText={t("showHint")} />
+      <Information question={question()} locale={props.locale} />
 
       <Question question={question()} questionCount={questionCount()} questionIndex={questionIndex()} />
 

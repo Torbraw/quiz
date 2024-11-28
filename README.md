@@ -12,8 +12,9 @@ TODO
 - [x] Questions in json
 - [x] Question screen
 - [x] i18n
-- [ ] Category translations
+- [x] Category translations
 - [ ] Responsive until 1024px
 - [ ] Fix assets in build (dynamic src not bundled)
+- [ ] Question translations
 - [ ] Question list
 - [ ] Optimize image/video/audio (@unpic/solid / compress)
