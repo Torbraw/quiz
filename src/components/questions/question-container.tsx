@@ -1,7 +1,7 @@
 import { type Component, Show, createSignal, onMount } from "solid-js";
 import type { Question as QuestionType } from "../../content.config";
 import type { GameOptions } from "../../lib/types";
-import { buildQuestionUrl } from "../../lib/utils";
+import { buildQuestionUrl, useTranslations } from "../../lib/utils";
 import { ArrowRightIcon } from "../common/icons";
 import { Timer } from "../common/timer";
 import { Button, buttonVariants } from "../ui/button";
@@ -10,8 +10,10 @@ import { Question } from "./question";
 
 type Props = {
   question: QuestionType;
+  locale: string;
 };
 export const QuestionContainer: Component<Props> = (props) => {
+  const t = useTranslations(props.locale);
   const question = () => props.question;
 
   const [clearTimer, setClearTimer] = createSignal(false);
@@ -71,7 +73,7 @@ export const QuestionContainer: Component<Props> = (props) => {
         </div>
       </Show>
 
-      <Information question={question()} />
+      <Information question={question()} showHintText={t("showHint")} />
 
       <Question question={question()} questionCount={questionCount()} questionIndex={questionIndex()} />
 
@@ -88,7 +90,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                 setShowAnswer(true);
               }}
             >
-              Show Answer
+              {t("showAnswer")}
             </Button>
           </div>
         }
@@ -113,7 +115,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                 }}
                 href="/options"
               >
-                New Game
+                {t("newGame")}
               </a>
             }
           >
@@ -131,7 +133,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                 index: questionIndex() + 1,
               })}
             >
-              <span>Next Question</span> <ArrowRightIcon class="h-6 w-6" />
+              <span>{t("nextQuestion")}</span> <ArrowRightIcon class="h-6 w-6" />
             </a>
           </Show>
         </div>

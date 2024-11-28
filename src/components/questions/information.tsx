@@ -6,9 +6,11 @@ import { Button } from "../ui/button";
 
 type Props = {
   question: Question;
+  showHintText: string;
 };
 export const Information: Component<Props> = (props) => {
   const question = () => props.question;
+  const showHintText = () => props.showHintText;
 
   const [showHint, setShowHint] = createSignal(false);
 
@@ -24,7 +26,7 @@ export const Information: Component<Props> = (props) => {
             when={showHint()}
             fallback={
               <Button class="gap-2" variant="ghost" size="sm" onClick={() => setShowHint(true)}>
-                <InfoIcon class="w-6 h-6" /> Show Hint
+                <InfoIcon class="w-6 h-6" /> {showHintText()}
               </Button>
             }
           >

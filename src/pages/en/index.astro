@@ -1,7 +1,8 @@
 ---
-import { BrainIcon, LightbulbIcon } from "../components/common/icons";
-import { buttonVariants } from "../components/ui/button";
-import BaseLayout from "../layouts/base-layout.astro";
+import { BrainIcon, LightbulbIcon } from "../../components/common/icons";
+import { buttonVariants } from "../../components/ui/button";
+import BaseLayout from "../../layouts/base-layout.astro";
+
 import { getRelativeLocaleUrl } from 'astro:i18n';
 
 const optionsUrl = getRelativeLocaleUrl(Astro.currentLocale ?? "fr", "/options");
@@ -19,22 +20,22 @@ const optionsUrl = getRelativeLocaleUrl(Astro.currentLocale ?? "fr", "/options")
       </div>
       <div class="flex flex-col gap-2 rounded-xl border bg-card p-6 text-center text-card-foreground shadow">
         <p class="text-lg font-medium">
-          Testez vos connaissances avec un jeu-questionnaire centré sur l'Amérique du Nord (principalement le Québec). Choisissez parmi une variété de
-          catégories et affrontez des amis pour voir qui en sait le plus.
+          Test your knowledge with a quiz game centered around North America (mostly Québec). Choose from a variety of
+          categories and battle with friends to see who knows the most.
         </p>
         <p class="text-sm text-muted-foreground">
-          Ce jeu est destiné à être joué en personne avec des amis. Ce n'est pas un jeu multijoueur en ligne et il n'y a pas
-          de suivi des scores ou un endroit pour saisir vos réponses. Ce site fournit uniquement les questions et les réponses à ceux ci.
+          This game is meant to be played in person with friends. It is not a multiplayer online game and there is no
+          score tracking or place to enter your answers. This site only provides the questions and the answers to them.
         </p>
         <p class="text-xs font-light text-muted-foreground/60">
-          Si vous souhaitez utiliser vos propres questions, vous pouvez trouver le code source et les instructions pour ce
-          projet sur
+          If you are interested in using your own questions, you can find the source code & instructions for this
+          project on
           <a href="https://github.com/Torbraw/quiz" target="_blank" class="underline-offset-1 hover:underline">
             GitHub
           </a>
         </p>
       </div>
-      <a href={optionsUrl} aria-label="start-game" class:list={[buttonVariants({ size: "lg" })]}>Commencez une nouvelle partie</a>
+      <a href={optionsUrl} aria-label="start-game" class:list={[buttonVariants({ size: "lg" })]}>Start a new game</a>
     </div>
   </div>
 </BaseLayout>

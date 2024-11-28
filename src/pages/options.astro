@@ -11,16 +11,18 @@ const data = questions.map((q) => ({
   ...q.data,
   id: q.id,
 }));
+
+const locale = Astro.currentLocale ?? "fr";
 ---
 
-<BaseLayout title="Quiz - New Game">
+<BaseLayout title="Quiz - Nouvelle partie">
   <div class="flex h-full flex-col items-center justify-center">
     <Card>
       <CardHeader>
-        <CardTitle>Quiz Options</CardTitle>
-        <CardDescription>Alter the game settings to your liking</CardDescription>
+        <CardTitle>Options du Quiz</CardTitle>
+        <CardDescription>Modifiez les paramètres du jeu selon vos préférences</CardDescription>
       </CardHeader>
-      <GameOptions questions={data} categories={CATEGORIES.options} client:load />
+      <GameOptions questions={data} categories={CATEGORIES.options} locale={locale} client:load />
     </Card>
   </div>
 </BaseLayout>

@@ -1,7 +1,7 @@
 import { type Component, For, Show, createSignal, onMount, splitProps } from "solid-js";
 import { createStore, produce } from "solid-js/store";
 import type { GameOptions as GameOptionsType, QuestionWithId } from "../lib/types";
-import { buildQuestionUrl, fisherYatesShuffle } from "../lib/utils";
+import { buildQuestionUrl, fisherYatesShuffle, useTranslations } from "../lib/utils";
 import { GearIcon, TagIcon, TimerIcon } from "./common/icons";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
@@ -18,8 +18,10 @@ const MAX_NUMBER_OF_QUESTIONS = 20;
 type Props = {
   questions: QuestionWithId[];
   categories: string[];
+  locale: string;
 };
 export const GameOptions: Component<Props> = (props) => {
+  const t = useTranslations(props.locale);
   const [local, _] = splitProps(props, ["questions", "categories"]);
 
   const [showTimer, setShowTimer] = createSignal<boolean>(true);
@@ -64,7 +66,7 @@ export const GameOptions: Component<Props> = (props) => {
     e.preventDefault();
 
     if (autoShowAnswer() && !showTimer()) {
-      alert("Auto show answer requires timer to be enabled");
+      alert(t("error.autoShowAnswer"));
       return;
     }
 
@@ -74,7 +76,7 @@ export const GameOptions: Component<Props> = (props) => {
 
     const questionIds = pickQuestionIds(selectedCategoryNames, numberOfQuestions());
     if (questionIds.length === 0) {
-      alert("No questions found for the selected categories");
+      alert(t("error.noQuestions"));
       return;
     }
 
@@ -114,9 +116,9 @@ export const GameOptions: Component<Props> = (props) => {
         <div class="flex flex-col gap-4">
           <div class="flex flex-row gap-2 items-center">
             <TagIcon class="w-6 h-6" />
-            <span class="font-semibold text-xl">Categories</span>
+            <span class="font-semibold text-xl">{t("categories")}</span>
             <Badge variant="outline" class="mt-1.5">
-              Default to all
+              {t("allSelected")}
             </Badge>
           </div>
           <div class="grid grid-cols-4 gap-2">
@@ -139,18 +141,18 @@ export const GameOptions: Component<Props> = (props) => {
         <div class="flex flex-col gap-4">
           <div class="flex flex-row gap-2 items-center">
             <TimerIcon class="w-6 h-6" />
-            <span class="font-semibold text-xl">Timer</span>
+            <span class="font-semibold text-xl">{t("timer")}</span>
           </div>
           <div class="grid grid-cols-2 gap-2">
             <Switch class="flex items-center gap-2 mt-5" checked={showTimer()} onChange={(e) => setShowTimer(e)}>
               <SwitchControl>
                 <SwitchThumb />
               </SwitchControl>
-              <SwitchLabel class="text-sm font-medium leading-none">Enabled</SwitchLabel>
+              <SwitchLabel class="text-sm font-medium leading-none">{t("enabled")}</SwitchLabel>
             </Switch>
             <Show when={showTimer()}>
               <div class="grid w-full max-w-sm items-center gap-1.5">
-                <Label for="timerDuration">Duration (s)</Label>
+                <Label for="timerDuration">{t("durationSeconds")}</Label>
                 <Input
                   max={MAX_TIMER_DURATION}
                   min={MIN_TIMER_DURATION}
@@ -168,7 +170,7 @@ export const GameOptions: Component<Props> = (props) => {
         <div class="flex flex-col gap-4">
           <div class="flex flex-row gap-2 items-center">
             <GearIcon class="w-6 h-6" />
-            <span class="font-semibold text-xl">Others</span>
+            <span class="font-semibold text-xl">{t("others")}</span>
           </div>
 
           <div class="grid grid-cols-2 gap-2">
@@ -180,11 +182,11 @@ export const GameOptions: Component<Props> = (props) => {
               <SwitchControl>
                 <SwitchThumb />
               </SwitchControl>
-              <SwitchLabel class="text-sm font-medium leading-none">Auto Show Answer</SwitchLabel>
+              <SwitchLabel class="text-sm font-medium leading-none">{t("autoShowAnswer")}</SwitchLabel>
             </Switch>
 
             <div class="grid w-full max-w-sm items-center gap-1.5">
-              <Label for="numberOfQuestions">Number of Questions</Label>
+              <Label for="numberOfQuestions">{t("numberOfQuestions")}</Label>
               <Input
                 max={MAX_NUMBER_OF_QUESTIONS}
                 min={MIN_NUMBER_OF_QUESTIONS}
@@ -199,7 +201,7 @@ export const GameOptions: Component<Props> = (props) => {
         </div>
       </CardContent>
       <CardFooter class="justify-end">
-        <Button type="submit">Start Game</Button>
+        <Button type="submit">{t("startGame")}</Button>
       </CardFooter>
     </form>
   );

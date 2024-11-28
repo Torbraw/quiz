@@ -8,4 +8,8 @@ import solidJs from "@astrojs/solid-js";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: false }), solidJs()],
+  i18n: {
+    defaultLocale: "fr",
+    locales: ["fr", "en"],
+  },
 });

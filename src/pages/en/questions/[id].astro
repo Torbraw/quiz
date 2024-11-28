@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
-import { QuestionContainer } from "../../components/questions/question-container";
-import BaseLayout from "../../layouts/base-layout.astro";
+import { QuestionContainer } from "../../../components/questions/question-container";
+import BaseLayout from "../../../layouts/base-layout.astro";
 
 export async function getStaticPaths() {
   const questions = await getCollection("questions");

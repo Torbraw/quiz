@@ -45,7 +45,7 @@ export const Question: Component<Props> = (props) => {
         </CardContent>
       </Show>
       <Badge variant="outline" class="text-md absolute top-2 left-2">
-        Question {questionIndex() + 1} of {questionCount()}
+        Question {questionIndex() + 1} / {questionCount()}
       </Badge>
     </Card>
   );
