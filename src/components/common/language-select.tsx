@@ -32,7 +32,7 @@ export const LanguageSelect: Component<Props> = (componentProps) => {
     const selected = languageOptions.find((option) => option.value === code) as LanguageOption;
     let formattedPath = window.location.pathname.replace(/^(\/quiz\/)/, "/");
     formattedPath = formattedPath.replace(/^\/[a-z]{2}(\/|$)/, "/");
-    const relativePath = getRelativeLocaleUrl(selected.value, formattedPath, { prependWith: "quiz" });
+    const relativePath = getRelativeLocaleUrl(selected.value, formattedPath);
     window.location.href = relativePath + window.location.search;
   };
 

@@ -24,7 +24,7 @@ export const buildQuestionUrl = (params: {
   nextId: string;
   index: number;
 }) => {
-  const baseUrl = getRelativeLocaleUrl(params.locale, "/questions", { prependWith: "quiz" });
+  const baseUrl = getRelativeLocaleUrl(params.locale, "/questions");
   const url = new URL(`${baseUrl}${params.nextId}`, window.location.origin);
   url.searchParams.set("td", params.duration.toString());
   url.searchParams.set("sa", params.autoShowAnswer.toString());
