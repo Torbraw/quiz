@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import { QuestionContainer } from "../../../components/questions/question-container";
 import BaseLayout from "../../../layouts/base-layout.astro";
+import { getQuestionMediaSrc } from "../../../lib/utils";
 
 export async function getStaticPaths() {
   const questions = await getCollection("questionsEn");
@@ -14,10 +15,13 @@ export async function getStaticPaths() {
 const { question } = Astro.props;
 
 const locale = Astro.currentLocale ?? "fr";
+
+let mediaSrc = await getQuestionMediaSrc(question.data.mediaSrc);
+
 ---
 
 <BaseLayout title={`Question #${question.id}`}>
   <div class="flex h-full flex-col items-center justify-center relative">
-    <QuestionContainer client:load question={question.data} locale={locale} />
+    <QuestionContainer client:load question={question.data} locale={locale} mediaSrc={mediaSrc} />
   </div>
 </BaseLayout>

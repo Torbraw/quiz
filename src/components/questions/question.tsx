@@ -7,8 +7,10 @@ type Props = {
   question: QuestionType;
   questionCount: number;
   questionIndex: number;
+  mediaSrc: string | undefined;
 };
 export const Question: Component<Props> = (props) => {
+  const mediaSrc = () => props.mediaSrc;
   const question = () => props.question;
   const questionCount = () => props.questionCount;
   const questionIndex = () => props.questionIndex;
@@ -18,26 +20,26 @@ export const Question: Component<Props> = (props) => {
       <CardHeader
         classList={{
           "items-center justify-center": true,
-          "h-full": !question().mediaUrl,
+          "h-full": !mediaSrc(),
         }}
       >
         <CardTitle class="max-w-2xl text-center">{question().question}</CardTitle>
       </CardHeader>
-      <Show when={question().mediaUrl && question().mediaType}>
+      <Show when={mediaSrc() && question().mediaType}>
         <CardContent class="justify-center flex">
           <Switch>
             <Match when={question().mediaType === "image"}>
-              <img src={question().mediaUrl} alt={question().answer} class="max-h-[50dvh] rounded-2xl" />
+              <img src={mediaSrc()} alt={question().answer} class="max-h-[50dvh] rounded-2xl" />
             </Match>
             <Match when={question().mediaType!.startsWith("audio")}>
               <audio controls>
-                <source src={question().mediaUrl} type={question().mediaType} />
+                <source src={mediaSrc()} type={question().mediaType} />
                 <track kind="captions" />
               </audio>
             </Match>
             <Match when={question().mediaType!.startsWith("video")}>
               <video controls class="max-h-[50dvh] rounded-2xl">
-                <source src={question().mediaUrl} type={question().mediaType} />
+                <source src={mediaSrc()} type={question().mediaType} />
                 <track kind="captions" />
               </video>
             </Match>

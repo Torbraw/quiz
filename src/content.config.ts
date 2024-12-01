@@ -27,7 +27,7 @@ const questionSchema = z.object({
   category: CATEGORIES,
   answer: z.string().max(500),
   difficulty: z.number().min(1).max(3),
-  mediaUrl: z.string().optional(),
+  mediaSrc: z.string().optional(),
   mediaType: MEDIA_TYPES.optional(),
   hint: z.string().max(200).optional(),
 });

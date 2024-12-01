@@ -4,6 +4,6 @@
   "answer": "meow",
   "difficulty": 1,
   "hint": "Animal",
-  "mediaUrl": "/src/assets/audios/meow.wav",
+  "mediaSrc": "/src/assets/audios/meow.wav",
   "mediaType": "audio/wav"
 }

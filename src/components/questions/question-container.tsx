@@ -11,9 +11,11 @@ import { Question } from "./question";
 type Props = {
   question: QuestionType;
   locale: string;
+  mediaSrc: string | undefined;
 };
 export const QuestionContainer: Component<Props> = (props) => {
   const t = useTranslations(props.locale);
+  const mediaSrc = () => props.mediaSrc;
   const question = () => props.question;
 
   const [clearTimer, setClearTimer] = createSignal(false);
@@ -75,7 +77,12 @@ export const QuestionContainer: Component<Props> = (props) => {
 
       <Information question={question()} locale={props.locale} />
 
-      <Question question={question()} questionCount={questionCount()} questionIndex={questionIndex()} />
+      <Question
+        question={question()}
+        questionCount={questionCount()}
+        questionIndex={questionIndex()}
+        mediaSrc={mediaSrc()}
+      />
 
       <Show
         when={showAnswer()}
