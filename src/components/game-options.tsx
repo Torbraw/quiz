@@ -29,7 +29,7 @@ export const GameOptions: Component<Props> = (props) => {
 
   const [autoShowAnswer, setAutoShowAnswer] = createSignal<boolean>(true);
   const [numberOfQuestions, setNumberOfQuestions] = createSignal<number>(10);
-  const [availableQuestions, setAvailableQuestions] = createSignal<QuestionWithId[]>([]);
+  const [availableQuestions, setAvailableQuestions] = createSignal<QuestionWithId[]>(local.questions);
 
   const [categories, setCategories] = createStore<
     {
@@ -37,7 +37,13 @@ export const GameOptions: Component<Props> = (props) => {
       selected: boolean;
       questionCount: number;
     }[]
-  >([]);
+  >(
+    local.categories.map((category) => ({
+      category,
+      selected: false,
+      questionCount: 0,
+    })),
+  );
 
   const totalSelectecQuestionCount = () => {
     const selectedCategories = categories.filter((category) => category.selected);
