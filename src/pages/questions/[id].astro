@@ -5,18 +5,24 @@ import BaseLayout from "../../layouts/base-layout.astro";
 import { getQuestionMediaSrc } from "../../lib/utils";
 
 export async function getStaticPaths() {
+  const medias = import.meta.glob<{ default: ImageMetadata | string }>("/src/assets/**");
   const questions = await getCollection("questionsFr");
-  return questions.map((question) => ({
-    params: { id: question.id },
-    props: { question },
-  }));
+
+  return await Promise.all(
+    questions.map(async (question) => {
+      let mediaSrc = await getQuestionMediaSrc(question.data.mediaSrc, medias);
+
+      return {
+        params: { id: question.id },
+        props: { question, mediaSrc },
+      };
+    }),
+  );
 }
 
-const { question } = Astro.props;
+const { question, mediaSrc } = Astro.props;
 
 const locale = Astro.currentLocale ?? "fr";
-
-let mediaSrc = await getQuestionMediaSrc(question.data.mediaSrc);
 ---
 
 <BaseLayout title={`Question #${question.id}`}>

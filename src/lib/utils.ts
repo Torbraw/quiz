@@ -36,10 +36,17 @@ export function useTranslations(lang: string) {
   };
 }
 
-export async function getQuestionMediaSrc(questionMediaSrc: string | undefined) {
+export async function getQuestionMediaSrc(
+  questionMediaSrc: string | undefined,
+  medias: Record<
+    string,
+    () => Promise<{
+      default: ImageMetadata | string;
+    }>
+  >,
+) {
   let mediaSrc: string | undefined = undefined;
   if (questionMediaSrc) {
-    const medias = import.meta.glob<{ default: ImageMetadata | string }>("/src/assets/**");
     const media = medias[questionMediaSrc];
     if (media) {
       const unwrappedMedia = await media();
