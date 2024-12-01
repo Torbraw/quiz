@@ -50,6 +50,9 @@ export const ui = {
     "categoryEnum.video-games": "Video Games",
     "categoryEnum.four-pics-one-word": "Four Pics One Word",
     "categoryEnum.for-kids": "For Kids",
+    "difficulty.1": "Easy",
+    "difficulty.2": "Medium",
+    "difficulty.3": "Hard",
   },
   fr: {
     replayGame: "Rejouer",
@@ -95,5 +98,8 @@ export const ui = {
     "categoryEnum.video-games": "Jeux Vidéo",
     "categoryEnum.four-pics-one-word": "Quatre Images Un Mot",
     "categoryEnum.for-kids": "Pour Enfants",
+    "difficulty.1": "Facile",
+    "difficulty.2": "Moyen",
+    "difficulty.3": "Difficile",
   },
 } as const;

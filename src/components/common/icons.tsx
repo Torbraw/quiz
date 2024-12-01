@@ -167,3 +167,17 @@ export const LangIcon: ParentComponent<ComponentProps<"svg">> = (props) => {
     </svg>
   );
 };
+
+export const DiamongFourIcon: ParentComponent<ComponentProps<"svg">> = (props) => {
+  const [local, rest] = splitProps(props, ["class"]);
+
+  return (
+    <svg class={local.class} {...rest} xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+      <title>diamond-four</title>
+      <path
+        fill="currentColor"
+        d="M82.34 69.66a8 8 0 0 1 0-11.32l40-40a8 8 0 0 1 11.32 0l40 40a8 8 0 0 1 0 11.32l-40 40a8 8 0 0 1-11.32 0Zm51.32 76.68a8 8 0 0 0-11.32 0l-40 40a8 8 0 0 0 0 11.32l40 40a8 8 0 0 0 11.32 0l40-40a8 8 0 0 0 0-11.32Zm104-24l-40-40a8 8 0 0 0-11.32 0l-40 40a8 8 0 0 0 0 11.32l40 40a8 8 0 0 0 11.32 0l40-40a8 8 0 0 0 0-11.32m-128 0l-40-40a8 8 0 0 0-11.32 0l-40 40a8 8 0 0 0 0 11.32l40 40a8 8 0 0 0 11.32 0l40-40a8 8 0 0 0 0-11.32"
+      />
+    </svg>
+  );
+};
