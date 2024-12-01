@@ -5,12 +5,12 @@ import { LanguageSelect } from "./common/language-select";
 import ThemeToggle from "./theme-toggle.astro";
 import { buttonVariants } from "./ui/button";
 
-import { getRelativeLocaleUrl } from 'astro:i18n';
+import { getRelativeLocaleUrl } from "astro:i18n";
 
 const locale = Astro.currentLocale ?? "fr";
 const baseUrl = getRelativeLocaleUrl(locale, "/");
 const optionsUrl = getRelativeLocaleUrl(locale, "/options");
-const t = useTranslations(locale)
+const t = useTranslations(locale);
 ---
 
 <sidebar class="flex min-w-40 flex-col items-center gap-4 border-r py-4">
@@ -20,7 +20,7 @@ const t = useTranslations(locale)
   <nav class="flex-1">
     <ul>
       <li>
-        <a href={optionsUrl} aria-label="new-game" class:list={[buttonVariants({ variant: "link" })]}>{t('newGame')}</a>
+        <a href={optionsUrl} aria-label="new-game" class:list={[buttonVariants({ variant: "link" })]}>{t("newGame")}</a>
       </li>
     </ul>
   </nav>

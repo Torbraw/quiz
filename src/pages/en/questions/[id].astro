@@ -23,11 +23,10 @@ export async function getStaticPaths() {
 const { question, mediaSrc } = Astro.props;
 
 const locale = Astro.currentLocale ?? "fr";
-
 ---
 
 <BaseLayout title={`Question #${question.id}`}>
-  <div class="flex h-full flex-col items-center justify-center relative">
+  <div class="relative flex h-full flex-col items-center justify-center">
     <QuestionContainer client:load question={question.data} locale={locale} mediaSrc={mediaSrc} />
   </div>
 </BaseLayout>
