@@ -8,6 +8,7 @@ export const defaultLang = "fr";
 export const ui = {
   en: {
     replayGame: "Replay Game",
+    seeHistory: "See History",
     clearHistory: "Clear History",
     yes: "Yes",
     no: "No",
@@ -31,6 +32,8 @@ export const ui = {
     showAnswer: "Show Answer",
     nextQuestion: "Next Question",
     showHint: "Show Hint",
+    allAnswered: "Congratulations! You have answered all the questions for the current game.",
+    allAnswered2: "You can start a new game or see the history.",
     "categoryEnum.general": "General",
     "categoryEnum.blind-test": "Blind Test",
     "categoryEnum.movies": "Movies",
@@ -50,6 +53,7 @@ export const ui = {
   },
   fr: {
     replayGame: "Rejouer",
+    seeHistory: "Voir l'historique",
     clearHistory: "Effacer l'historique",
     yes: "Oui",
     no: "Non",
@@ -73,6 +77,8 @@ export const ui = {
     showAnswer: "Afficher la Réponse",
     nextQuestion: "Question Suivante",
     showHint: "Afficher l'Indice",
+    allAnswered: "Félicitations! Vous avez répondu à toutes les questions pour la partie en cours",
+    allAnswered2: "Vous pouvez commencer une nouvelle partie ou voir l'historique",
     "categoryEnum.general": "Général",
     "categoryEnum.blind-test": "Blind Test",
     "categoryEnum.movies": "Films",

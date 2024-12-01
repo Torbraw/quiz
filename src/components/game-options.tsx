@@ -21,6 +21,7 @@ type Props = {
   locale: string;
 };
 export const GameOptions: Component<Props> = (props) => {
+  const locale = () => props.locale;
   const t = useTranslations(props.locale);
   const [local, _] = splitProps(props, ["questions", "categories"]);
 
@@ -108,6 +109,7 @@ export const GameOptions: Component<Props> = (props) => {
     }
 
     window.location.href = buildQuestionUrl({
+      locale: locale(),
       duration: timerDuration(),
       autoShowAnswer: autoShowAnswer(),
       showTimer: showTimer(),
@@ -176,7 +178,7 @@ export const GameOptions: Component<Props> = (props) => {
                   {t(`categoryEnum.${category.category}` as keyof typeof t)}
                   <span
                     classList={{
-                      "absolute -top-2 -right-2 px-2 py-1 min-w-8 text-xs rounded-full": true,
+                      "absolute -top-2 -right-2 px-2 py-1 min-w-9 text-xs rounded-full": true,
                       "bg-primary text-primary-foreground": !category.selected,
                       "bg-primary-foreground text-primary": category.selected,
                     }}

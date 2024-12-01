@@ -8,6 +8,7 @@ type Props = {
   locale: string;
 };
 export const HistoryTable: Component<Props> = (props) => {
+  const locale = () => props.locale;
   const t = useTranslations(props.locale);
   const [games, setGames] = createSignal<GameOptions[]>([]);
 
@@ -20,6 +21,7 @@ export const HistoryTable: Component<Props> = (props) => {
     }
 
     window.location.href = buildQuestionUrl({
+      locale: locale(),
       duration: game.timerDuration,
       autoShowAnswer: game.autoShowAnswer,
       showTimer: game.showTimer,

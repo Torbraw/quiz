@@ -1,3 +1,4 @@
+import { getRelativeLocaleUrl } from "astro:i18n";
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
 import { defaultLang, ui } from "./ui";
@@ -16,13 +17,15 @@ export const fisherYatesShuffle = <T>(array: T[]): T[] => {
 };
 
 export const buildQuestionUrl = (params: {
+  locale: string;
   duration: number;
   autoShowAnswer: boolean;
   showTimer: boolean;
   nextId: string;
   index: number;
 }) => {
-  const url = new URL(`questions/${params.nextId}`, window.location.origin);
+  const baseUrl = getRelativeLocaleUrl(params.locale, "/questions");
+  const url = new URL(`${baseUrl}${params.nextId}`, window.location.origin);
   url.searchParams.set("td", params.duration.toString());
   url.searchParams.set("sa", params.autoShowAnswer.toString());
   url.searchParams.set("st", params.showTimer.toString());

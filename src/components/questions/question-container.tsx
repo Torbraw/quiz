@@ -1,3 +1,4 @@
+import { getRelativeLocaleUrl } from "astro:i18n";
 import { type Component, Show, createSignal, onMount } from "solid-js";
 import type { Question as QuestionType } from "../../content.config";
 import type { GameHistory, GameOptions } from "../../lib/types";
@@ -14,6 +15,7 @@ type Props = {
   mediaSrc: string | undefined;
 };
 export const QuestionContainer: Component<Props> = (props) => {
+  const locale = () => props.locale;
   const t = useTranslations(props.locale);
   const mediaSrc = () => props.mediaSrc;
   const question = () => props.question;
@@ -135,17 +137,34 @@ export const QuestionContainer: Component<Props> = (props) => {
           <Show
             when={nextId()}
             fallback={
-              <a
-                aria-label="new-game"
-                classList={{
-                  [buttonVariants({ size: "lg" })]: true,
-                  "gap-2": true,
-                }}
-                href="/options"
-                onClick={() => saveGameInHistory()}
-              >
-                {t("newGame")}
-              </a>
+              <div class="flex flex-col gap-4 items-center">
+                <p>{t("allAnswered")}</p>
+                <p>{t("allAnswered2")}</p>
+                <div class="flex flex-row gap-4">
+                  <a
+                    aria-label="new-game"
+                    classList={{
+                      [buttonVariants({ size: "lg", variant: "secondary" })]: true,
+                      "gap-2": true,
+                    }}
+                    href={getRelativeLocaleUrl(locale(), "/options")}
+                    onClick={() => saveGameInHistory()}
+                  >
+                    {t("newGame")}
+                  </a>
+                  <a
+                    aria-label="new-game"
+                    classList={{
+                      [buttonVariants({ size: "lg", variant: "secondary" })]: true,
+                      "gap-2": true,
+                    }}
+                    href={getRelativeLocaleUrl(locale(), "/history")}
+                    onClick={() => saveGameInHistory()}
+                  >
+                    {t("seeHistory")}
+                  </a>
+                </div>
+              </div>
             }
           >
             <a
@@ -155,6 +174,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                 "gap-2": true,
               }}
               href={buildQuestionUrl({
+                locale: locale(),
                 duration: duration(),
                 autoShowAnswer: autoShowAnswer(),
                 showTimer: showTimer(),
