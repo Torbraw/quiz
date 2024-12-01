@@ -21,6 +21,7 @@ type Props = {
   locale: string;
 };
 export const GameOptions: Component<Props> = (props) => {
+  const questions = () => props.questions;
   const t = useTranslations(props.locale);
   const [local, _] = splitProps(props, ["questions", "categories"]);
 
@@ -34,8 +35,18 @@ export const GameOptions: Component<Props> = (props) => {
     {
       category: string;
       selected: boolean;
+      questionCount: number;
     }[]
-  >(local.categories.map((category) => ({ category, selected: false })));
+  >(
+    local.categories.map((category) => ({
+      category,
+      selected: false,
+      questionCount: questions().filter((question) => question.category === category).length,
+    })),
+  );
+
+  const totalSelectecQuestionCount = () =>
+    categories.reduce((acc, category) => (category.selected ? acc + category.questionCount : acc), 0);
 
   const handleCategorySelect = (category: string) => {
     setCategories(
@@ -48,7 +59,6 @@ export const GameOptions: Component<Props> = (props) => {
 
   const handleDurationChange = (e: Event) => {
     const value = Number.parseInt((e.target as HTMLInputElement).value) || 0;
-
     if (value >= MIN_TIMER_DURATION && value <= MAX_TIMER_DURATION) {
       setTimerDuration(value);
     }
@@ -56,7 +66,6 @@ export const GameOptions: Component<Props> = (props) => {
 
   const handleNumberOfQuestionsChange = (e: Event) => {
     const value = Number.parseInt((e.target as HTMLInputElement).value) || 0;
-
     if (value >= MIN_NUMBER_OF_QUESTIONS && value <= MAX_NUMBER_OF_QUESTIONS) {
       setNumberOfQuestions(value);
     }
@@ -98,10 +107,9 @@ export const GameOptions: Component<Props> = (props) => {
   };
 
   const pickQuestionIds = (includedCategories: string[], count: number) => {
-    const filteredQuestions = local.questions.filter((question) => {
+    const filteredQuestions = questions().filter((question) => {
       return includedCategories.includes(question.category);
     });
-
     const shuffled = fisherYatesShuffle(filteredQuestions);
     return shuffled.slice(0, count).map((question) => question.id);
   };
@@ -117,9 +125,14 @@ export const GameOptions: Component<Props> = (props) => {
           <div class="flex flex-row gap-2 items-center">
             <TagIcon class="w-6 h-6" />
             <span class="font-semibold text-xl">{t("categories")}</span>
-            <Badge variant="outline" class="mt-1.5">
+            <Badge variant="outline" class="mt-1 mr-auto">
               {t("allSelected")}
             </Badge>
+            <Show when={totalSelectecQuestionCount() > 0}>
+              <Badge variant="outline" class="mt-1 text-primary">
+                {totalSelectecQuestionCount()} {t("questionsAvailable")}
+              </Badge>
+            </Show>
           </div>
           <div class="grid grid-cols-4 gap-2">
             <For each={categories}>
@@ -129,9 +142,18 @@ export const GameOptions: Component<Props> = (props) => {
                   onClick={[handleCategorySelect, category.category]}
                   variant="secondary"
                   size="lg"
-                  classList={{ "!bg-primary": category.selected }}
+                  classList={{ relative: true, "!bg-primary": category.selected }}
                 >
                   {t(`categoryEnum.${category.category}` as keyof typeof t)}
+                  <span
+                    classList={{
+                      "absolute -top-2 -right-2 px-2 py-1 min-w-8 text-xs rounded-full": true,
+                      "bg-primary text-primary-foreground": !category.selected,
+                      "bg-primary-foreground text-primary": category.selected,
+                    }}
+                  >
+                    {category.questionCount}
+                  </span>
                 </Button>
               )}
             </For>

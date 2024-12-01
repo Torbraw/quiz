@@ -1,10 +1,14 @@
 ---
+import { getCollection } from "astro:content";
 import { BrainIcon, LightbulbIcon } from "../components/common/icons";
 import { buttonVariants } from "../components/ui/button";
 import BaseLayout from "../layouts/base-layout.astro";
 import { getRelativeLocaleUrl } from "astro:i18n";
+import { CATEGORIES } from "../content.config";
 
 const optionsUrl = getRelativeLocaleUrl(Astro.currentLocale ?? "fr", "/options");
+const questionsCount = (await getCollection("questionsFr")).length;
+const categoriesCount = CATEGORIES.options.length;
 ---
 
 <BaseLayout title="Quiz">
@@ -34,6 +38,17 @@ const optionsUrl = getRelativeLocaleUrl(Astro.currentLocale ?? "fr", "/options")
             GitHub
           </a>
         </p>
+      </div>
+      <div class="flex flex-row gap-32">
+        <div class="flex flex-col items-center bg-muted w-40 h-24 p-4 justify-center rounded-xl gap-2">
+          <p class="text-4xl font-bold text-primary">{questionsCount}</p>
+          <p class="text-sm text-muted-foreground">Questions</p>
+        </div>
+
+        <div class="flex flex-col items-center bg-muted w-40 h-24 p-4 justify-center rounded-xl gap-2">
+          <p class="text-4xl font-bold text-primary">{categoriesCount}</p>
+          <p class="text-sm text-muted-foreground">Catégories</p>
+        </div>
       </div>
       <a href={optionsUrl} aria-label="start-game" class:list={[buttonVariants({ size: "lg" })]}
         >Commencez une nouvelle partie</a
