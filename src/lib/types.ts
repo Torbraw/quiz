@@ -8,3 +8,7 @@ export type GameOptions = {
   autoShowAnswer: boolean;
   questionIds: string[];
 };
+
+export type GameHistory = {
+  games: GameOptions[];
+};

@@ -10,6 +10,7 @@ import { getRelativeLocaleUrl } from "astro:i18n";
 const locale = Astro.currentLocale ?? "fr";
 const baseUrl = getRelativeLocaleUrl(locale, "/");
 const optionsUrl = getRelativeLocaleUrl(locale, "/options");
+const historyUrl = getRelativeLocaleUrl(locale, "/history");
 const t = useTranslations(locale);
 ---
 
@@ -19,8 +20,9 @@ const t = useTranslations(locale);
   </h2>
   <nav class="flex-1">
     <ul>
-      <li>
+      <li class="flex flex-col">
         <a href={optionsUrl} aria-label="new-game" class:list={[buttonVariants({ variant: "link" })]}>{t("newGame")}</a>
+        <a href={historyUrl} aria-label="new-game" class:list={[buttonVariants({ variant: "link" })]}>{t("history")}</a>
       </li>
     </ul>
   </nav>

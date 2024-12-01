@@ -1,6 +1,6 @@
 import { type Component, Show, createSignal, onMount } from "solid-js";
 import type { Question as QuestionType } from "../../content.config";
-import type { GameOptions } from "../../lib/types";
+import type { GameHistory, GameOptions } from "../../lib/types";
 import { buildQuestionUrl, useTranslations } from "../../lib/utils";
 import { ArrowRightIcon } from "../common/icons";
 import { Timer } from "../common/timer";
@@ -26,10 +26,28 @@ export const QuestionContainer: Component<Props> = (props) => {
   const [nextId, setNextId] = createSignal<string>();
   const [autoShowAnswer, setAutoShowAnswer] = createSignal(false);
   const [showAnswer, setShowAnswer] = createSignal(false);
+  const [gameOptions, setGameOptions] = createSignal<GameOptions>();
 
   const onTimerEnd = () => {
     if (autoShowAnswer()) {
       setShowAnswer(true);
+    }
+  };
+
+  const saveGameInHistory = () => {
+    const options = gameOptions();
+    if (options) {
+      try {
+        const localStorageHistory = localStorage.getItem("gameHistory");
+        let history: GameHistory = { games: [] };
+        if (localStorageHistory) {
+          history = JSON.parse(localStorageHistory);
+        }
+        history.games.push(options);
+        localStorage.setItem("gameHistory", JSON.stringify(history));
+      } catch (e) {
+        console.error("Error saving game in history", e);
+      }
     }
   };
 
@@ -58,12 +76,15 @@ export const QuestionContainer: Component<Props> = (props) => {
     if (gameOptions) {
       try {
         const options = JSON.parse(gameOptions) as GameOptions;
+        setGameOptions(options);
         setQuestionCount(options.questionIds.length);
         const next = options.questionIds[index + 1];
         setNextId(next);
       } catch (e) {
         console.error("Error parsing game options", e);
       }
+    } else {
+      console.error("No game options found");
     }
   });
 
@@ -121,6 +142,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                   "gap-2": true,
                 }}
                 href="/options"
+                onClick={() => saveGameInHistory()}
               >
                 {t("newGame")}
               </a>

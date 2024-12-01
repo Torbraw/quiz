@@ -1,6 +1,6 @@
 import { type Component, For, Show, createSignal, onMount, splitProps } from "solid-js";
 import { createStore, produce } from "solid-js/store";
-import type { GameOptions as GameOptionsType, QuestionWithId } from "../lib/types";
+import type { GameHistory, GameOptions as GameOptionsType, QuestionWithId } from "../lib/types";
 import { buildQuestionUrl, fisherYatesShuffle, useTranslations } from "../lib/utils";
 import { GearIcon, TagIcon, TimerIcon } from "./common/icons";
 import { Badge } from "./ui/badge";
@@ -21,7 +21,6 @@ type Props = {
   locale: string;
 };
 export const GameOptions: Component<Props> = (props) => {
-  const questions = () => props.questions;
   const t = useTranslations(props.locale);
   const [local, _] = splitProps(props, ["questions", "categories"]);
 
@@ -30,6 +29,7 @@ export const GameOptions: Component<Props> = (props) => {
 
   const [autoShowAnswer, setAutoShowAnswer] = createSignal<boolean>(true);
   const [numberOfQuestions, setNumberOfQuestions] = createSignal<number>(10);
+  const [availableQuestions, setAvailableQuestions] = createSignal<QuestionWithId[]>([]);
 
   const [categories, setCategories] = createStore<
     {
@@ -37,16 +37,15 @@ export const GameOptions: Component<Props> = (props) => {
       selected: boolean;
       questionCount: number;
     }[]
-  >(
-    local.categories.map((category) => ({
-      category,
-      selected: false,
-      questionCount: questions().filter((question) => question.category === category).length,
-    })),
-  );
+  >([]);
 
-  const totalSelectecQuestionCount = () =>
-    categories.reduce((acc, category) => (category.selected ? acc + category.questionCount : acc), 0);
+  const totalSelectecQuestionCount = () => {
+    const selectedCategories = categories.filter((category) => category.selected);
+    if (selectedCategories.length > 0) {
+      return selectedCategories.reduce((acc, category) => acc + category.questionCount, 0);
+    }
+    return availableQuestions().length;
+  };
 
   const handleCategorySelect = (category: string) => {
     setCategories(
@@ -89,13 +88,18 @@ export const GameOptions: Component<Props> = (props) => {
       return;
     }
 
-    const gameOptions = {
-      showTimer: showTimer(),
-      timerDuration: timerDuration(),
-      autoShowAnswer: autoShowAnswer(),
-      questionIds,
-    } satisfies GameOptionsType;
-    localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
+    try {
+      const gameOptions = {
+        showTimer: showTimer(),
+        timerDuration: timerDuration(),
+        autoShowAnswer: autoShowAnswer(),
+        questionIds,
+      } satisfies GameOptionsType;
+      localStorage.setItem("gameOptions", JSON.stringify(gameOptions));
+    } catch (e) {
+      console.error("Error saving game options", e);
+      return;
+    }
 
     window.location.href = buildQuestionUrl({
       duration: timerDuration(),
@@ -107,7 +111,7 @@ export const GameOptions: Component<Props> = (props) => {
   };
 
   const pickQuestionIds = (includedCategories: string[], count: number) => {
-    const filteredQuestions = questions().filter((question) => {
+    const filteredQuestions = availableQuestions().filter((question) => {
       return includedCategories.includes(question.category);
     });
     const shuffled = fisherYatesShuffle(filteredQuestions);
@@ -115,7 +119,28 @@ export const GameOptions: Component<Props> = (props) => {
   };
 
   onMount(() => {
-    localStorage.removeItem("gameOptions");
+    try {
+      localStorage.removeItem("gameOptions");
+
+      const gameHistory = localStorage.getItem("gameHistory");
+      if (gameHistory) {
+        const history = JSON.parse(gameHistory) as GameHistory;
+        const ids = new Set(history.games.flatMap((game) => game.questionIds));
+        const questions = local.questions.filter((question) => !ids.has(question.id));
+        setAvailableQuestions(questions);
+      } else {
+        setAvailableQuestions(local.questions);
+      }
+
+      const categories = local.categories.map((category) => ({
+        category,
+        selected: false,
+        questionCount: availableQuestions().filter((question) => question.category === category).length,
+      }));
+      setCategories(categories);
+    } catch (e) {
+      console.error("Error loading game options", e);
+    }
   });
 
   return (
@@ -128,11 +153,9 @@ export const GameOptions: Component<Props> = (props) => {
             <Badge variant="outline" class="mt-1 mr-auto">
               {t("allSelected")}
             </Badge>
-            <Show when={totalSelectecQuestionCount() > 0}>
-              <Badge variant="outline" class="mt-1 text-primary">
-                {totalSelectecQuestionCount()} {t("questionsAvailable")}
-              </Badge>
-            </Show>
+            <Badge variant="outline" class="mt-1 text-primary">
+              {totalSelectecQuestionCount()} {t("questionsAvailable")}
+            </Badge>
           </div>
           <div class="grid grid-cols-4 gap-2">
             <For each={categories}>
@@ -208,7 +231,7 @@ export const GameOptions: Component<Props> = (props) => {
             </Switch>
 
             <div class="grid w-full max-w-sm items-center gap-1.5">
-              <Label for="numberOfQuestions">{t("numberOfQuestions")}</Label>
+              <Label for="numberOfQuestions">{t("maximumNumberOfQuestions")}</Label>
               <Input
                 max={MAX_NUMBER_OF_QUESTIONS}
                 min={MIN_NUMBER_OF_QUESTIONS}
@@ -223,7 +246,9 @@ export const GameOptions: Component<Props> = (props) => {
         </div>
       </CardContent>
       <CardFooter class="justify-end">
-        <Button type="submit">{t("startGame")}</Button>
+        <Button type="submit" disabled={totalSelectecQuestionCount() <= 0}>
+          {t("startGame")}
+        </Button>
       </CardFooter>
     </form>
   );
