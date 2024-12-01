@@ -8,7 +8,7 @@ import solidJs from "@astrojs/solid-js";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind({ applyBaseStyles: false }), solidJs()],
-  base: "quiz",
+  base: process.env.NODE_ENV === "development" ? "" : "quiz",
   i18n: {
     defaultLocale: "fr",
     locales: ["fr", "en"],
