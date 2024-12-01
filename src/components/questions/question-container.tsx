@@ -147,7 +147,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                       [buttonVariants({ size: "lg", variant: "secondary" })]: true,
                       "gap-2": true,
                     }}
-                    href={getRelativeLocaleUrl(locale(), "/options")}
+                    href={getRelativeLocaleUrl(locale(), "/options", { prependWith: "quiz" })}
                     onClick={() => saveGameInHistory()}
                   >
                     {t("newGame")}
@@ -158,7 +158,7 @@ export const QuestionContainer: Component<Props> = (props) => {
                       [buttonVariants({ size: "lg", variant: "secondary" })]: true,
                       "gap-2": true,
                     }}
-                    href={getRelativeLocaleUrl(locale(), "/history")}
+                    href={getRelativeLocaleUrl(locale(), "/history", { prependWith: "quiz" })}
                     onClick={() => saveGameInHistory()}
                   >
                     {t("seeHistory")}
