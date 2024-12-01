@@ -4,7 +4,7 @@ import { QuestionContainer } from "../../../components/questions/question-contai
 import BaseLayout from "../../../layouts/base-layout.astro";
 
 export async function getStaticPaths() {
-  const questions = await getCollection("questions");
+  const questions = await getCollection("questionsEn");
   return questions.map((question) => ({
     params: { id: question.id },
     props: { question },

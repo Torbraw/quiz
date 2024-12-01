@@ -6,7 +6,7 @@ import { CardDescription } from "../../components/ui/card";
 import { CATEGORIES } from "../../content.config";
 import BaseLayout from "../../layouts/base-layout.astro";
 
-const questions = await getCollection("questions");
+const questions = await getCollection("questionsEn");
 const data = questions.map((q) => ({
   ...q.data,
   id: q.id,

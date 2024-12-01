@@ -34,9 +34,14 @@ const questionSchema = z.object({
 
 export type Question = z.infer<typeof questionSchema>;
 
-const questions = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/content/questions" }),
+const questionsFr = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./src/content/questions/fr" }),
   schema: questionSchema,
 });
 
-export const collections = { questions };
+const questionsEn = defineCollection({
+  loader: glob({ pattern: "**/*.json", base: "./src/content/questions/en" }),
+  schema: questionSchema,
+});
+
+export const collections = { questionsFr, questionsEn };

@@ -1,0 +1,8 @@
+{
+  "question": "De quel jeu vient cette image ?",
+  "category": "video-games",
+  "answer": "Doom",
+  "difficulty": 3,
+  "mediaUrl": "/src/assets/images/doom.webp",
+  "mediaType": "image"
+}

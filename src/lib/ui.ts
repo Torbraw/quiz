@@ -42,7 +42,7 @@ export const ui = {
   fr: {
     newGame: "Nouvelle Partie",
     categories: "Catégories",
-    allSelected: "Tout sélectionner par défaut",
+    allSelected: "Tous sélectionnés par défaut",
     timer: "Chronomètre",
     others: "Autres",
     enabled: "Activé",
