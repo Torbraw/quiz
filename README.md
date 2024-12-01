@@ -13,7 +13,7 @@ TODO
 - [x] Question screen
 - [x] i18n
 - [x] Category translations
-- [ ] Responsive until 1024px
+- [x] Responsive until 1024px
 - [ ] Fix assets in build (dynamic src not bundled)
 - [x] Question translations
 - [ ] Question list
