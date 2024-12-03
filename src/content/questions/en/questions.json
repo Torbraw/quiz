@@ -1,1 +1,1084 @@
-[]
+[
+  {
+    "id": 1,
+    "question": "5 + 5 = ?",
+    "category": "for-kids",
+    "answer": "10",
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "Which game is this image from?",
+    "category": "video-games",
+    "answer": "Doom",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/doom.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 3,
+    "question": "Which movie is this scene from?",
+    "category": "movies",
+    "answer": "John Wick",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/perkins.mp4",
+    "hint": "The main character is a retired hitman seeking revenge for the death of his dog.",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 4,
+    "question": "In what year did World War II start?",
+    "category": "history",
+    "answer": "1939",
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "What is the building shown in this image?",
+    "category": "monuments",
+    "answer": "The Pentagon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pentagon.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 6,
+    "question": "What is the name of the tree in this image?",
+    "category": "general",
+    "answer": "Sequoia",
+    "difficulty": 1,
+    "hint": "One of the largest trees in the world.",
+    "mediaSrc": "/src/assets/images/sequoia.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 7,
+    "question": "What is the most common type of tree in Canada?",
+    "category": "general",
+    "answer": "Spruce",
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "question": "Name a tractor brand whose main color is blue.",
+    "category": "general",
+    "answer": "New Holland or Ford",
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "question": "True or false. Donald Trump started his first term in 2017.",
+    "category": "general",
+    "answer": "True",
+    "difficulty": 2
+  },
+  {
+    "id": 9,
+    "question": "True or false. Canada has 7 time zones.",
+    "category": "general",
+    "answer": "False (6)",
+    "difficulty": 3
+  },
+  {
+    "id": 10,
+    "question": "True or false. Canada is 80% uninhabited.",
+    "category": "general",
+    "answer": "True",
+    "difficulty": 2
+  },
+  {
+    "id": 11,
+    "question": "In what year did Jacques Cartier discover Canada?",
+    "category": "history",
+    "hint": "After 1600 and before 1600.",
+    "answer": "1534",
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "question": "In what year did the Titanic sink?",
+    "category": "history",
+    "hint": "After 1910 and before 1950.",
+    "answer": "1912",
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "question": "What is the object shown in this image?",
+    "category": "general",
+    "answer": "Airship",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/dirigible.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 14,
+    "question": "What do the circles on the wood represent?",
+    "category": "general",
+    "answer": "The age of the tree",
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "What is the largest organ in the human body?",
+    "category": "general",
+    "answer": "Skin",
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "What galaxy is shown in this photo?",
+    "category": "space",
+    "answer": "Milky Way",
+    "difficulty": 2,
+    "hint": "It is the name of our galaxy.",
+    "mediaSrc": "/src/assets/images/milky_way.jpg.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 17,
+    "question": "What is the largest planet in the solar system?",
+    "category": "space",
+    "answer": "Jupiter",
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "question": "What was the 9th planet in the solar system before being downgraded?",
+    "category": "space",
+    "answer": "Pluto",
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "What is the spacecraft that has traveled the farthest from Earth?",
+    "category": "space",
+    "answer": "Voyager 1",
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "How many miles is 1 kilometer?",
+    "category": "general",
+    "answer": "0.621371",
+    "difficulty": 2
+  },
+  {
+    "id": 21,
+    "question": "How many stars are on the European Union flag?",
+    "category": "general",
+    "answer": "12",
+    "difficulty": 3
+  },
+  {
+    "id": 22,
+    "question": "What was the third country in the Axis during World War II with Germany and Italy?",
+    "category": "history",
+    "answer": "Japan",
+    "difficulty": 1
+  },
+  {
+    "id": 23,
+    "question": "What is the name of the mission that landed the first man on the moon?",
+    "category": "space",
+    "answer": "Apollo 11",
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "What is the model of the vehicle in this image?",
+    "category": "general",
+    "answer": "Cybertruck",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cybertruck.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 25,
+    "question": "What is the first mass-produced car from Ford?",
+    "category": "general",
+    "answer": "Model T",
+    "hint": "The car is black and has a letter in its name.",
+    "difficulty": 3
+  },
+  {
+    "id": 26,
+    "question": "What is the popular fast food chain in Canada?",
+    "category": "general",
+    "answer": "Tim Hortons",
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Where did Apple start?",
+    "category": "general",
+    "answer": "Garage",
+    "difficulty": 1
+  },
+  {
+    "id": 28,
+    "question": "What was Amazon's first business?",
+    "category": "general",
+    "answer": "Bookstore",
+    "difficulty": 1
+  },
+  {
+    "id": 29,
+    "question": "Who is the CEO of Amazon?",
+    "category": "general",
+    "answer": "Andy Jassy",
+    "hint": "He replaced Jeff Bezos in 2021.",
+    "difficulty": 3
+  },
+  {
+    "id": 30,
+    "question": "Who is the CEO of Tesla?",
+    "category": "general",
+    "answer": "Elon Musk",
+    "difficulty": 1
+  },
+  {
+    "id": 31,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Canada",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/canada.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 31,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "France",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/france.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 32,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "United States",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/usa.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 33,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "United Kingdom",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/uk.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 34,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Germany",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/germany.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 35,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Italy",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/italy.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 36,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Japan",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/japan.svg",
+    "mediaType": "image"
+  },
+  {
+    "id": 37,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Russia",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/russia.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 38,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "China",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/china.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 39,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Brazil",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/brazil.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 40,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Australia",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/australia.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 41,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "India",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/india.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 42,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "South Korea",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/south_korea.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 43,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Mexico",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/mexico.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 44,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Spain",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/spain.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 45,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Portugal",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/portugal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 46,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Switzerland",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/switzerland.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 47,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Finland",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/finland.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 48,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Czech Republic",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/czech_republic.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 49,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Israel",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/israel.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 50,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Saudi Arabia",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/saudi_arabia.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 51,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Turkey",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/turkey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 52,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Argentina",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/argentina.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 53,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Belarus",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/belarus.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 54,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Sweden",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/sweden.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 55,
+    "question": "Which flag is represented in this image?",
+    "category": "flags",
+    "answer": "Mozambique",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/mozambique.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 56,
+    "question": "Complete the sentence. Canada is the second largest country in the world by ___.",
+    "category": "complete-the-sentence",
+    "answer": "Area",
+    "difficulty": 1
+  },
+  {
+    "id": 57,
+    "question": "Complete the proverb. He who sows the wind reaps the ___.",
+    "category": "complete-the-sentence",
+    "answer": "Storm",
+    "difficulty": 1
+  },
+  {
+    "id": 58,
+    "question": "Complete the expression. Pull yourself a ___.",
+    "category": "complete-the-sentence",
+    "answer": "Log",
+    "difficulty": 1
+  },
+  {
+    "id": 59,
+    "question": "Complete the proverb. A rolling stone gathers no ___.",
+    "category": "complete-the-sentence",
+    "answer": "Moss",
+    "difficulty": 1
+  },
+  {
+    "id": 60,
+    "question": "Complete the expression. Do not put the cart before the ___.",
+    "category": "complete-the-sentence",
+    "answer": "Oxen",
+    "difficulty": 1
+  },
+  {
+    "id": 61,
+    "question": "Complete the expression. Don't put all your ___ in the same basket.",
+    "category": "complete-the-sentence",
+    "answer": "Eggs",
+    "difficulty": 1
+  },
+  {
+    "id": 62,
+    "question": "Complete the expression. Don't sell the ___ of the bear before you've killed it.",
+    "category": "complete-the-sentence",
+    "answer": "Skin",
+    "difficulty": 1
+  },
+  {
+    "id": 63,
+    "question": "Complete the expression. It's raining ___.",
+    "category": "complete-the-sentence",
+    "answer": "Ropes",
+    "difficulty": 1
+  },
+  {
+    "id": 64,
+    "question": "Complete the expression. The head to ___.",
+    "category": "complete-the-sentence",
+    "answer": "Papineau",
+    "difficulty": 2
+  },
+  {
+    "id": 65,
+    "question": "Complete the expression. To have ___ in the basement.",
+    "category": "complete-the-sentence",
+    "answer": "Water",
+    "difficulty": 1
+  },
+  {
+    "id": 66,
+    "question": "Complete the expression. It costs an arm and a ___.",
+    "category": "complete-the-sentence",
+    "answer": "Leg",
+    "difficulty": 1
+  },
+  {
+    "id": 67,
+    "question": "Complete the expression. Break the ___.",
+    "category": "complete-the-sentence",
+    "answer": "Ice",
+    "difficulty": 1
+  },
+  {
+    "id": 68,
+    "question": "Complete the expression. Comparing ___ and oranges.",
+    "category": "complete-the-sentence",
+    "answer": "Apples",
+    "difficulty": 2
+  },
+  {
+    "id": 69,
+    "question": "Better late than ___.",
+    "category": "complete-the-sentence",
+    "answer": "Never",
+    "difficulty": 1
+  },
+  {
+    "id": 70,
+    "question": "What is the fastest car in the world?",
+    "category": "general",
+    "answer": "Koenigsegg Jesko Absolut",
+    "hint": "It's a Swedish car released in 2020, and it dethroned the Bugatti Chiron.",
+    "difficulty": 3
+  },
+  {
+    "id": 71,
+    "question": "What is the official animal of Canada?",
+    "category": "general",
+    "answer": "The beaver",
+    "difficulty": 1
+  },
+  {
+    "id": 72,
+    "question": "What is the name of the ocean between America and Europe?",
+    "category": "general",
+    "answer": "The Atlantic Ocean",
+    "difficulty": 1
+  },
+  {
+    "id": 72,
+    "question": "What is the name of the ocean between America and Asia?",
+    "category": "general",
+    "answer": "The Pacific Ocean",
+    "difficulty": 1
+  },
+  {
+    "id": 73,
+    "question": "What is the saltiest sea in the world?",
+    "category": "general",
+    "answer": "The Dead Sea",
+    "difficulty": 2
+  },
+  {
+    "id": 74,
+    "question": "What is the density of the Dead Sea?",
+    "category": "general",
+    "answer": "Close to 1.24",
+    "difficulty": 3
+  },
+  {
+    "id": 75,
+    "question": "What is the northernmost point?",
+    "category": "general",
+    "answer": "The North Pole",
+    "difficulty": 1
+  },
+  {
+    "id": 76,
+    "question": "What is the southernmost point?",
+    "category": "general",
+    "answer": "The South Pole",
+    "difficulty": 1
+  },
+  {
+    "id": 77,
+    "question": "What is the largest whale?",
+    "category": "animals",
+    "answer": "The blue whale",
+    "difficulty": 1
+  },
+  {
+    "id": 78,
+    "question": "What is the largest mammal?",
+    "category": "animals",
+    "answer": "The blue whale",
+    "difficulty": 2
+  },
+  {
+    "id": 79,
+    "question": "What is the largest land mammal?",
+    "category": "animals",
+    "answer": "The elephant",
+    "difficulty": 1
+  },
+  {
+    "id": 80,
+    "question": "During which period do deer shed their antlers?",
+    "category": "animals",
+    "answer": "End of winter / beginning of spring",
+    "difficulty": 2
+  },
+  {
+    "id": 81,
+    "question": "Which animal has the largest antlers?",
+    "category": "animals",
+    "answer": "The moose",
+    "difficulty": 2
+  },
+  {
+    "id": 82,
+    "question": "Which zodiac sign comes between Virgo and Scorpio?",
+    "category": "general",
+    "answer": "Libra",
+    "difficulty": 1
+  },
+  {
+    "id": 83,
+    "question": "What is the symbol of the Gemini zodiac sign?",
+    "category": "general",
+    "answer": "The twins",
+    "difficulty": 1
+  },
+  {
+    "id": 84,
+    "question": "What is the day of Jesus' resurrection?",
+    "category": "general",
+    "answer": "Easter",
+    "difficulty": 1
+  },
+  {
+    "id": 85,
+    "question": "Who is the F1 driver with the most wins?",
+    "category": "general",
+    "answer": "Lewis Hamilton",
+    "hint": "He broke Michael Schumacher's record in 2020.",
+    "difficulty": 2
+  },
+  {
+    "id": 86,
+    "question": "What does AI stand for in computing?",
+    "category": "general",
+    "answer": "Artificial Intelligence",
+    "difficulty": 1
+  },
+  {
+    "id": 87,
+    "question": "What is the name of Google's AI?",
+    "category": "general",
+    "answer": "Gemini",
+    "difficulty": 2
+  },
+  {
+    "id": 88,
+    "question": "Which blood type is a universal donor?",
+    "category": "general",
+    "answer": "O-",
+    "difficulty": 2
+  },
+  {
+    "id": 89,
+    "question": "What is the name of the first female pilot?",
+    "category": "general",
+    "answer": "Raymonde de Laroche",
+    "difficulty": 3
+  },
+  {
+    "id": 90,
+    "question": "What is the name of the nuclear bomb dropped on Hiroshima?",
+    "category": "history",
+    "answer": "Little Boy",
+    "difficulty": 2
+  },
+  {
+    "id": 91,
+    "question": "What zodiac sign is represented by a crab?",
+    "category": "general",
+    "answer": "Cancer",
+    "difficulty": 1
+  },
+  {
+    "id": 92,
+    "question": "What do the letters in the acronym NASA stand for?",
+    "category": "general",
+    "answer": "National Aeronautics and Space Administration",
+    "difficulty": 2
+  },
+  {
+    "id": 93,
+    "question": "What do the letters in the acronym GMT stand for?",
+    "category": "general",
+    "answer": "Greenwich Mean Time",
+    "difficulty": 3
+  },
+  {
+    "id": 94,
+    "question": "What is the name of the first woman to have received a Nobel Prize?",
+    "category": "general",
+    "answer": "Marie Curie",
+    "difficulty": 2
+  },
+  {
+    "id": 95,
+    "question": "Which city is known as the Big Apple?",
+    "category": "general",
+    "answer": "New York",
+    "difficulty": 1
+  },
+  {
+    "id": 96,
+    "question": "What are the colors of the Google logo?",
+    "category": "general",
+    "answer": "Red, yellow, green, blue",
+    "difficulty": 1
+  },
+  {
+    "id": 97,
+    "question": "How many colors are there in the rainbow?",
+    "category": "general",
+    "answer": "7",
+    "difficulty": 1
+  },
+  {
+    "id": 98,
+    "question": "True or False: The unicorn is the national animal of Scotland.",
+    "category": "general",
+    "answer": "True",
+    "difficulty": 2
+  },
+  {
+    "id": 99,
+    "question": "After which war was the Ottoman Empire dismantled?",
+    "category": "history",
+    "answer": "World War I",
+    "hint": "The war started in 1914.",
+    "difficulty": 3
+  },
+  {
+    "id": 100,
+    "question": "In which year did World War I begin?",
+    "category": "history",
+    "answer": "1914",
+    "difficulty": 1
+  },
+  {
+    "id": 101,
+    "question": "What is the date of the Normandy landings?",
+    "category": "history",
+    "answer": "June 6, 1944",
+    "hint": "Between 1940 and 1950.",
+    "difficulty": 3
+  },
+  {
+    "id": 102,
+    "question": "What is the date of the attack on Pearl Harbor?",
+    "category": "history",
+    "answer": "December 7, 1941",
+    "hint": "Between 1940 and 1950.",
+    "difficulty": 3
+  },
+  {
+    "id": 103,
+    "question": "Which artist is known for the impressionist movement?",
+    "category": "general",
+    "answer": "Claude Monet",
+    "difficulty": 2
+  },
+  {
+    "id": 104,
+    "question": "Which artist is known for the cubist movement?",
+    "category": "general",
+    "answer": "Pablo Picasso",
+    "difficulty": 2
+  },
+  {
+    "id": 105,
+    "question": "Who painted the Mona Lisa?",
+    "category": "general",
+    "answer": "Leonardo da Vinci",
+    "difficulty": 1
+  },
+  {
+    "id": 106,
+    "question": "Who proposed the idea of socialism?",
+    "category": "general",
+    "answer": "Karl Marx",
+    "difficulty": 2
+  },
+  {
+    "id": 107,
+    "question": "Who wrote the book '1984'?",
+    "category": "general",
+    "answer": "George Orwell",
+    "difficulty": 3
+  },
+  {
+    "id": 108,
+    "question": "In which year did the Berlin Wall fall?",
+    "category": "history",
+    "answer": "1989",
+    "difficulty": 1
+  },
+  {
+    "id": 109,
+    "question": "In which year was the Soviet Union dissolved?",
+    "category": "history",
+    "answer": "1991",
+    "difficulty": 1
+  },
+  {
+    "id": 110,
+    "question": "How many years did the Hundred Years' War last?",
+    "category": "history",
+    "answer": "116",
+    "difficulty": 2
+  },
+  {
+    "id": 111,
+    "question": "What is the color of Henry IV's white horse?",
+    "category": "general",
+    "answer": "White",
+    "difficulty": 1
+  },
+  {
+    "id": 112,
+    "question": "What is the color of Henry IV's white horse?",
+    "category": "for-kids",
+    "answer": "White",
+    "difficulty": 1
+  },
+  {
+    "id": 113,
+    "question": "In which year did the United States declare independence?",
+    "category": "history",
+    "answer": "1776",
+    "difficulty": 1
+  },
+  {
+    "id": 114,
+    "question": "Who controlled the opium trade in China during the 19th century?",
+    "category": "history",
+    "answer": "Great Britain",
+    "difficulty": 3
+  },
+  {
+    "id": 115,
+    "question": "In which year was cannabis legalized in Canada?",
+    "category": "general",
+    "answer": "2018",
+    "difficulty": 1
+  },
+  {
+    "id": 116,
+    "question": "What is the strongest alcohol?",
+    "category": "general",
+    "answer": "Spirytus",
+    "difficulty": 3
+  },
+  {
+    "id": 117,
+    "question": "What is the most consumed alcohol in the world?",
+    "category": "general",
+    "answer": "Beer",
+    "difficulty": 1
+  },
+  {
+    "id": 118,
+    "question": "Who is the Prime Minister of Canada?",
+    "category": "general",
+    "answer": "Justin Trudeau",
+    "difficulty": 1
+  },
+  {
+    "id": 119,
+    "question": "Who was the first man to walk on the moon?",
+    "category": "space",
+    "answer": "Neil Armstrong",
+    "difficulty": 1
+  },
+  {
+    "id": 120,
+    "question": "What is the name of the first monkey in space?",
+    "category": "space",
+    "answer": "Albert II",
+    "difficulty": 3
+  },
+  {
+    "id": 121,
+    "question": "What is the name of the first dog in space?",
+    "category": "space",
+    "answer": "Laika",
+    "difficulty": 3
+  },
+  {
+    "id": 122,
+    "question": "What is the name of the largest rocket?",
+    "category": "space",
+    "answer": "Starship",
+    "difficulty": 2
+  },
+  {
+    "id": 123,
+    "question": "What is the name of the booster for the Starship rocket?",
+    "category": "space",
+    "answer": "Super Heavy",
+    "difficulty": 2
+  },
+  {
+    "id": 124,
+    "question": "What do the letters in the acronym UFO stand for?",
+    "category": "general",
+    "answer": "Unidentified Flying Object",
+    "difficulty": 1
+  },
+  {
+    "id": 125,
+    "question": "What do the letters in the acronym ISS stand for?",
+    "category": "general",
+    "answer": "International Space Station",
+    "difficulty": 1
+  },
+  {
+    "id": 126,
+    "question": "What is the temperature at the center of the sun?",
+    "category": "space",
+    "answer": "15 million degrees Celsius",
+    "hint": "Measured in millions of degrees.",
+    "difficulty": 3
+  },
+  {
+    "id": 127,
+    "question": "What is the name of the latest robot sent to Mars?",
+    "category": "space",
+    "answer": "Perseverance",
+    "difficulty": 2
+  },
+  {
+    "id": 128,
+    "question": "What is the name of the place we have never been on the moon?",
+    "category": "space",
+    "answer": "South Pole",
+    "difficulty": 2
+  },
+  {
+    "id": 129,
+    "question": "What is the second city to have received an atomic bombing during World War II, after Hiroshima?",
+    "category": "history",
+    "answer": "Nagasaki",
+    "difficulty": 1
+  },
+  {
+    "id": 130,
+    "question": "Which important city fell in 1453?",
+    "category": "history",
+    "answer": "Constantinople",
+    "hint": "The city is now called Istanbul.",
+    "difficulty": 3
+  },
+  {
+    "id": 131,
+    "question": "True or False: The French kingdom helped the Americans win their independence.",
+    "category": "history",
+    "answer": "True",
+    "difficulty": 2
+  },
+  {
+    "id": 132,
+    "question": "Which world power colonized the most countries?",
+    "category": "history",
+    "answer": "United Kingdom",
+    "difficulty": 1
+  },
+  {
+    "id": 133,
+    "question": "Which type of school rejected Adolf Hitler's application?",
+    "category": "history",
+    "answer": "Art School",
+    "difficulty": 1
+  },
+  {
+    "id": 134,
+    "question": "Who was the Prime Minister of Japan during World War II?",
+    "category": "history",
+    "answer": "Hideki Tojo",
+    "difficulty": 2
+  },
+  {
+    "id": 135,
+    "question": "Who was the very first Prime Minister of Canada?",
+    "category": "history",
+    "answer": "John A. Macdonald",
+    "hint": "A restaurant chain bears his name.",
+    "difficulty": 2
+  },
+  {
+    "id": 136,
+    "question": "How many moon landings have been made?",
+    "category": "space",
+    "answer": "6",
+    "difficulty": 3
+  },
+  {
+    "id": 137,
+    "question": "In which year was the city of Quebec founded?",
+    "category": "history",
+    "answer": "1608",
+    "difficulty": 2
+  },
+  {
+    "id": 138,
+    "question": "In which year was the city of Montreal founded?",
+    "category": "history",
+    "answer": "1642",
+    "difficulty": 2
+  },
+  {
+    "id": 139,
+    "question": "What is the first city founded in Canada?",
+    "category": "history",
+    "answer": "Saint John's / Saint John",
+    "difficulty": 3
+  },
+  {
+    "id": 140,
+    "question": "True or False: Trois-Rivières is the second oldest city in Quebec.",
+    "category": "history",
+    "answer": "True",
+    "difficulty": 2
+  }
+]
