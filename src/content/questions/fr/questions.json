@@ -780,5 +780,305 @@
     "category": "general",
     "answer": "Vrai",
     "difficulty": 2
+  },
+  {
+    "id": 99,
+    "question": "Après quel guerre l'empire Ottoman à été démantelé ?",
+    "category": "history",
+    "answer": "Première guerre mondiale",
+    "hint": "La guerre à commencé en 1914.",
+    "difficulty": 3
+  },
+  {
+    "id": 100,
+    "question": "En quel année la première guerre mondiale à commencé ?",
+    "category": "history",
+    "answer": "1914",
+    "difficulty": 1
+  },
+  {
+    "id": 101,
+    "question": "Quel est la date du débarquement de Normandie ?",
+    "category": "history",
+    "answer": "6 juin 1944",
+    "hint": "Entre 1940 et 1950.",
+    "difficulty": 3
+  },
+  {
+    "id": 102,
+    "question": "Quel est la date de l'attaque de Pearl Harbor ?",
+    "category": "history",
+    "answer": "7 décembre 1941",
+    "hint": "Entre 1940 et 1950.",
+    "difficulty": 3
+  },
+  {
+    "id": 103,
+    "question": "Quel artiste est connu pour le mouvement impressionniste ?",
+    "category": "general",
+    "answer": "Claude Monet",
+    "difficulty": 2
+  },
+  {
+    "id": 104,
+    "question": "Quel artiste est connu pour le mouvement cubiste ?",
+    "category": "general",
+    "answer": "Pablo Picasso",
+    "difficulty": 2
+  },
+  {
+    "id": 105,
+    "question": "Qui a peint la Joconde ?",
+    "category": "general",
+    "answer": "Léonard de Vinci",
+    "difficulty": 1
+  },
+  {
+    "id": 106,
+    "question": "Qui a avancé l'idée du socialisme ?",
+    "category": "general",
+    "answer": "Karl Marx",
+    "difficulty": 2
+  },
+  {
+    "id": 107,
+    "question": "Qui a écrit le livre '1984' ?",
+    "category": "general",
+    "answer": "George Orwell",
+    "difficulty": 3
+  },
+  {
+    "id": 108,
+    "question": "En quel année le mur de Berlin est tombé ?",
+    "category": "history",
+    "answer": "1989",
+    "difficulty": 1
+  },
+  {
+    "id": 109,
+    "question": "En quel année l'union soviétique à été dissoute ?",
+    "category": "history",
+    "answer": "1991",
+    "difficulty": 1
+  },
+  {
+    "id": 110,
+    "question": "Combien d'année à durée la guerre de 100 ans ?",
+    "category": "history",
+    "answer": "116",
+    "difficulty": 2
+  },
+  {
+    "id": 111,
+    "question": "Quel est la couleur du cheval blanc d'Henri IV ?",
+    "category": "general",
+    "answer": "Blanc",
+    "difficulty": 1
+  },
+  {
+    "id": 112,
+    "question": "Quel est la couleur du cheval blanc d'Henri IV ?",
+    "category": "for-kids",
+    "answer": "Blanc",
+    "difficulty": 1
+  },
+  {
+    "id": 113,
+    "question": "En quel année les états-unis ont-ils déclaré leur indépendance ?",
+    "category": "history",
+    "answer": "1776",
+    "difficulty": 1
+  },
+  {
+    "id": 114,
+    "question": "Qui controllait le traffic d'opium en chine au 19e siècle ?",
+    "category": "history",
+    "answer": "La Grande-Bretagne",
+    "difficulty": 3
+  },
+  {
+    "id": 115,
+    "question": "En quel année à été légalisé le cannabis au Canada ?",
+    "category": "general",
+    "answer": "2018",
+    "difficulty": 1
+  },
+  {
+    "id": 116,
+    "question": "Quel est l'alchool le plus fort ?",
+    "category": "general",
+    "answer": "Spirytus",
+    "difficulty": 3
+  },
+  {
+    "id": 117,
+    "question": "Quel est l'alchool le plus consommé dans le monde ?",
+    "category": "general",
+    "answer": "La bière",
+    "difficulty": 1
+  },
+  {
+    "id": 118,
+    "question": "Qui est le nom du premier ministre du Canada ?",
+    "category": "general",
+    "answer": "Justin Trudeau",
+    "difficulty": 1
+  },
+  {
+    "id": 119,
+    "question": "Qui est le premier homme à avoir marché sur la lune ?",
+    "category": "space",
+    "answer": "Neil Armstrong",
+    "difficulty": 1
+  },
+  {
+    "id": 120,
+    "question": "Quel est le nom du premier singe dans l'espace ?",
+    "category": "space",
+    "answer": "Albert II",
+    "difficulty": 3
+  },
+  {
+    "id": 121,
+    "question": "Quel est le nom du premier chien dans l'espace ?",
+    "category": "space",
+    "answer": "Laïka",
+    "difficulty": 3
+  },
+  {
+    "id": 122,
+    "question": "Quel est le nom de la plus grosse fusée ?",
+    "category": "space",
+    "answer": "Starship",
+    "difficulty": 2
+  },
+  {
+    "id": 123,
+    "question": "Quel est le nom du booster de la fusée Starship ?",
+    "category": "space",
+    "answer": "Super Heavy",
+    "difficulty": 2
+  },
+  {
+    "id": 124,
+    "question": "Que veux dire les lettres dans l'acronyme UFO ?",
+    "category": "general",
+    "answer": "Unidentified Flying Object",
+    "difficulty": 1
+  },
+  {
+    "id": 125,
+    "question": "Que veux dire les lettres dans l'acronyme ISS ?",
+    "category": "general",
+    "answer": "International Space Station",
+    "difficulty": 1
+  },
+  {
+    "id": 126,
+    "question": "Quel est la température du centre du soleil ?",
+    "category": "space",
+    "answer": "15 millions de degrés Celsius",
+    "hint": "Se compte en millions de degrés.",
+    "difficulty": 3
+  },
+  {
+    "id": 127,
+    "question": "Quel est le nom du dernier robot envoyé sur mars ?",
+    "category": "space",
+    "answer": "Perseverance",
+    "difficulty": 2
+  },
+  {
+    "id": 128,
+    "question": "Quel est le nom de l'endroit où on n'a jamais été sur la lune ?",
+    "category": "space",
+    "answer": "Pôle Sud",
+    "difficulty": 2
+  },
+  {
+    "id": 129,
+    "question": "Quel est la deuximère cité à avoir recu un bombardement atomique pendant la seconde guerre mondiale avec Hiroshima ?",
+    "category": "history",
+    "answer": "Nagasaki",
+    "difficulty": 1
+  },
+  {
+    "id": 130,
+    "question": "Quel cité importante est tombé en 1453 ?",
+    "category": "history",
+    "answer": "Constantinople",
+    "hint": "La cité est maintenant appelé Istanbul.",
+    "difficulty": 2
+  },
+  {
+    "id": 131,
+    "question": "Vrai ou faux. Le royaume français à aidé les américains à gagner leur indépendance.",
+    "category": "history",
+    "answer": "Vrai",
+    "difficulty": 2
+  },
+  {
+    "id": 132,
+    "question": "Quel puissance mondiale à colonisé le plus de pays ?",
+    "category": "history",
+    "answer": "Royaume-Uni",
+    "difficulty": 1
+  },
+  {
+    "id": 133,
+    "question": "Quel type d'école n'a pas accepté la candidature d'Adolf Hitler ?",
+    "category": "history",
+    "answer": "D'Art",
+    "difficulty": 1
+  },
+  {
+    "id": 134,
+    "question": "Qui était le premier ministre du Japon durant la seconde guerre mondiale ?",
+    "category": "history",
+    "answer": "Hideki Tojo",
+    "difficulty": 2
+  },
+  {
+    "id": 135,
+    "question": "Qui était le tout premier ministre du Canada ?",
+    "category": "history",
+    "answer": "John A. Macdonald",
+    "hint": "Une chaine de restaurant porte son nom.",
+    "difficulty": 2
+  },
+  {
+    "id": 136,
+    "question": "Combien d'attérisage sur la lune ont été réalisé ?",
+    "category": "space",
+    "answer": "6",
+    "difficulty": 3
+  },
+  {
+    "id": 137,
+    "question": "En quel année a été fondé la ville de Québec ?",
+    "category": "history",
+    "answer": "1608",
+    "difficulty": 2
+  },
+  {
+    "id": 138,
+    "question": "En quel année à été fondé la ville de Montréal ?",
+    "category": "history",
+    "answer": "1642",
+    "difficulty": 2
+  },
+  {
+    "id": 139,
+    "question": "Quel est la première ville fondé au Canada ?",
+    "category": "history",
+    "answer": "John's / Saint John",
+    "difficulty": 3
+  },
+  {
+    "id": "140",
+    "question": "Vraii ou faux. Trois-Rivières est la deuxième plus vieille ville du Québec.",
+    "category": "history",
+    "answer": "Vrai",
+    "difficulty": 2
   }
 ]
