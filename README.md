@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple web app where you can answer questions and see the results. It is means to be played in person since there is no score tracking or place to enter your answers. This site only provides the questions and the answers to them. Each questions has a difficulty level and a category. Difficuly levels is purely subjective, don't take it too seriously.
+This is a simple web app where you can answer questions and see the results. It is means to be played in person since there is no score tracking or place to enter your answers. This site only provides the questions and the answers to them. Each questions has a difficulty level and a category. Difficuly levels is purely subjective and meant for our own use.
 
 ## Use your own questions
 
