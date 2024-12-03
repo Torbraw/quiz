@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import { glob } from "astro/loaders";
+import { file } from "astro/loaders";
 
 export const CATEGORIES = z.enum([
   "general",
@@ -8,7 +8,6 @@ export const CATEGORIES = z.enum([
   "cartoons",
   "celebrities-qc",
   "celebrities",
-  "math",
   "logo",
   "rebus",
   "translated-lyrics-fr",
@@ -18,6 +17,11 @@ export const CATEGORIES = z.enum([
   "video-games",
   "four-pics-one-word",
   "for-kids",
+  "monuments",
+  "space",
+  "history",
+  "flags",
+  "complete-the-sentence",
 ]);
 
 const MEDIA_TYPES = z.enum(["audio/mp3", "audio/wav", "video/mp4", "image"]);
@@ -35,12 +39,12 @@ const questionSchema = z.object({
 export type Question = z.infer<typeof questionSchema>;
 
 const questionsFr = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/content/questions/fr" }),
+  loader: file("./src/content/questions/fr/questions.json"),
   schema: questionSchema,
 });
 
 const questionsEn = defineCollection({
-  loader: glob({ pattern: "**/*.json", base: "./src/content/questions/en" }),
+  loader: file("./src/content/questions/en/questions.json"),
   schema: questionSchema,
 });
 

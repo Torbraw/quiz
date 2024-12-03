@@ -16,7 +16,7 @@ export const Question: Component<Props> = (props) => {
   const questionIndex = () => props.questionIndex;
 
   return (
-    <Card class="max-w-6xl min-w-[40dvw] min-h-32 relative">
+    <Card class="max-w-6xl min-w-[40dvw] min-h-32 pt-4 relative">
       <CardHeader
         classList={{
           "items-center justify-center": true,

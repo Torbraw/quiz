@@ -1,9 +1,0 @@
-{
-  "question": "What movie is this clip from?",
-  "category": "movies",
-  "answer": "John Wick",
-  "difficulty": 2,
-  "mediaSrc": "/src/assets/videos/perkins.mp4",
-  "hint": "The main character is a retired hitman seeking vengeance for the death of his dog.",
-  "mediaType": "video/mp4"
-}

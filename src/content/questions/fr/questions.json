@@ -1,0 +1,784 @@
+[
+  {
+    "id": 1,
+    "question": "5 + 5 = ?",
+    "category": "for-kids",
+    "answer": "10",
+    "difficulty": 1
+  },
+  {
+    "id": 2,
+    "question": "De quel jeu vient cette image ?",
+    "category": "video-games",
+    "answer": "Doom",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/doom.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 3,
+    "question": "De quel film est tirée cette scène ?",
+    "category": "movies",
+    "answer": "John Wick",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/perkins.mp4",
+    "hint": "Le personnage principal est un tueur à gages à la retraite qui cherche à se venger de la mort de son chien.",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 4,
+    "question": "En quel année à commencé la seconde guerre mondiale ?",
+    "category": "history",
+    "answer": "1939",
+    "difficulty": 1
+  },
+  {
+    "id": 5,
+    "question": "Quel est le bâtiment représenté sur cette image ?",
+    "category": "monuments",
+    "answer": "Le pentagone",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pentagon.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 6,
+    "question": "Quel est le nom de l'arbre sur cette image ?",
+    "category": "general",
+    "answer": "Sequoia",
+    "difficulty": 1,
+    "hint": "Un des plus grands arbres du monde.",
+    "mediaSrc": "/src/assets/images/sequoia.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 7,
+    "question": "Quel est le type d'arbre le plus présent au Canada ?",
+    "category": "general",
+    "answer": "Épinette",
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "question": "Nommer une marque de tracteur dont la couleur principale est le bleu.",
+    "category": "general",
+    "answer": "New Holland ou Ford",
+    "difficulty": 2
+  },
+  {
+    "id": 8,
+    "question": "Vrai ou faux. Donald trump à commencé son premier mandat en 2017.",
+    "category": "general",
+    "answer": "Vrai",
+    "difficulty": 2
+  },
+  {
+    "id": 9,
+    "question": "Vrai ou faux. Le Canada à 7 fuseaux horaires.",
+    "category": "general",
+    "answer": "Faux (6)",
+    "difficulty": 3
+  },
+  {
+    "id": 10,
+    "question": "Vrai ou faux. Le Canada est à 80% inhabité.",
+    "category": "general",
+    "answer": "Vrai",
+    "difficulty": 2
+  },
+  {
+    "id": 11,
+    "question": "En quel année Jacques Cartier à découvert le Canada ?",
+    "category": "history",
+    "hint": "Après 1600 et avant 1600.",
+    "answer": "1534",
+    "difficulty": 2
+  },
+  {
+    "id": 12,
+    "question": "En quel année à couler le Titanic ?",
+    "category": "history",
+    "hint": "Après 1910. et avant 1950.",
+    "answer": "1912",
+    "difficulty": 2
+  },
+  {
+    "id": 13,
+    "question": "Quel est l'objet représenté sur cette image ?",
+    "category": "general",
+    "answer": "Dirigeable",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/dirigible.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 14,
+    "question": "Que représente les cercles sur le bois ?",
+    "category": "general",
+    "answer": "L'âge de l'arbre",
+    "difficulty": 1
+  },
+  {
+    "id": 15,
+    "question": "Quel est le plus grand organe du corps humain ?",
+    "category": "general",
+    "answer": "La peau",
+    "difficulty": 1
+  },
+  {
+    "id": 16,
+    "question": "Quel est la galaxie représenter sur cette photo ?",
+    "category": "space",
+    "answer": "Voie lactée",
+    "difficulty": 2,
+    "hint": "C'est le nom de notre galaxie.",
+    "mediaSrc": "/src/assets/images/milky_way.jpg.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 17,
+    "question": "Quel est la plus grosse planète du système solaire ?",
+    "category": "space",
+    "answer": "Jupiter",
+    "difficulty": 1
+  },
+  {
+    "id": 18,
+    "question": "Quel était la 9e planète du système solaire avant d'être déclassé ?",
+    "category": "space",
+    "answer": "Pluton",
+    "difficulty": 1
+  },
+  {
+    "id": 19,
+    "question": "Quel est la sonde qui a été la plus loin de la terre ?",
+    "category": "space",
+    "answer": "Voyager 1",
+    "difficulty": 2
+  },
+  {
+    "id": 20,
+    "question": "1 kilomètre équivaut à combien de mile ?",
+    "category": "general",
+    "answer": "0.621371",
+    "difficulty": 2
+  },
+  {
+    "id": 21,
+    "question": "Combien d'étoiles comporte le drapeau de l'union européenne ?",
+    "category": "general",
+    "answer": "12",
+    "difficulty": 3
+  },
+  {
+    "id": 22,
+    "question": "Quel était le troisième pays de l'axe durant la seconde guerre mondiale avec l'Allemagne et l'Italie ?",
+    "category": "history",
+    "answer": "Japon",
+    "difficulty": 1
+  },
+  {
+    "id": 23,
+    "question": "Quel est le nom de la mission qui a permis de poser le premier homme sur la lune ?",
+    "category": "space",
+    "answer": "Apollo 11",
+    "difficulty": 1
+  },
+  {
+    "id": 24,
+    "question": "Quel est le modèle du véhicule sur cette image ?",
+    "category": "general",
+    "answer": "Cybertruck",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cybertruck.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 25,
+    "question": "Quel est la première voiture produite en série de Ford ?",
+    "category": "general",
+    "answer": "Model T",
+    "hint": "La voiture est noire et à une lettre dans son nom.",
+    "difficulty": 3
+  },
+  {
+    "id": 26,
+    "question": "Quel est la chaine de fast food populaire au Canada ?",
+    "category": "general",
+    "answer": "Tim Hortons",
+    "difficulty": 1
+  },
+  {
+    "id": 27,
+    "question": "Où à commencer Apple ?",
+    "category": "general",
+    "answer": "Garage",
+    "difficulty": 1
+  },
+  {
+    "id": 28,
+    "question": "Quel a été le premier business de Amazon ?",
+    "category": "general",
+    "answer": "Librairie",
+    "difficulty": 1
+  },
+  {
+    "id": 29,
+    "question": "Qui est le CEO d'Amazon ?",
+    "category": "general",
+    "answer": "Andy Jassy",
+    "hint": "Il a remplacé Jeff Bezos en 2021.",
+    "difficulty": 3
+  },
+  {
+    "id": 30,
+    "question": "Qui est le CEO de Tesla ?",
+    "category": "general",
+    "answer": "Elon Musk",
+    "difficulty": 1
+  },
+  {
+    "id": 31,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Canada",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/canada.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 31,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "France",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/france.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 32,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "États-Unis",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/usa.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 33,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Royaume-Uni",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/uk.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 34,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Allemagne",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/germany.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 35,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Italie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/italy.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 36,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Japon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/japan.svg",
+    "mediaType": "image"
+  },
+  {
+    "id": 37,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Russie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/russia.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 38,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Chine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/china.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 39,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Brésil",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/brazil.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 40,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Australie",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/australia.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 41,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Inde",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/india.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 42,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Corée du Sud",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/south_korea.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 43,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Mexique",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/mexico.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 44,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Espagne",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/spain.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 45,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Portugal",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/portugal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 46,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Suisse",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/switzerland.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 47,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Finlande",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/finland.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 48,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "République Tchèque",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/czech_republic.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 49,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Israël",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/israel.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 50,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Arabi Saoudite",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/saudi_arabia.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 51,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Turquie",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/turkey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 52,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Argentine",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/argentina.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 53,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Bélarus",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/belarus.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 54,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Suède",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/sweden.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 55,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "Mozambique",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/mozambique.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 56,
+    "question": "Complète la phrase. Le Canada est le deuxième plus grand pays du monde en terme de ___.",
+    "category": "complete-the-sentence",
+    "answer": "Superficie",
+    "difficulty": 1
+  },
+  {
+    "id": 57,
+    "question": "Complète le proverbe. Qui sème le vent, récolte la ___.",
+    "category": "complete-the-sentence",
+    "answer": "Tempête",
+    "difficulty": 1
+  },
+  {
+    "id": 58,
+    "question": "Complète l'expression. Tire toi une ___.",
+    "category": "complete-the-sentence",
+    "answer": "Bûche",
+    "difficulty": 1
+  },
+  {
+    "id": 59,
+    "question": "Complète le proverbe. Une pierre qui roule n'amasse pas ___.",
+    "category": "complete-the-sentence",
+    "answer": "Mousse",
+    "difficulty": 1
+  },
+  {
+    "id": 60,
+    "question": "Complète l'expression. Ne pas mettre la charrue avant les ___.",
+    "category": "complete-the-sentence",
+    "answer": "Boeufs",
+    "difficulty": 1
+  },
+  {
+    "id": 61,
+    "question": "Complète l'expression. Ne pas mettre tous ses ___ dans le même panier.",
+    "category": "complete-the-sentence",
+    "answer": "Oeufs",
+    "difficulty": 1
+  },
+  {
+    "id": 62,
+    "question": "Complète l'expression. Il ne faut pas vendre la ___ de l'ours avant de l'avoir tué.",
+    "category": "complete-the-sentence",
+    "answer": "Peau",
+    "difficulty": 1
+  },
+  {
+    "id": 63,
+    "question": "Complète l'expression. Il pleut des ___.",
+    "category": "complete-the-sentence",
+    "answer": "Cordes",
+    "difficulty": 1
+  },
+  {
+    "id": 64,
+    "question": "Complète l'expression. La tête à ___.",
+    "category": "complete-the-sentence",
+    "answer": "Papineau",
+    "difficulty": 2
+  },
+  {
+    "id": 65,
+    "question": "Complète l'expression. Avoir de ___ dans la cave.",
+    "category": "complete-the-sentence",
+    "answer": "L'eau",
+    "difficulty": 1
+  },
+  {
+    "id": 66,
+    "question": "Complète l'expression. Ça coûte un bras et une ___.",
+    "category": "complete-the-sentence",
+    "answer": "Jambe",
+    "difficulty": 1
+  },
+  {
+    "id": 67,
+    "question": "Complète l'expression. Briser la ___.",
+    "category": "complete-the-sentence",
+    "answer": "Glace",
+    "difficulty": 1
+  },
+  {
+    "id": 68,
+    "question": "Complète l'expression. Comparer des ___ et des oranges.",
+    "category": "complete-the-sentence",
+    "answer": "Pommes",
+    "difficulty": 2
+  },
+  {
+    "id": 69,
+    "question": "Complète l'expression. Mieux vaut tard que ___.",
+    "category": "complete-the-sentence",
+    "answer": "Jamais",
+    "difficulty": 1
+  },
+  {
+    "id": 70,
+    "question": "Quel est la voiture la plus rapide du monde ?",
+    "category": "general",
+    "answer": "Koenigsegg Jesko Absolut",
+    "hint": "C'est une voiture suédoise sortie en 2020 et elle a détroné la Bugatti Chiron.",
+    "difficulty": 3
+  },
+  {
+    "id": 71,
+    "question": "Quel est l'animal officiel du Canada ?",
+    "category": "general",
+    "answer": "Le castor",
+    "difficulty": 1
+  },
+  {
+    "id": 72,
+    "question": "Quel est le nom de l'ocean entre l'Amérique et l'Europe ?",
+    "category": "general",
+    "answer": "L'océan Atlantique",
+    "difficulty": 1
+  },
+  {
+    "id": 72,
+    "question": "Quel est le nom de l'ocean entre l'Amérique et L'Asie ?",
+    "category": "general",
+    "answer": "L'océan Pacifique",
+    "difficulty": 1
+  },
+  {
+    "id": 73,
+    "question": "Quel est la mer la plus salée du monde ?",
+    "category": "general",
+    "answer": "La mer Morte",
+    "difficulty": 2
+  },
+  {
+    "id": 74,
+    "question": "Quel est la densité de la mer Morte ?",
+    "category": "general",
+    "answer": "Proche de 1.24",
+    "difficulty": 3
+  },
+  {
+    "id": 75,
+    "question": "Quel est le point le plus au nord ?",
+    "category": "general",
+    "answer": "Le pôle Nord",
+    "difficulty": 1
+  },
+  {
+    "id": 76,
+    "question": "Quel est le point le plus au sud ?",
+    "category": "general",
+    "answer": "Le pôle Sud",
+    "difficulty": 1
+  },
+  {
+    "id": 77,
+    "question": "Quel est la plus grande baleine ?",
+    "category": "animals",
+    "answer": "La baleine bleue",
+    "difficulty": 1
+  },
+  {
+    "id": 78,
+    "question": "Quel est le plus gros mammifère ?",
+    "category": "animals",
+    "answer": "La baleine bleue",
+    "difficulty": 2
+  },
+  {
+    "id": 79,
+    "question": "Quel est le plus gros mammifère terrestre ?",
+    "category": "animals",
+    "answer": "L'éléphant",
+    "difficulty": 1
+  },
+  {
+    "id": 80,
+    "question": "Durant quel période les cerfs perdent-ils leurs bois ?",
+    "category": "animals",
+    "answer": "Fin de l'hiver / début du printemps",
+    "difficulty": 2
+  },
+  {
+    "id": 81,
+    "question": "Quel animal à les plus grand bois ?",
+    "category": "animals",
+    "answer": "L'élan",
+    "difficulty": 2
+  },
+  {
+    "id": 82,
+    "question": "Quel signe zodia vient entre vierge et scorpion ?",
+    "category": "general",
+    "answer": "Balance",
+    "difficulty": 1
+  },
+  {
+    "id": 83,
+    "question": "Quel est le symbol du signe zodiaque des gemeaux ?",
+    "category": "general",
+    "answer": "Les jumeaux",
+    "difficulty": 1
+  },
+  {
+    "id": 84,
+    "question": "Quel est le jour de la résurrection de Jésus ?",
+    "category": "general",
+    "answer": "Pâques",
+    "difficulty": 1
+  },
+  {
+    "id": 85,
+    "question": "Quel est le pilote de F1 avec le plus de victoires ?",
+    "category": "general",
+    "answer": "Lewis Hamilton",
+    "hint": "Il a battu le record de Michael Schumacher en 2020.",
+    "difficulty": 2
+  },
+  {
+    "id": 86,
+    "question": "Que veux dire IA en informatique ?",
+    "category": "general",
+    "answer": "Intelligence Artificielle",
+    "difficulty": 1
+  },
+  {
+    "id": 87,
+    "question": "Quel est le nom de l'IA de Google ?",
+    "category": "general",
+    "answer": "Gemini",
+    "difficulty": 2
+  },
+  {
+    "id": 88,
+    "question": "Quel catégorie de sang est un donneur universel ?",
+    "category": "general",
+    "answer": "O-",
+    "difficulty": 2
+  },
+  {
+    "id": 89,
+    "question": "Quel est le nom de la première femme pilote ?",
+    "category": "general",
+    "answer": "Raymonde de Laroche",
+    "difficulty": 3
+  },
+  {
+    "id": 90,
+    "question": "Quel est le nom de la bombe nucléaire larguée sur Hiroshima ?",
+    "category": "history",
+    "answer": "Little Boy",
+    "difficulty": 2
+  },
+  {
+    "id": 91,
+    "question": "Quel est le signe zodiaque représenté par un crabe ?",
+    "category": "general",
+    "answer": "Cancer",
+    "difficulty": 1
+  },
+  {
+    "id": 92,
+    "question": "Que représente les lettres dans l'acronyme NASA ?",
+    "category": "general",
+    "answer": "National Aeronautics and Space Administration",
+    "difficulty": 2
+  },
+  {
+    "id": 93,
+    "question": "Que représente les lettres dans l'acronyme GMT ?",
+    "category": "general",
+    "answer": "Greenwich Mean Time",
+    "difficulty": 3
+  },
+  {
+    "id": 94,
+    "question": "Quel est le nom de la première femme à avoir reçu un prix Nobel ?",
+    "category": "general",
+    "answer": "Marie Curie",
+    "difficulty": 2
+  },
+  {
+    "id": 95,
+    "question": "Which city is name the Big Apple ?",
+    "category": "general",
+    "answer": "New York",
+    "difficulty": 1
+  },
+  {
+    "id": 96,
+    "question": "Quel sont les couleurs du logo Google ?",
+    "category": "general",
+    "answer": "Rouge, jaune, vert, bleu",
+    "difficulty": 1
+  },
+  {
+    "id": 97,
+    "question": "Combien de couleur comporte l'arc-en-ciel ?",
+    "category": "general",
+    "answer": "7",
+    "difficulty": 1
+  },
+  {
+    "id": 98,
+    "question": "Vrai ou Faux. La licorne est l'animal national de l'Écosse.",
+    "category": "general",
+    "answer": "Vrai",
+    "difficulty": 2
+  }
+]

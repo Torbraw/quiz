@@ -1,8 +1,0 @@
-{
-  "question": "What game is this image from?",
-  "category": "video-games",
-  "answer": "Doom",
-  "difficulty": 3,
-  "mediaSrc": "/src/assets/images/doom.webp",
-  "mediaType": "image"
-}
