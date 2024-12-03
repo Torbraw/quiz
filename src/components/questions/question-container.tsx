@@ -92,7 +92,7 @@ export const QuestionContainer: Component<Props> = (props) => {
 
   return (
     <div class="flex flex-col gap-4">
-      <Show when={showTimer()}>
+      <Show when={showTimer() && !showAnswer()}>
         <div class="absolute top-8 left-8">
           <Timer duration={duration()} onEnd={() => onTimerEnd()} clear={clearTimer()} />
         </div>
@@ -137,10 +137,10 @@ export const QuestionContainer: Component<Props> = (props) => {
           <Show
             when={nextId()}
             fallback={
-              <div class="flex flex-col gap-4 items-center">
+              <div class="flex flex-col items-center">
                 <p>{t("allAnswered")}</p>
                 <p>{t("allAnswered2")}</p>
-                <div class="flex flex-row gap-4">
+                <div class="flex flex-row gap-4 pt-2">
                   <a
                     aria-label="new-game"
                     classList={{
