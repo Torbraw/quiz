@@ -4,7 +4,7 @@ import { file } from "astro/loaders";
 export const CATEGORIES = z.enum([
   "general",
   "blind-test",
-  "movies",
+  "cinema",
   "cartoons",
   "celebrities-qc",
   "celebrities",

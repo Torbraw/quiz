@@ -18,7 +18,7 @@
   {
     "id": 3,
     "question": "Which movie is this scene from?",
-    "category": "movies",
+    "category": "cinema",
     "answer": "John Wick",
     "difficulty": 2,
     "mediaSrc": "/src/assets/videos/perkins.mp4",
@@ -776,7 +776,7 @@
   },
   {
     "id": 98,
-    "question": "True or False: The unicorn is the national animal of Scotland.",
+    "question": "True or False. The unicorn is the national animal of Scotland.",
     "category": "general",
     "answer": "True",
     "difficulty": 2
@@ -1012,7 +1012,7 @@
   },
   {
     "id": 131,
-    "question": "True or False: The French kingdom helped the Americans win their independence.",
+    "question": "True or False. The French kingdom helped the Americans win their independence.",
     "category": "history",
     "answer": "True",
     "difficulty": 2
@@ -1076,9 +1076,165 @@
   },
   {
     "id": 140,
-    "question": "True or False: Trois-Rivières is the second oldest city in Quebec.",
+    "question": "True or False. Trois-Rivières is the second oldest city in Quebec.",
     "category": "history",
     "answer": "True",
     "difficulty": 2
-  }
+  },
+  [
+    {
+      "id": 141,
+      "question": "In which year did Canada transition to color television?",
+      "category": "general",
+      "answer": "1964 / 1966",
+      "difficulty": 3
+    },
+    {
+      "id": 142,
+      "question": "What is the first television channel in Quebec?",
+      "category": "general",
+      "answer": "Radio-Canada",
+      "difficulty": 2
+    },
+    {
+      "id": 143,
+      "question": "What is the main electricity provider in Quebec?",
+      "category": "general",
+      "answer": "Hydro-Québec",
+      "difficulty": 1
+    },
+    {
+      "id": 144,
+      "question": "What is the name of Tesla's first electric car?",
+      "category": "general",
+      "answer": "Roadster",
+      "difficulty": 1
+    },
+    {
+      "id": 145,
+      "question": "What is the population of Quebec?",
+      "category": "general",
+      "answer": "8.5 million",
+      "difficulty": 2
+    },
+    {
+      "id": 146,
+      "question": "What is the population of Canada?",
+      "category": "general",
+      "answer": "40 million",
+      "difficulty": 2
+    },
+    {
+      "id": 147,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Normandy Landings",
+      "difficulty": 1,
+      "mediaSrc": "/src/assets/images/normandy_landings.jpg",
+      "mediaType": "image"
+    },
+    {
+      "id": 148,
+      "question": "Which event is depicted in this image?",
+      "category": "history",
+      "answer": "Battle of the Bulge",
+      "difficulty": 3,
+      "mediaSrc": "/src/assets/images/bulge_battle.jpg.jpg",
+      "mediaType": "image"
+    },
+    {
+      "id": 149,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Battle of Stalingrad",
+      "difficulty": 3,
+      "mediaSrc": "/src/assets/images/stalingrad_battle.webp",
+      "mediaType": "image"
+    },
+    {
+      "id": 150,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Battle of Verdun",
+      "difficulty": 3,
+      "mediaSrc": "/src/assets/images/verdun_battle.webp",
+      "mediaType": "image"
+    },
+    {
+      "id": 151,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Battle of Kursk",
+      "difficulty": 3,
+      "mediaSrc": "/src/assets/images/kursk_battle.jpg",
+      "mediaType": "image"
+    },
+    {
+      "id": 152,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Fall of the Berlin Wall",
+      "difficulty": 1,
+      "mediaSrc": "/src/assets/images/berlin_wall_fall.jpg",
+      "mediaType": "image"
+    },
+    {
+      "id": 153,
+      "question": "What event is depicted in this image?",
+      "category": "history",
+      "answer": "Battle of Waterloo",
+      "difficulty": 3,
+      "mediaSrc": "/src/assets/images/waterloo_battle.jpg",
+      "mediaType": "image"
+    },
+    {
+      "id": 154,
+      "question": "This field is sometimes known as 'the dismal science.'",
+      "category": "general",
+      "answer": "Economics",
+      "difficulty": 3
+    },
+    {
+      "id": 155,
+      "question": "Which movie star has a statue in Leicester Square?",
+      "category": "general",
+      "answer": "Charlie Chaplin",
+      "difficulty": 3
+    },
+    {
+      "id": 156,
+      "question": "Who is the co-founder of Spotify?",
+      "category": "general",
+      "answer": "Daniel Ek",
+      "difficulty": 3
+    },
+    {
+      "id": 157,
+      "question": "Which chemical element, number 11 on the periodic table, has the symbol Na?",
+      "category": "general",
+      "answer": "Sodium",
+      "difficulty": 2
+    },
+    {
+      "id": 158,
+      "question": "What is the scientific formula for water?",
+      "category": "general",
+      "answer": "H2O",
+      "difficulty": 1
+    },
+    {
+      "id": 159,
+      "question": "What is the scientific formula for oxygen?",
+      "category": "general",
+      "answer": "O2",
+      "difficulty": 1
+    },
+    {
+      "id": 160,
+      "question": "What is the scientific formula for carbon dioxide?",
+      "category": "general",
+      "answer": "CO2",
+      "difficulty": 1
+    }
+  ]
 ]

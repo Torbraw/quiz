@@ -18,7 +18,7 @@
   {
     "id": 3,
     "question": "De quel film est tirée cette scène ?",
-    "category": "movies",
+    "category": "cinema",
     "answer": "John Wick",
     "difficulty": 2,
     "mediaSrc": "/src/assets/videos/perkins.mp4",
@@ -1076,9 +1076,163 @@
   },
   {
     "id": "140",
-    "question": "Vraii ou faux. Trois-Rivières est la deuxième plus vieille ville du Québec.",
+    "question": "Vrai ou faux. Trois-Rivières est la deuxième plus vieille ville du Québec.",
     "category": "history",
     "answer": "Vrai",
     "difficulty": 2
+  },
+  {
+    "id": 141,
+    "question": "En quel année à eu lieu le passage à la couleur à la télévision au Canada ?",
+    "category": "general",
+    "answer": "1964 / 1966",
+    "difficulty": 3
+  },
+  {
+    "id": 142,
+    "question": "Quel est la première chaine de télévision au Québec ?",
+    "category": "general",
+    "answer": "Radio-Canada",
+    "difficulty": 2
+  },
+  {
+    "id": 143,
+    "question": "Quel est le fournisseur d'électricité principale au Québec ?",
+    "category": "general",
+    "answer": "Hydro-Québec",
+    "difficulty": 1
+  },
+  {
+    "id": 144,
+    "question": "Quel est le nom de la première voiture électrique de Tesla ?",
+    "category": "general",
+    "answer": "Roadster",
+    "difficulty": 1
+  },
+  {
+    "id": 145,
+    "question": "Quel est la population du Québec ?",
+    "category": "general",
+    "answer": "8.5 millions",
+    "difficulty": 2
+  },
+  {
+    "id": 146,
+    "question": "Quel est la population du Canada ?",
+    "category": "general",
+    "answer": "40 millions",
+    "difficulty": 2
+  },
+  {
+    "id": 147,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "Le débarquement de Normandie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/normandy_landings.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 148,
+    "question": "De quel événement est tiré cette image ?",
+    "category": "history",
+    "answer": "La bataille des Ardennes",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/bulge_battle.jpg.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 149,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "La bataille de Stalingrad",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/stalingrad_battle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 150,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "La bataille de Verdun",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/verdun_battle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 151,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "La bataille de Koursk",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/kursk_battle.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 152,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "La chute du mur de Berlin",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/berlin_wall_fall.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 153,
+    "question": "Quel est l'évènement représenté sur cette image ?",
+    "category": "history",
+    "answer": "La bataille de Waterloo",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/waterloo_battle.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 154,
+    "question": "Ce domaine est parfois connu sous le nom de 'la science lugubre'.",
+    "category": "general",
+    "answer": "Science économique",
+    "difficulty": 3
+  },
+  {
+    "id": 155,
+    "question": "Quelle star de cinéma a sa statue sur Leicester Square ?",
+    "category": "general",
+    "answer": "Charlie Chaplin",
+    "difficulty": 3
+  },
+  {
+    "id": 156,
+    "question": "Qui est le co-fondateur de Spotify ?",
+    "category": "general",
+    "answer": "Daniel Ek",
+    "difficulty": 3
+  },
+  {
+    "id": 157,
+    "question": "Quel élément chimique, numéro 11 sur le tableau périodique, a le symbole Na ?",
+    "category": "general",
+    "answer": "Sodium",
+    "difficulty": 2
+  },
+  {
+    "id": 158,
+    "question": "Quel est la formule scientifique de l'eau ?",
+    "category": "general",
+    "answer": "H2O",
+    "difficulty": 1
+  },
+  {
+    "id": 159,
+    "question": "Quel est la formule scientifique de l'oxygène ?",
+    "category": "general",
+    "answer": "O2",
+    "difficulty": 1
+  },
+  {
+    "id": 160,
+    "question": "Quel est la formule scientifique du dioxyde de carbone ?",
+    "category": "general",
+    "answer": "CO2",
+    "difficulty": 1
   }
 ]

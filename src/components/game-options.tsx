@@ -13,7 +13,7 @@ import { Switch, SwitchControl, SwitchLabel, SwitchThumb } from "./ui/switch";
 const MIN_TIMER_DURATION = 30;
 const MAX_TIMER_DURATION = 300;
 const MIN_NUMBER_OF_QUESTIONS = 1;
-const MAX_NUMBER_OF_QUESTIONS = 20;
+const MAX_NUMBER_OF_QUESTIONS = 50;
 
 type Props = {
   questions: QuestionWithId[];
