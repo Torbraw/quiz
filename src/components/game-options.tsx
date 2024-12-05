@@ -12,8 +12,8 @@ import { Switch, SwitchControl, SwitchLabel, SwitchThumb } from "./ui/switch";
 
 const MIN_TIMER_DURATION = 30;
 const MAX_TIMER_DURATION = 300;
-const MIN_NUMBER_OF_QUESTIONS = 1;
-const MAX_NUMBER_OF_QUESTIONS = 50;
+const MIN_NUMBER_OF_QUESTIONS = 10;
+const MAX_NUMBER_OF_QUESTIONS = 100;
 
 type Props = {
   questions: QuestionWithId[];
@@ -29,7 +29,7 @@ export const GameOptions: Component<Props> = (props) => {
   const [timerDuration, setTimerDuration] = createSignal<number>(60);
 
   const [autoShowAnswer, setAutoShowAnswer] = createSignal<boolean>(true);
-  const [numberOfQuestions, setNumberOfQuestions] = createSignal<number>(10);
+  const [numberOfQuestions, setNumberOfQuestions] = createSignal<number>(MIN_NUMBER_OF_QUESTIONS);
   const [availableQuestions, setAvailableQuestions] = createSignal<QuestionWithId[]>(local.questions);
 
   const [categories, setCategories] = createStore<
