@@ -66,13 +66,6 @@
     "difficulty": 2
   },
   {
-    "id": 203,
-    "question": "Vrai ou faux. Donald trump à commencé son premier mandat en 2017.",
-    "category": "general",
-    "answer": "Vrai",
-    "difficulty": 2
-  },
-  {
     "id": 9,
     "question": "Vrai ou faux. Le Canada à 7 fuseaux horaires.",
     "category": "general",
@@ -210,7 +203,7 @@
   },
   {
     "id": 27,
-    "question": "Où à commencer Apple ?",
+    "question": "Où à commencer  ?",
     "category": "general",
     "answer": "Garage",
     "difficulty": 1
@@ -244,15 +237,6 @@
     "answer": "Canada",
     "difficulty": 1,
     "mediaSrc": "/src/assets/images/canada.png",
-    "mediaType": "image"
-  },
-  {
-    "id": 201,
-    "question": "Quel drapeau est représenté sur cette image ?",
-    "category": "flags",
-    "answer": "France",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/images/france.webp",
     "mediaType": "image"
   },
   {
@@ -585,13 +569,6 @@
     "difficulty": 1
   },
   {
-    "id": 202,
-    "question": "Quel est le nom de l'ocean entre l'Amérique et l'Europe ?",
-    "category": "general",
-    "answer": "L'océan Atlantique",
-    "difficulty": 1
-  },
-  {
     "id": 72,
     "question": "Quel est le nom de l'ocean entre l'Amérique et L'Asie ?",
     "category": "general",
@@ -755,7 +732,7 @@
   },
   {
     "id": 95,
-    "question": "Which city is name the Big Apple ?",
+    "question": "Which city is name the Big  ?",
     "category": "general",
     "answer": "New York",
     "difficulty": 1
@@ -1593,6 +1570,317 @@
     "answer": "Basilique Sainte-Anne-de-Beaupré",
     "difficulty": 3,
     "mediaSrc": "/src/assets/images/sainte_anne_basilica.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 201,
+    "question": "Quel drapeau est représenté sur cette image ?",
+    "category": "flags",
+    "answer": "France",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/france.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 202,
+    "question": "Quel est le nom de l'ocean entre l'Amérique et l'Europe ?",
+    "category": "general",
+    "answer": "L'océan Atlantique",
+    "difficulty": 1
+  },
+  {
+    "id": 203,
+    "question": "Vrai ou faux. Donald trump à commencé son premier mandat en 2017.",
+    "category": "general",
+    "answer": "Vrai",
+    "difficulty": 2
+  },
+  {
+    "id": 204,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Apple",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/apple.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 205,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Microsoft",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/microsoft.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 206,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Amazon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/amazon.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 207,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Puma",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/puma.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 208,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Adidas",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/adidas.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 209,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Subway",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/subway.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 210,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "McDonald's",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mcdo.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 211,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Boston Pizza",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/boston_pizza.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 212,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Tesla",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/tesla.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 213,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "John Deere",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/john_deere.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 214,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "New Holland",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/new_holland.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 215,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Target",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/target.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 216,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Canadian Tire",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/canadian_tire.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 217,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Starbucks",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/starbucks.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 218,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Google",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/google.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 219,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Nike",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/nike.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 220,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Ferrari",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/ferrari.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 221,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Mitshubishi",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/mitsubishi.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 222,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Android",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/android.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 223,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Chanel",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/chanel.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 224,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Mazda",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/mazda.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 225,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Honda",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/honda.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 226,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Facebook",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/facebook.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 227,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Instagram",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/instagram.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 228,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Tik Tok",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/tik_tok.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 229,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Radio Canada",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/radio_canada.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 230,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Shell",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/shell.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 231,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Playboy",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/playboy.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 232,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Huawei",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/huawei.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 233,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Twitch",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/twitch.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 234,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Youtube",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/youtube.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 235,
+    "question": "Quel est le nom de ce logo ?",
+    "category": "logo",
+    "answer": "Wikipedia",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/wikipedia.png",
     "mediaType": "image"
   }
 ]
