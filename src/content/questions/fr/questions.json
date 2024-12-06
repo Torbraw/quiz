@@ -1610,7 +1610,7 @@
     "category": "logo",
     "answer": "Microsoft",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/images/microsoft.webp",
+    "mediaSrc": "/src/assets/images/microsoft.png",
     "mediaType": "image"
   },
   {
@@ -1664,7 +1664,7 @@
     "category": "logo",
     "answer": "Boston Pizza",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/images/boston_pizza.png",
+    "mediaSrc": "/src/assets/images/boston_pizza.svg",
     "mediaType": "image"
   },
   {
@@ -1772,7 +1772,7 @@
     "category": "logo",
     "answer": "Chanel",
     "difficulty": 2,
-    "mediaSrc": "/src/assets/images/chanel.png",
+    "mediaSrc": "/src/assets/images/chanel.jpg",
     "mediaType": "image"
   },
   {
@@ -1853,7 +1853,7 @@
     "category": "logo",
     "answer": "Huawei",
     "difficulty": 2,
-    "mediaSrc": "/src/assets/images/huawei.webp",
+    "mediaSrc": "/src/assets/images/huawei.jpg",
     "mediaType": "image"
   },
   {
