@@ -247,7 +247,7 @@
     "mediaType": "image"
   },
   {
-    "id": 31,
+    "id": 201,
     "question": "Which flag is represented in this image?",
     "category": "flags",
     "answer": "France",
@@ -592,7 +592,7 @@
     "difficulty": 1
   },
   {
-    "id": 72,
+    "id": 202,
     "question": "What is the name of the ocean between America and Asia?",
     "category": "general",
     "answer": "The Pacific Ocean",
@@ -1081,520 +1081,518 @@
     "answer": "True",
     "difficulty": 2
   },
-  [
-    {
-      "id": 141,
-      "question": "In which year did Canada transition to color television?",
-      "category": "general",
-      "answer": "1964 / 1966",
-      "difficulty": 3
-    },
-    {
-      "id": 142,
-      "question": "What is the first television channel in Quebec?",
-      "category": "general",
-      "answer": "Radio-Canada",
-      "difficulty": 2
-    },
-    {
-      "id": 143,
-      "question": "What is the main electricity provider in Quebec?",
-      "category": "general",
-      "answer": "Hydro-Québec",
-      "difficulty": 1
-    },
-    {
-      "id": 144,
-      "question": "What is the name of Tesla's first electric car?",
-      "category": "general",
-      "answer": "Roadster",
-      "difficulty": 1
-    },
-    {
-      "id": 145,
-      "question": "What is the population of Quebec?",
-      "category": "general",
-      "answer": "8.5 million",
-      "difficulty": 2
-    },
-    {
-      "id": 146,
-      "question": "What is the population of Canada?",
-      "category": "general",
-      "answer": "40 million",
-      "difficulty": 2
-    },
-    {
-      "id": 147,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Normandy Landings",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/normandy_landings.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 148,
-      "question": "Which event is depicted in this image?",
-      "category": "history",
-      "answer": "Battle of the Bulge",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/bulge_battle.jpg.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 149,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Battle of Stalingrad",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/stalingrad_battle.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 150,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Battle of Verdun",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/verdun_battle.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 151,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Battle of Kursk",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/kursk_battle.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 152,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Fall of the Berlin Wall",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/berlin_wall_fall.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 153,
-      "question": "What event is depicted in this image?",
-      "category": "history",
-      "answer": "Battle of Waterloo",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/waterloo_battle.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 154,
-      "question": "This field is sometimes known as 'the dismal science.'",
-      "category": "general",
-      "answer": "Economics",
-      "difficulty": 3
-    },
-    {
-      "id": 155,
-      "question": "Which movie star has a statue in Leicester Square?",
-      "category": "general",
-      "answer": "Charlie Chaplin",
-      "difficulty": 3
-    },
-    {
-      "id": 156,
-      "question": "Who is the co-founder of Spotify?",
-      "category": "general",
-      "answer": "Daniel Ek",
-      "difficulty": 3
-    },
-    {
-      "id": 157,
-      "question": "Which chemical element, number 11 on the periodic table, has the symbol Na?",
-      "category": "general",
-      "answer": "Sodium",
-      "difficulty": 2
-    },
-    {
-      "id": 158,
-      "question": "What is the scientific formula for water?",
-      "category": "general",
-      "answer": "H2O",
-      "difficulty": 1
-    },
-    {
-      "id": 159,
-      "question": "What is the scientific formula for oxygen?",
-      "category": "general",
-      "answer": "O2",
-      "difficulty": 1
-    },
-    {
-      "id": 160,
-      "question": "What is the scientific formula for carbon dioxide?",
-      "category": "general",
-      "answer": "CO2",
-      "difficulty": 1
-    },
-    {
-      "id": 161,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Angkor Wat",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/angkor_wat.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 162,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Sydney Opera House",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/sydney_opera.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 163,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Eiffel Tower",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/eiffel_tower.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 164,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Taj Mahal",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/taj_mahal.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 165,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Machu Picchu",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/machu_picchu.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 166,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "The Great Wall of China",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/china_wall.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 167,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Mount Rushmore",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/mount_rushmore.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 168,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Mont Saint-Michel",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/saint_michel.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 169,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "The Acropolis",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/acropolis.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 170,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "The Brandenburg Gate",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/brandenburg_gate.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 171,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Easter Island",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/easter-island.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 172,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Golden Gate Bridge",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/golden_bridge.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 173,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Neuschwanstein Castle",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/neuschwanstein_castle.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 174,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "The Leaning Tower of Pisa",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/pisa_tower.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 175,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Pyramids of Giza",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/giza_pyramid.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 176,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Victoria Falls",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/victiora_falls.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 177,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Buckingham Palace",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/buckingham_palace.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 178,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Sagrada Familia Basilica",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/sagrada_familia_basilica.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 179,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Christ the Redeemer",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/rio_christ.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 180,
-      "question": "What is the monument represented in this image?",
-      "category": "monuments",
-      "answer": "Blue Mosque",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/blue_mosque.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 181,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Colosseum",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/colosseum.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 182,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Grand Palace (Bangkok)",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/grand_palace.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 183,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Statue of Liberty",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/liberty_statue.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 184,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Petra",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/petra.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 185,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Ha Long Bay",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/ha_long_bay.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 186,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Stonehenge",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/stonehenge.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 187,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Mount Fuji",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/mont_fuji.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 188,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Potala Palace",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/potala_palace.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 189,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Lake Louise",
-      "difficulty": 2,
-      "mediaSrc": "/src/assets/images/lake_louise.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 190,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Grand Canyon",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/grand_canyon.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 191,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Salar de Uyuni",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/uyuni_salt_flats.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 192,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Big Ben",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/big_ben.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 193,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Bell Center",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/bell_center.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 194,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Niagara Falls",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/niagara_falls.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 195,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Samuel de Champlain Monument",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/champlain_monument.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 196,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Château Frontenac",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/frontenac_castle.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 197,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Maisonneuve Monument",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/maisonneuve.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 198,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Expo 67",
-      "difficulty": 1,
-      "mediaSrc": "/src/assets/images/expo_67.jpg",
-      "mediaType": "image"
-    },
-    {
-      "id": 199,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Place d'Armes",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/place_darmes.webp",
-      "mediaType": "image"
-    },
-    {
-      "id": 200,
-      "question": "What is the monument shown in this image?",
-      "category": "monuments",
-      "answer": "Basilica of Sainte-Anne-de-Beaupré",
-      "difficulty": 3,
-      "mediaSrc": "/src/assets/images/sainte_anne_basilica.webp",
-      "mediaType": "image"
-    }
-  ]
+  {
+    "id": 141,
+    "question": "In which year did Canada transition to color television?",
+    "category": "general",
+    "answer": "1964 / 1966",
+    "difficulty": 3
+  },
+  {
+    "id": 142,
+    "question": "What is the first television channel in Quebec?",
+    "category": "general",
+    "answer": "Radio-Canada",
+    "difficulty": 2
+  },
+  {
+    "id": 143,
+    "question": "What is the main electricity provider in Quebec?",
+    "category": "general",
+    "answer": "Hydro-Québec",
+    "difficulty": 1
+  },
+  {
+    "id": 144,
+    "question": "What is the name of Tesla's first electric car?",
+    "category": "general",
+    "answer": "Roadster",
+    "difficulty": 1
+  },
+  {
+    "id": 145,
+    "question": "What is the population of Quebec?",
+    "category": "general",
+    "answer": "8.5 million",
+    "difficulty": 2
+  },
+  {
+    "id": 146,
+    "question": "What is the population of Canada?",
+    "category": "general",
+    "answer": "40 million",
+    "difficulty": 2
+  },
+  {
+    "id": 147,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Normandy Landings",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/normandy_landings.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 148,
+    "question": "Which event is depicted in this image?",
+    "category": "history",
+    "answer": "Battle of the Bulge",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/bulge_battle.jpg.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 149,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Battle of Stalingrad",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/stalingrad_battle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 150,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Battle of Verdun",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/verdun_battle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 151,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Battle of Kursk",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/kursk_battle.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 152,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Fall of the Berlin Wall",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/berlin_wall_fall.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 153,
+    "question": "What event is depicted in this image?",
+    "category": "history",
+    "answer": "Battle of Waterloo",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/waterloo_battle.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 154,
+    "question": "This field is sometimes known as 'the dismal science.'",
+    "category": "general",
+    "answer": "Economics",
+    "difficulty": 3
+  },
+  {
+    "id": 155,
+    "question": "Which movie star has a statue in Leicester Square?",
+    "category": "general",
+    "answer": "Charlie Chaplin",
+    "difficulty": 3
+  },
+  {
+    "id": 156,
+    "question": "Who is the co-founder of Spotify?",
+    "category": "general",
+    "answer": "Daniel Ek",
+    "difficulty": 3
+  },
+  {
+    "id": 157,
+    "question": "Which chemical element, number 11 on the periodic table, has the symbol Na?",
+    "category": "general",
+    "answer": "Sodium",
+    "difficulty": 2
+  },
+  {
+    "id": 158,
+    "question": "What is the scientific formula for water?",
+    "category": "general",
+    "answer": "H2O",
+    "difficulty": 1
+  },
+  {
+    "id": 159,
+    "question": "What is the scientific formula for oxygen?",
+    "category": "general",
+    "answer": "O2",
+    "difficulty": 1
+  },
+  {
+    "id": 160,
+    "question": "What is the scientific formula for carbon dioxide?",
+    "category": "general",
+    "answer": "CO2",
+    "difficulty": 1
+  },
+  {
+    "id": 161,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Angkor Wat",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/angkor_wat.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 162,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Sydney Opera House",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/sydney_opera.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 163,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Eiffel Tower",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/eiffel_tower.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 164,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Taj Mahal",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/taj_mahal.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 165,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Machu Picchu",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/machu_picchu.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 166,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "The Great Wall of China",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/china_wall.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 167,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Mount Rushmore",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mount_rushmore.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 168,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Mont Saint-Michel",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/saint_michel.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 169,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "The Acropolis",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/acropolis.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 170,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "The Brandenburg Gate",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/brandenburg_gate.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 171,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Easter Island",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/easter-island.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 172,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Golden Gate Bridge",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/golden_bridge.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 173,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Neuschwanstein Castle",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/neuschwanstein_castle.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 174,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "The Leaning Tower of Pisa",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pisa_tower.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 175,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Pyramids of Giza",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/giza_pyramid.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 176,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Victoria Falls",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/victiora_falls.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 177,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Buckingham Palace",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/buckingham_palace.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 178,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Sagrada Familia Basilica",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/sagrada_familia_basilica.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 179,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Christ the Redeemer",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/rio_christ.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 180,
+    "question": "What is the monument represented in this image?",
+    "category": "monuments",
+    "answer": "Blue Mosque",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/blue_mosque.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 181,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Colosseum",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/colosseum.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 182,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Grand Palace (Bangkok)",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/grand_palace.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 183,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Statue of Liberty",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/liberty_statue.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 184,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Petra",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/petra.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 185,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Ha Long Bay",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/ha_long_bay.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 186,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Stonehenge",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/stonehenge.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 187,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Mount Fuji",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mont_fuji.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 188,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Potala Palace",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/potala_palace.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 189,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Lake Louise",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lake_louise.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 190,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Grand Canyon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/grand_canyon.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 191,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Salar de Uyuni",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/uyuni_salt_flats.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 192,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Big Ben",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/big_ben.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 193,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Bell Center",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/bell_center.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 194,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Niagara Falls",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/niagara_falls.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 195,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Samuel de Champlain Monument",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/champlain_monument.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 196,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Château Frontenac",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/frontenac_castle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 197,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Maisonneuve Monument",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/maisonneuve.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 198,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Expo 67",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/expo_67.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 199,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Place d'Armes",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/place_darmes.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 200,
+    "question": "What is the monument shown in this image?",
+    "category": "monuments",
+    "answer": "Basilica of Sainte-Anne-de-Beaupré",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/sainte_anne_basilica.webp",
+    "mediaType": "image"
+  }
 ]

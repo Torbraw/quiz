@@ -247,7 +247,7 @@
     "mediaType": "image"
   },
   {
-    "id": 31,
+    "id": 201,
     "question": "Quel drapeau est représenté sur cette image ?",
     "category": "flags",
     "answer": "France",
@@ -585,7 +585,7 @@
     "difficulty": 1
   },
   {
-    "id": 72,
+    "id": 202,
     "question": "Quel est le nom de l'ocean entre l'Amérique et l'Europe ?",
     "category": "general",
     "answer": "L'océan Atlantique",
