@@ -1882,5 +1882,12 @@
     "difficulty": 1,
     "mediaSrc": "/src/assets/images/wikipedia.png",
     "mediaType": "image"
+  },
+  {
+    "id": 236,
+    "question": "What is the biggest desert in the world?",
+    "category": "general",
+    "answer": "Antarctica",
+    "difficulty": 1
   }
 ]

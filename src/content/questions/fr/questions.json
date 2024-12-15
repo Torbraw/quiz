@@ -1882,5 +1882,12 @@
     "difficulty": 1,
     "mediaSrc": "/src/assets/images/wikipedia.png",
     "mediaType": "image"
+  },
+  {
+    "id": 236,
+    "question": "Quel est le plus grand désert du monde ?",
+    "category": "general",
+    "answer": "Antarctique",
+    "difficulty": 1
   }
 ]
