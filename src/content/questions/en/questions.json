@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "question": "Which game is this image from?",
+    "question": "Which video game is this image from?",
     "category": "video-games",
     "answer": "Doom",
     "difficulty": 1,
@@ -2655,6 +2655,205 @@
     "question": "What is the name of the storm on Jupiter?",
     "category": "space",
     "answer": "The Great Red Spot",
+    "difficulty": 1
+  },
+  {
+    "id": 356,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Red Dead Redemption",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/read_dead.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 357,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "The Last of Us",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/clicker.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 358,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Pokemon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pikachu.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 359,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Call of Duty: Black Ops 2",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/hijacked.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 360,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Mario",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/koopa.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 361,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Mario Galaxy",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/hungry_lama.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 362,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Final Fantasy",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cloud.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 363,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Sims",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/sims.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 364,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Ratchet and Clank",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/ratchet.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 365,
+    "question": "From which video game is this image?",
+    "category": "video-games",
+    "answer": "Donkey Kong",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/dk.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 366,
+    "question": "Which video game involves saving Princess Peach?",
+    "category": "video-games",
+    "answer": "Mario",
+    "difficulty": 1
+  },
+  {
+    "id": 367,
+    "question": "Which video game features the character Link?",
+    "category": "video-games",
+    "answer": "Zelda",
+    "difficulty": 1
+  },
+  {
+    "id": 368,
+    "question": "What is the best-selling video game of all time?",
+    "category": "video-games",
+    "answer": "Minecraft",
+    "difficulty": 1
+  },
+  {
+    "id": 369,
+    "question": "Which video game involves capturing animals?",
+    "category": "video-games",
+    "answer": "Pokemon",
+    "difficulty": 1
+  },
+  {
+    "id": 370,
+    "question": "Which video game won GOTY in 2023?",
+    "category": "video-games",
+    "answer": "Baldur's Gate 3",
+    "difficulty": 2
+  },
+  {
+    "id": 371,
+    "question": "What was the first video game released on the Atari console?",
+    "category": "video-games",
+    "answer": "Pong",
+    "difficulty": 2
+  },
+  {
+    "id": 372,
+    "question": "What is the name of the popular retro game where you have to box?",
+    "category": "video-games",
+    "answer": "Punch Out",
+    "difficulty": 2
+  },
+  {
+    "id": 373,
+    "question": "Which video game features Dr. Eggman as the main antagonist?",
+    "category": "video-games",
+    "answer": "Sonic",
+    "difficulty": 1
+  },
+  {
+    "id": 374,
+    "question": "Which video game has Zeus as the main antagonist?",
+    "category": "video-games",
+    "answer": "God of War",
+    "difficulty": 2
+  },
+  {
+    "id": 375,
+    "question": "In which video game do you have to escape from hell to the surface?",
+    "category": "video-games",
+    "answer": "Hades",
+    "difficulty": 2
+  },
+  {
+    "id": 376,
+    "question": "What is the first 3D Mario game?",
+    "category": "video-games",
+    "answer": "Super Mario 64",
+    "difficulty": 2
+  },
+  {
+    "id": 377,
+    "question": "I am a video game themed around poker with a roguelike twist. Who am I?",
+    "category": "video-games",
+    "answer": "Balatro",
+    "difficulty": 3
+  },
+  {
+    "id": 378,
+    "question": "Which video game is this image from?",
+    "category": "video-games",
+    "answer": "Space Invaders",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/space_invaders.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 379,
+    "question": "Which video game is this image from?",
+    "category": "video-games",
+    "answer": "Mario Kart",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mario_kart.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 380,
+    "question": "Which video game features a pink ball as the main protagonist?",
+    "category": "video-games",
+    "answer": "Kirby",
     "difficulty": 1
   }
 ]
