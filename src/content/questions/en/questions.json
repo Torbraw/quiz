@@ -1889,5 +1889,395 @@
     "category": "general",
     "answer": "Antarctica",
     "difficulty": 1
+  },
+  {
+    "id": 238,
+    "question": "Find a part of the body by changing a single letter in the following word: 'Dead'.",
+    "category": "for-kids",
+    "answer": "Head",
+    "difficulty": 1
+  },
+  {
+    "id": 239,
+    "question": "How many spikes does Sonic have on his head?",
+    "category": "for-kids",
+    "answer": "6",
+    "difficulty": 1
+  },
+  {
+    "id": 240,
+    "question": "Who is Mufasa's brother?",
+    "category": "for-kids",
+    "answer": "Scar",
+    "difficulty": 1
+  },
+  {
+    "id": 242,
+    "question": "After which grade do we go to secondary school?",
+    "category": "for-kids",
+    "answer": "After Grade 6",
+    "difficulty": 2
+  },
+  {
+    "id": 243,
+    "question": "How do you pronounce the word 'cat' in French?",
+    "category": "for-kids",
+    "answer": "Chat",
+    "difficulty": 1
+  },
+  {
+    "id": 244,
+    "question": "How is the word in the following audio pronounced?",
+    "category": "for-kids",
+    "answer": "Lego",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lego.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 245,
+    "question": "Name 3 superheroes with a red costume.",
+    "category": "for-kids",
+    "answer": "Spider-Man, Thor, Iron Man, Flash, The Incredibles, Superman, Deadpool, Daredevil, Wanda (Scarlet Witch), Hellboy",
+    "difficulty": 1
+  },
+  {
+    "id": 247,
+    "question": "Which object would make the most noise if dropped?",
+    "category": "for-kids",
+    "answer": "Glass / Ceramic",
+    "difficulty": 2
+  },
+  {
+    "id": 249,
+    "question": "Which cereal has a tiger as a mascot?",
+    "category": "for-kids",
+    "answer": "Frosted Flakes",
+    "difficulty": 1
+  },
+  {
+    "id": 250,
+    "question": "Which chocolate bar is made with chocolate and peanut butter?",
+    "category": "for-kids",
+    "answer": "Reese",
+    "difficulty": 1
+  },
+  {
+    "id": 251,
+    "question": "Name three colors of the rainbow.",
+    "category": "for-kids",
+    "answer": "Red, orange, yellow, green, blue, indigo, violet",
+    "difficulty": 1
+  },
+  {
+    "id": 252,
+    "question": "Do the rhythm of the song 'We Will Rock You' by Queen.",
+    "category": "for-kids",
+    "answer": "Stomp, stomp, clap. Stomp, stomp, clap.",
+    "difficulty": 1
+  },
+  {
+    "id": 253,
+    "question": "From which movie does the song 'Let It Go' come?",
+    "category": "for-kids",
+    "answer": "Frozen",
+    "difficulty": 1
+  },
+  {
+    "id": 254,
+    "question": "From which movie does the following audio come?",
+    "category": "for-kids",
+    "answer": "Rocky",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/rocky.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 255,
+    "question": "Conjugate the verb 'Eat' in the first person singular in future tense.",
+    "category": "for-kids",
+    "answer": "I will eat",
+    "difficulty": 2
+  },
+  {
+    "id": 256,
+    "question": "In this image, what time is it?",
+    "category": "for-kids",
+    "answer": "10:09",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/horloge.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 257,
+    "question": "Where can you find penguins?",
+    "category": "for-kids",
+    "answer": "Antarctica",
+    "difficulty": 1
+  },
+  {
+    "id": 258,
+    "question": "Where can you buy a parrot?",
+    "category": "for-kids",
+    "answer": "Pet store",
+    "difficulty": 1
+  },
+  {
+    "id": 259,
+    "question": "Where can you buy a book?",
+    "category": "for-kids",
+    "answer": "Bookstore",
+    "difficulty": 2
+  },
+  {
+    "id": 260,
+    "question": "Name a synonym for 'Fast'.",
+    "category": "for-kids",
+    "answer": "Quick",
+    "difficulty": 2
+  },
+  {
+    "id": 261,
+    "question": "What is the name of the country that contains the province of Quebec?",
+    "category": "for-kids",
+    "answer": "Canada",
+    "difficulty": 3
+  },
+  {
+    "id": 262,
+    "question": "Complete the following expression: 'Walking on ___'.",
+    "category": "for-kids",
+    "answer": "Eggs",
+    "difficulty": 2
+  },
+  {
+    "id": 263,
+    "question": "Before taking a dish out of the oven, what should you wear?",
+    "category": "for-kids",
+    "answer": "Oven mitts",
+    "difficulty": 2
+  },
+  {
+    "id": 264,
+    "question": "What country is south of Canada?",
+    "category": "for-kids",
+    "answer": "United States",
+    "difficulty": 3
+  },
+  {
+    "id": 265,
+    "question": "In which sport do you wear a swim cap and a nose clip?",
+    "category": "for-kids",
+    "answer": "Swimming",
+    "difficulty": 1
+  },
+  {
+    "id": 266,
+    "question": "What is the sport where you kick a black and white ball?",
+    "category": "for-kids",
+    "answer": "Soccer",
+    "difficulty": 1
+  },
+  {
+    "id": 267,
+    "question": "How many words are in a dictionary?",
+    "category": "for-kids",
+    "answer": "A lot",
+    "difficulty": 3
+  },
+  {
+    "id": 268,
+    "question": "How can you tell if an egg is fresh?",
+    "category": "for-kids",
+    "answer": "You submerge it in water; if it floats, it is no longer good.",
+    "difficulty": 1
+  },
+  {
+    "id": 269,
+    "question": "What is the name of the animal with a long trunk?",
+    "category": "for-kids",
+    "answer": "Elephant",
+    "difficulty": 1
+  },
+  {
+    "id": 270,
+    "question": "Translate the following sentence: 'Mon père est vieux'.",
+    "category": "for-kids",
+    "answer": "My father is old",
+    "difficulty": 3
+  },
+  {
+    "id": 271,
+    "question": "How do you say 'Hello' in French?",
+    "category": "for-kids",
+    "answer": "Bonjour",
+    "difficulty": 1
+  },
+  {
+    "id": 272,
+    "question": "What does the expression 'Eureka' mean?",
+    "category": "for-kids",
+    "answer": "I found it",
+    "difficulty": 1
+  },
+  {
+    "id": 273,
+    "question": "Name a muscle in the arm.",
+    "category": "for-kids",
+    "answer": "Biceps",
+    "difficulty": 1
+  },
+  {
+    "id": 274,
+    "question": "Name 5 winter clothing items.",
+    "category": "for-kids",
+    "answer": "Coats, hats, mittens, boots, scarves",
+    "difficulty": 2
+  },
+  {
+    "id": 275,
+    "question": "Name the 4 seasons.",
+    "category": "for-kids",
+    "answer": "Spring, summer, autumn, winter",
+    "difficulty": 1
+  },
+  {
+    "id": 276,
+    "question": "Name 4 movies starting with the letter 'D'.",
+    "category": "for-kids",
+    "answer": "Dumbo, Dora the Explorer, Dragons, Deadpool",
+    "difficulty": 2
+  },
+  {
+    "id": 277,
+    "question": "What are the names of the different types of teeth?",
+    "category": "for-kids",
+    "answer": "Incisor, canine, premolar, molar, wisdom tooth",
+    "difficulty": 3
+  },
+  {
+    "id": 278,
+    "question": "What language is spoken in Mexico?",
+    "category": "for-kids",
+    "answer": "Spanish",
+    "difficulty": 1
+  },
+  {
+    "id": 279,
+    "question": "Who often says the following expression: 'Blistering barnacles'?",
+    "category": "for-kids",
+    "answer": "Captain Haddock",
+    "difficulty": 3
+  },
+  {
+    "id": 280,
+    "question": "Which characters have spiky hair and are small in size?",
+    "category": "for-kids",
+    "answer": "Trolls",
+    "difficulty": 2
+  },
+  {
+    "id": 281,
+    "question": "What recipe is made by mixing butter, sugar, flour, and eggs?",
+    "category": "for-kids",
+    "answer": "Cake",
+    "difficulty": 2
+  },
+  {
+    "id": 282,
+    "question": "What ingredients are necessary for making bread?",
+    "category": "for-kids",
+    "answer": "Flour, water, salt, yeast",
+    "difficulty": 2
+  },
+  {
+    "id": 283,
+    "question": "What is the name of the villain in Star Wars?",
+    "category": "for-kids",
+    "answer": "Darth Vader / Kylo Ren",
+    "difficulty": 1
+  },
+  {
+    "id": 284,
+    "question": "What is the name of the villain in Sonic?",
+    "category": "for-kids",
+    "answer": "Dr. Eggman",
+    "difficulty": 1
+  },
+  {
+    "id": 285,
+    "question": "Who seats children on his lap?",
+    "category": "for-kids",
+    "answer": "Santa Claus",
+    "difficulty": 1
+  },
+  {
+    "id": 286,
+    "question": "How many digits are in a Quebec phone number?",
+    "category": "for-kids",
+    "answer": "10",
+    "difficulty": 1
+  },
+  {
+    "id": 287,
+    "question": "What is the emergency phone number?",
+    "category": "for-kids",
+    "answer": "911",
+    "difficulty": 1
+  },
+  {
+    "id": 288,
+    "question": "What video game is represented in this image?",
+    "category": "for-kids",
+    "answer": "Fortnite",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/fortnite.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 289,
+    "question": "What video game is represented in this image?",
+    "category": "for-kids",
+    "answer": "Minecraft",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/minecraft.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 290,
+    "question": "What is the name of the group singing the following song?",
+    "category": "for-kids",
+    "answer": "Imagine Dragons",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/thunder.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 292,
+    "question": "Which zodiac sign is represented by a scorpion?",
+    "category": "for-kids",
+    "answer": "Scorpio",
+    "difficulty": 3
+  },
+  {
+    "id": 293,
+    "question": "What is the opposite of 'Flaw'?",
+    "category": "for-kids",
+    "answer": "Quality",
+    "difficulty": 1
+  },
+  {
+    "id": 294,
+    "question": "Find the game that involves three objects fighting each other.",
+    "category": "for-kids",
+    "answer": "Rock, paper, scissors",
+    "difficulty": 1
+  },
+  {
+    "id": 295,
+    "question": "If today is Monday, what day will it be the day before the day after tomorrow's day?",
+    "category": "general",
+    "answer": "Thursday",
+    "difficulty": 3
   }
 ]
