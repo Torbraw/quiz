@@ -2314,5 +2314,110 @@
     "category": "general",
     "answer": "Jeudi",
     "difficulty": 3
+  },
+  {
+    "id": 296,
+    "question": "Quel est la vrai orthographe entre les propositions suivantes: 'Accueil, Acceuil, Acueil, Aceuil' ?",
+    "category": "spelling",
+    "answer": "Accueil",
+    "difficulty": 1
+  },
+  {
+    "id": 297,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Trotinette, Trottinette, trotinete, Trottinnette' ?",
+    "category": "spelling",
+    "answer": "Trottinette",
+    "difficulty": 2
+  },
+  {
+    "id": 298,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Apeler, Appeller, Apeller, Appeler' ?",
+    "category": "spelling",
+    "answer": "Appeler",
+    "difficulty": 1
+  },
+  {
+    "id": 299,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Méditeranée, Méditerranée, Méditerannée, Méditeranée' ?",
+    "category": "spelling",
+    "answer": "Méditerranée",
+    "difficulty": 2
+  },
+  {
+    "id": 300,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Ornithorynque, Ornithorinque, Ornythorynque, Ornythorinque' ?",
+    "category": "spelling",
+    "answer": "Ornithorynque",
+    "difficulty": 2
+  },
+  {
+    "id": 301,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Grafiti, Grafitti, Grafity, Graffiti' ?",
+    "category": "spelling",
+    "answer": "Graffiti",
+    "difficulty": 1
+  },
+  {
+    "id": 302,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Hippopotame, Hippopotamme, Hipopotame, Hipoppotame' ?",
+    "category": "spelling",
+    "answer": "Hippopotame",
+    "difficulty": 1
+  },
+  {
+    "id": 303,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Omnibulé, Obnubilé, Omnibilé, Obnubulé' ?",
+    "category": "spelling",
+    "answer": "Obnubilé",
+    "difficulty": 1
+  },
+  {
+    "id": 304,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Coqcix, Coqcyx, Coccyx, Coccix' ?",
+    "category": "spelling",
+    "answer": "Coccyx",
+    "difficulty": 2
+  },
+  {
+    "id": 305,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Pappyrus, Papyrus, Papirus, Papyruss' ?",
+    "category": "spelling",
+    "answer": "Papyrus",
+    "difficulty": 1
+  },
+  {
+    "id": 306,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Des arc-en-ciel, Des arcs-en-ciel' ?",
+    "category": "spelling",
+    "answer": "Des arcs-en-ciel",
+    "difficulty": 1
+  },
+  {
+    "id": 307,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Des guet-apens, Des guets-apens' ?",
+    "category": "spelling",
+    "answer": "Des guets-apens",
+    "difficulty": 1
+  },
+  {
+    "id": 308,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Bomerang, Boomerrang, Boomerang, Boomerangue' ?",
+    "category": "spelling",
+    "answer": "Boomerang",
+    "difficulty": 1
+  },
+  {
+    "id": 309,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Chrysanthème, Chrysantheme, Chryzanthème, Chryzantheme' ?",
+    "category": "spelling",
+    "answer": "Chrysanthème",
+    "difficulty": 3
+  },
+  {
+    "id": 310,
+    "question": "Quel est le vrai orthographe entre les propositions suivantes: 'Plétore, Pléthore, Plhétore, Pléthorre' ?",
+    "category": "spelling",
+    "answer": "Pléthore",
+    "difficulty": 1
   }
 ]
