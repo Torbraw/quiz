@@ -2704,5 +2704,97 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/axolotl.webp",
     "mediaType": "image"
+  },
+  {
+    "id": 344,
+    "question": "Qui a été la première personne à entrer deux fois dans l’espace ?",
+    "category": "space",
+    "answer": "Vladimir Komarov",
+    "difficulty": 3
+  },
+  {
+    "id": 345,
+    "question": "Qu’est-ce qui fait qu’une planète est une planète naine ?",
+    "category": "space",
+    "answer": "Sa taille et sa forme",
+    "difficulty": 1
+  },
+  {
+    "id": 346,
+    "question": "Quel est le premier satellite à avoir fonctionner en orbite géostationnaire ?",
+    "category": "space",
+    "answer": "Syncom 2",
+    "difficulty": 2
+  },
+  {
+    "id": 347,
+    "question": "Environ combien de miles (ou de kilomètres) y a-t-il dans une année-lumière ?",
+    "category": "space",
+    "answer": "5,9 billions (9,5 billions de km)",
+    "difficulty": 2
+  },
+  {
+    "id": 348,
+    "question": "Quel est l'ordre des planètes du système solaire, en commençant par le plus proche du soleil ?",
+    "category": "space",
+    "answer": "Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune",
+    "difficulty": 1
+  },
+  {
+    "id": 349,
+    "question": "Qui a découvert les lois du mouvement planétaire ?",
+    "category": "space",
+    "hint": "Newton, Galilée, Kepler ou Copernic",
+    "answer": "Kepler",
+    "difficulty": 2
+  },
+  {
+    "id": 350,
+    "question": "Quand Pluton a-t-il été retiré de la liste des planètes ?",
+    "category": "space",
+    "hint": "2000, 2006, 2003 ou 2008",
+    "answer": "2006",
+    "difficulty": 2
+  },
+  {
+    "id": 351,
+    "question": "Quel est le nom de la planète sur l'image suivante ?",
+    "category": "space",
+    "answer": "Jupiter",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jupiter.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 352,
+    "question": "Quel est le nom de la planète sur l'image suivante ?",
+    "category": "space",
+    "answer": "Vénus",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/venus.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 353,
+    "question": "Quel est le nom de la planète sur l'image suivante ?",
+    "category": "space",
+    "answer": "Uranus",
+    "difficulty": 1
+  },
+  {
+    "id": 354,
+    "question": "Qui a dit la ligne dans l'audio suivant ?",
+    "category": "space",
+    "answer": "Neil Armstrong",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/small_steps.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 355,
+    "question": "Quel est le nom de la tempête sur Jupiter ?",
+    "category": "space",
+    "answer": "La grande tache rouge",
+    "difficulty": 1
   }
 ]

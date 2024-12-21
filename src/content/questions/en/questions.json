@@ -2564,5 +2564,97 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/axolotl.webp",
     "mediaType": "image"
+  },
+  {
+    "id": 344,
+    "question": "Who was the first person to go into space twice?",
+    "category": "space",
+    "answer": "Vladimir Komarov",
+    "difficulty": 3
+  },
+  {
+    "id": 345,
+    "question": "What makes a planet a dwarf planet?",
+    "category": "space",
+    "answer": "Its size and shape",
+    "difficulty": 1
+  },
+  {
+    "id": 346,
+    "question": "What was the first satellite to operate in geostationary orbit?",
+    "category": "space",
+    "answer": "Syncom 2",
+    "difficulty": 2
+  },
+  {
+    "id": 347,
+    "question": "Approximately how many miles (or kilometers) are in a light year?",
+    "category": "space",
+    "answer": "5.9 trillion (9.5 trillion km)",
+    "difficulty": 2
+  },
+  {
+    "id": 348,
+    "question": "What is the order of the planets in the solar system, starting from the closest to the sun?",
+    "category": "space",
+    "answer": "Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune",
+    "difficulty": 1
+  },
+  {
+    "id": 349,
+    "question": "Who discovered the laws of planetary motion?",
+    "category": "space",
+    "hint": "Newton, Galileo, Kepler, or Copernicus",
+    "answer": "Kepler",
+    "difficulty": 2
+  },
+  {
+    "id": 350,
+    "question": "When was Pluto removed from the list of planets?",
+    "category": "space",
+    "hint": "2000, 2006, 2003, or 2008",
+    "answer": "2006",
+    "difficulty": 2
+  },
+  {
+    "id": 351,
+    "question": "What is the name of the planet in the following image?",
+    "category": "space",
+    "answer": "Jupiter",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jupiter.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 352,
+    "question": "What is the name of the planet in the following image?",
+    "category": "space",
+    "answer": "Venus",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/venus.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 353,
+    "question": "What is the name of the planet in the following image?",
+    "category": "space",
+    "answer": "Uranus",
+    "difficulty": 1
+  },
+  {
+    "id": 354,
+    "question": "Who said the line in the following audio?",
+    "category": "space",
+    "answer": "Neil Armstrong",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/small_steps.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 355,
+    "question": "What is the name of the storm on Jupiter?",
+    "category": "space",
+    "answer": "The Great Red Spot",
+    "difficulty": 1
   }
 ]
