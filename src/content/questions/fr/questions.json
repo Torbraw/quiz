@@ -1889,5 +1889,419 @@
     "category": "general",
     "answer": "Antarctique",
     "difficulty": 1
+  },
+  {
+    "id": 237,
+    "question": "Trouve une partie du corps en changant une seule lettre dans le mot suivant: 'Cru'.",
+    "category": "for-kids",
+    "answer": "Cou",
+    "difficulty": 3
+  },
+  {
+    "id": 238,
+    "question": "Trouve une partie du corps en changant une seule lettre dans le mot suivant: 'Fête'.",
+    "category": "for-kids",
+    "answer": "Tête",
+    "difficulty": 1
+  },
+  {
+    "id": 239,
+    "question": "combien de pics a Sonic sur la tête ?",
+    "category": "for-kids",
+    "answer": "6",
+    "difficulty": 1
+  },
+  {
+    "id": 240,
+    "question": "Qui est le frère de Moufasa ?",
+    "category": "for-kids",
+    "answer": "Scar",
+    "difficulty": 1
+  },
+  {
+    "id": 241,
+    "question": "quel est le fruit qui défend les causes en cour ?",
+    "category": "for-kids",
+    "answer": "avocat",
+    "difficulty": 1
+  },
+  {
+    "id": 242,
+    "question": "Après quelle année va t'on au secondaire ?",
+    "category": "for-kids",
+    "answer": "Après la 6e année",
+    "difficulty": 2
+  },
+  {
+    "id": 243,
+    "question": "Comment se prononce le mot 'chat' en anglais ?",
+    "category": "for-kids",
+    "answer": "Cat",
+    "difficulty": 1
+  },
+  {
+    "id": 244,
+    "question": "Comment prononce le mot dans l'extrait audio suivant ?",
+    "category": "for-kids",
+    "answer": "Lego",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lego.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 245,
+    "question": "Nomme moi 3 super héros avec un costume de couleur rouge.",
+    "category": "for-kids",
+    "answer": "Spider-man, Thor, Iron-Man, Flash, Les invincibles, Superman, Deadpool, Daredevil, Wanda (sorcière rouge), Hellboy",
+    "difficulty": 1
+  },
+  {
+    "id": 246,
+    "question": "Mon premier est une couleur, mon deuxième est une partie du corps, mon tout est un oiseau.",
+    "category": "for-kids",
+    "answer": "Le rouge-gorge",
+    "difficulty": 1
+  },
+  {
+    "id": 247,
+    "question": "Quel objet ferait le plus de bruit si on l'échappe ?",
+    "category": "for-kids",
+    "answer": "Du verre / De la céramique",
+    "difficulty": 2
+  },
+  {
+    "id": 248,
+    "question": "Que veux dire faire la moue ?",
+    "category": "for-kids",
+    "answer": "Bouder",
+    "difficulty": 3
+  },
+  {
+    "id": 249,
+    "question": "Quelle céréale à comme mascotte un tigre ?",
+    "category": "for-kids",
+    "answer": "Frosted Flakes",
+    "difficulty": 1
+  },
+  {
+    "id": 250,
+    "question": "Quelle palette de chocolat est fait avec du chocolat et du beurre d'arachide ?",
+    "category": "for-kids",
+    "answer": "Reese",
+    "difficulty": 1
+  },
+  {
+    "id": 251,
+    "question": "Nomme trois couleur de l'arc-en-ciel.",
+    "category": "for-kids",
+    "answer": "Rouge, orange, jaune, vert, bleu, indigo, violet",
+    "difficulty": 1
+  },
+  {
+    "id": 252,
+    "question": "Fais le rythme de la chanson 'We will rock you' de Queen.",
+    "category": "for-kids",
+    "answer": "Stomp, stomp, clap. Stomp, stomp, clap.",
+    "difficulty": 1
+  },
+  {
+    "id": 253,
+    "question": "De quel film provient la chanson 'Let it go' ?",
+    "category": "for-kids",
+    "answer": "La reine des neiges",
+    "difficulty": 1
+  },
+  {
+    "id": 254,
+    "question": "De quel film provient l'extrait audio suivant ?",
+    "category": "for-kids",
+    "answer": "https://www.youtube.com/watch?v=KPhqU--Mq1A (3 secondes)",
+    "difficulty": 1
+  },
+  {
+    "id": 255,
+    "question": "Conjuger le verbe 'Manger' à la première personne du singulier au futur simple.",
+    "category": "for-kids",
+    "answer": "Je mangerai",
+    "difficulty": 2
+  },
+  {
+    "id": 256,
+    "question": "Sur cette image quel heure est-il ?",
+    "category": "for-kids",
+    "answer": "10h09",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/horloge.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 257,
+    "question": "Où peut-on trouver des pingouins ?",
+    "category": "for-kids",
+    "answer": "Antarctique",
+    "difficulty": 1
+  },
+  {
+    "id": 258,
+    "question": "Où peut-on acheter un perroquet ?",
+    "category": "for-kids",
+    "answer": "Animalerie",
+    "difficulty": 1
+  },
+  {
+    "id": 259,
+    "question": "Où peut-on acheter un livre ?",
+    "category": "for-kids",
+    "answer": "Librairie",
+    "difficulty": 2
+  },
+  {
+    "id": 260,
+    "question": "Nommer un synonyme de 'Rapide'.",
+    "category": "for-kids",
+    "answer": "Vite",
+    "difficulty": 2
+  },
+  {
+    "id": 261,
+    "question": "Comment s'appel le pays qui contient la province de Québec ?",
+    "category": "for-kids",
+    "answer": "Canada",
+    "difficulty": 3
+  },
+  {
+    "id": 262,
+    "question": "Complèter l'expression suivante: 'Marcher sur des ___'.",
+    "category": "for-kids",
+    "answer": "Oeufs",
+    "difficulty": 2
+  },
+  {
+    "id": 263,
+    "question": "Avant de sortir un plat du four, que doit-on mettre ?",
+    "category": "for-kids",
+    "answer": "Des mitaines de four",
+    "difficulty": 2
+  },
+  {
+    "id": 264,
+    "question": "Quel pays de situe au sud du Canada ?",
+    "category": "for-kids",
+    "answer": "États-Unis",
+    "difficulty": 3
+  },
+  {
+    "id": 265,
+    "question": "Dans quel sport doit on porter un casque de bain et un pince-nez ?",
+    "category": "for-kids",
+    "answer": "Natation",
+    "difficulty": 1
+  },
+  {
+    "id": 266,
+    "question": "Quel est le sport où tu tappe dans un ballon noir et blanc ?",
+    "category": "for-kids",
+    "answer": "Soccer",
+    "difficulty": 1
+  },
+  {
+    "id": 267,
+    "question": "Combien de mots se trouve dans un dictionnaire ?",
+    "category": "for-kids",
+    "answer": "Beaucoup",
+    "difficulty": 3
+  },
+  {
+    "id": 268,
+    "question": "Comment fait-on pour savoir si un oeuf est frais ?",
+    "category": "for-kids",
+    "answer": "On le plonge dans l'eau, s'il flotte il n'est plus bon.",
+    "difficulty": 1
+  },
+  {
+    "id": 269,
+    "question": "Quel est le nom de l'animal qui a une grande trompe ?",
+    "category": "for-kids",
+    "answer": "Éléphant",
+    "difficulty": 1
+  },
+  {
+    "id": 270,
+    "question": "Traduisez la phrase suivante: 'Mon père est vieux'.",
+    "category": "for-kids",
+    "answer": "My father is old",
+    "difficulty": 3
+  },
+  {
+    "id": 271,
+    "question": "Comment dit t'on 'Bonjour' en anglais ?",
+    "category": "for-kids",
+    "answer": "Hi / Hello",
+    "difficulty": 1
+  },
+  {
+    "id": 272,
+    "question": "Que veux dire l'expression 'Eurêka' ?",
+    "category": "for-kids",
+    "answer": "J'ai trouvé",
+    "difficulty": 1
+  },
+  {
+    "id": 273,
+    "question": "Nommer un muscle du bras.",
+    "category": "for-kids",
+    "answer": "Biceps",
+    "difficulty": 1
+  },
+  {
+    "id": 274,
+    "question": "Nommez 5 vêtements d'hiver.",
+    "category": "for-kids",
+    "answer": "Manteaux, tuques, mitaines, bottes, foulards",
+    "difficulty": 2
+  },
+  {
+    "id": 275,
+    "question": "Nommez les 4 saisons.",
+    "category": "for-kids",
+    "answer": "Printemps, été, automne, hiver",
+    "difficulty": 1
+  },
+  {
+    "id": 276,
+    "question": "Nommez 4 films commencant par la lettre 'D'.",
+    "category": "for-kids",
+    "answer": "Dumbo, Dora l'exploratrice, Dragons, Deadpool",
+    "difficulty": 2
+  },
+  {
+    "id": 277,
+    "question": "Quel est le nom des différentes types de dent ?",
+    "category": "for-kids",
+    "answer": "Incisive, canine, prémolaire, molaire, dent de sagesse",
+    "difficulty": 3
+  },
+  {
+    "id": 278,
+    "question": "Quel langue parle t'on au mexique ?",
+    "category": "for-kids",
+    "answer": "Espagnol",
+    "difficulty": 1
+  },
+  {
+    "id": 279,
+    "question": "Qui dit souvent l'expression suivante: 'Mille millions de mille sabords' ?",
+    "category": "for-kids",
+    "answer": "Capitaine Haddock",
+    "difficulty": 3
+  },
+  {
+    "id": 280,
+    "question": "Quels personnages ont les cheveux en l'air et sont de petite taille ?",
+    "category": "for-kids",
+    "answer": "Trolls",
+    "difficulty": 2
+  },
+  {
+    "id": 281,
+    "question": "Quel recette obtient-on en mélangeant du beurre, du sucre, de la farine et des oeufs ?",
+    "category": "for-kids",
+    "answer": "Gâteau",
+    "difficulty": 2
+  },
+  {
+    "id": 282,
+    "question": "Quels ingrédients sont nécéssaire dans la fabrication du pain ?",
+    "category": "for-kids",
+    "answer": "Farine, eau, sel, levure",
+    "difficulty": 2
+  },
+  {
+    "id": 283,
+    "question": "Comment s'appelle le méchant dans Star Wars ?",
+    "category": "for-kids",
+    "answer": "Dark Vador / Kylo Ren",
+    "difficulty": 1
+  },
+  {
+    "id": 284,
+    "question": "Comment s'appelle le méchant dans Sonic ?",
+    "category": "for-kids",
+    "answer": "Dr Eggman",
+    "difficulty": 1
+  },
+  {
+    "id": 285,
+    "question": "Qui assoie les enfants sur ses genoux ?",
+    "category": "for-kids",
+    "answer": "Père Noël",
+    "difficulty": 1
+  },
+  {
+    "id": 286,
+    "question": "Combien de chiffre comporte un numéro de téléphone québécois ?",
+    "category": "for-kids",
+    "answer": "10",
+    "difficulty": 1
+  },
+  {
+    "id": 287,
+    "question": "Quel est le numéro de téléphone des urgences ?",
+    "category": "for-kids",
+    "answer": "911",
+    "difficulty": 1
+  },
+  {
+    "id": 288,
+    "question": "Quel est le jeu vidéo représenté sur cette image ?",
+    "category": "for-kids",
+    "answer": "Fortnite",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/fortnite.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 289,
+    "question": "Quel est le jeu vidéo représenté sur cette image ?",
+    "category": "for-kids",
+    "answer": "Minecraft",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/minecraft.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 290,
+    "question": "Quel est le groupe qui chante la chanson suivante ?",
+    "category": "for-kids",
+    "answer": "https://www.youtube.com/watch?v=fKopy74weus",
+    "difficulty": 1
+  },
+  {
+    "id": 291,
+    "question": "Complète la chanson suivante: 'Tu es belle comme une belle banane ___",
+    "category": "for-kids",
+    "answer": "Tu es belle comme un chandail bleu",
+    "difficulty": 1
+  },
+  {
+    "id": 292,
+    "question": "Quel signe astrologique est représenté par un scorpion ?",
+    "category": "for-kids",
+    "answer": "Scorpion",
+    "difficulty": 3
+  },
+  {
+    "id": 293,
+    "question": "Quel est le contraire de 'Défaut' ?",
+    "category": "for-kids",
+    "answer": "Qualité",
+    "difficulty": 1
+  },
+  {
+    "id": 294,
+    "question": "Trouve le jeu qui implique trois objets qui se battent entre eux.",
+    "category": "for-kids",
+    "answer": "Pierre, papier, ciseaux",
+    "difficulty": 1
   }
 ]
