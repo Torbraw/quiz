@@ -2194,6 +2194,7 @@
     "id": 279,
     "question": "Qui dit souvent l'expression suivante: 'Mille millions de mille sabords' ?",
     "category": "for-kids",
+    "hint": "Personnage de bande dessinée",
     "answer": "Capitaine Haddock",
     "difficulty": 3
   },
@@ -2419,5 +2420,289 @@
     "category": "spelling",
     "answer": "Pléthore",
     "difficulty": 1
+  },
+  {
+    "id": 311,
+    "question": "Capable de dépasser 186 miles par heure, quelle est la créature la plus rapide du règne animal ?",
+    "category": "animals",
+    "hint": "Oiseau de proie",
+    "answer": "Le faucon pèlerin",
+    "difficulty": 2
+  },
+  {
+    "id": 312,
+    "question": "Connue pour son intelligence, quelle race de chien est capable de comprendre plus de mille mots ?",
+    "category": "animals",
+    "answer": "Le border collie",
+    "difficulty": 2
+  },
+  {
+    "id": 313,
+    "question": "Quelle espèce animale peut vivre dans des conditions extrêmes de chaleur et de froid, de -20 °F à 120 °F ?",
+    "category": "animals",
+    "answer": "Chameau de Bactriane",
+    "difficulty": 3
+  },
+  {
+    "id": 314,
+    "question": "Le plus petit animal avec une colonne vertébrale est quoi ?",
+    "category": "animals",
+    "answer": "Une grenouille",
+    "difficulty": 2
+  },
+  {
+    "id": 315,
+    "question": "La plus grande 'ville' abritant quel animal était une colonie souterraine mesurant 25 000 miles carrés, trouvée au Texas ?",
+    "category": "animals",
+    "hint": "Petit rongeur",
+    "answer": "Chien de prairie",
+    "difficulty": 3
+  },
+  {
+    "id": 316,
+    "question": "Un animal individuel de quel type a été découvert comme étant âgé d’au moins 272 ans, ce qui suggère que son type comprend le vertébré ayant la plus grande longévité au monde ?",
+    "category": "animals",
+    "hint": "Requin",
+    "answer": "Requin du Groenland",
+    "difficulty": 3
+  },
+  {
+    "id": 317,
+    "question": "Qu'est-ce qui donne aux flamants roses leur couleur rose ?",
+    "category": "animals",
+    "answer": "Leur régime alimentaire / manger des crevettes",
+    "difficulty": 1
+  },
+  {
+    "id": 318,
+    "question": "Le hochet d’un serpent à sonnette est fait du même matériau que quelle partie du corps humain ?",
+    "category": "animals",
+    "answer": "Ongle",
+    "difficulty": 3
+  },
+  {
+    "id": 319,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Colvert",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mallard.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 320,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Pélican",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pelican.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 321,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Pic bois",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/woodpecker.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 322,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Géocoucou (Roadrunner)",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/roadrunner.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 323,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Caille",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/quail.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 324,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Cigogne marabout",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/marabou_stork.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 325,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Crécerelle d'Amérique",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/american_kestrel.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 326,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Vautour royal",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/king_vulture.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 327,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Spatule",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/spoonbill.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 328,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Balbuzaard",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/osprey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 329,
+    "question": "Quel est l'oiseau sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Martin-pêcheur",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/kingfisher.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 330,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Beluga",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/beluga.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 331,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Singe capucin",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/capuchin_monkey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 332,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Lamantin",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/manatee.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 333,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Hérisson",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/hedgehog.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 334,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Pangolin",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/pangolin.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 335,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Oryctérope",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/aardvark.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 336,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Kangourou",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/kangaroo.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 337,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Suricates",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/meerkat.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 338,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Ornithorynque",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/platypus.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 339,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Scarabée bousier",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/dung_beetle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 340,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Lémuriens",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lemurs.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 341,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Kiwi",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/kiwi.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 342,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Tourteraux",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lovebirds.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 343,
+    "question": "Quel est l'animal sur l'image suivante ?",
+    "category": "animals",
+    "answer": "Axolotl",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/axolotl.webp",
+    "mediaType": "image"
   }
 ]

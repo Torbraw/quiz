@@ -2166,6 +2166,7 @@
     "id": 279,
     "question": "Who often says the following expression: 'Blistering barnacles'?",
     "category": "for-kids",
+    "hint": "He is a character from a cartoon.",
     "answer": "Captain Haddock",
     "difficulty": 3
   },
@@ -2279,5 +2280,289 @@
     "category": "general",
     "answer": "Thursday",
     "difficulty": 3
+  },
+  {
+    "id": 311,
+    "question": "Capable of exceeding 186 miles per hour, what is the fastest creature in the animal kingdom?",
+    "category": "animals",
+    "hint": "Bird of prey",
+    "answer": "The peregrine falcon",
+    "difficulty": 2
+  },
+  {
+    "id": 312,
+    "question": "Known for its intelligence, which dog breed can understand more than a thousand words?",
+    "category": "animals",
+    "answer": "The border collie",
+    "difficulty": 2
+  },
+  {
+    "id": 313,
+    "question": "Which animal species can live in extreme conditions of heat and cold, from -20 °F to 120 °F?",
+    "category": "animals",
+    "answer": "Bactrian camel",
+    "difficulty": 3
+  },
+  {
+    "id": 314,
+    "question": "What is the smallest animal with a backbone?",
+    "category": "animals",
+    "answer": "A frog",
+    "difficulty": 2
+  },
+  {
+    "id": 315,
+    "question": "The largest 'city' inhabited by which animal was an underground colony measuring 25,000 square miles, found in Texas?",
+    "category": "animals",
+    "hint": "Small rodent",
+    "answer": "Prairie dog",
+    "difficulty": 3
+  },
+  {
+    "id": 316,
+    "question": "An individual animal of which type was found to be at least 272 years old, suggesting that its type includes the longest-living vertebrate in the world?",
+    "category": "animals",
+    "hint": "Shark",
+    "answer": "Greenland shark",
+    "difficulty": 3
+  },
+  {
+    "id": 317,
+    "question": "What gives flamingos their pink color?",
+    "category": "animals",
+    "answer": "Their diet / eating shrimp",
+    "difficulty": 1
+  },
+  {
+    "id": 318,
+    "question": "The rattle of a rattlesnake is made of the same material as which part of the human body?",
+    "category": "animals",
+    "answer": "Nail",
+    "difficulty": 3
+  },
+  {
+    "id": 319,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Mallard",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/mallard.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 320,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Pelican",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pelican.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 321,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Woodpecker",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/woodpecker.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 322,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Roadrunner",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/roadrunner.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 323,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Quail",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/quail.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 324,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Marabou stork",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/marabou_stork.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 325,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "American kestrel",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/american_kestrel.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 326,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "King vulture",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/king_vulture.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 327,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Spoonbill",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/spoonbill.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 328,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Osprey",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/osprey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 329,
+    "question": "What is the bird in the following image?",
+    "category": "animals",
+    "answer": "Kingfisher",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/kingfisher.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 330,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Beluga",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/beluga.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 331,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Capuchin monkey",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/capuchin_monkey.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 332,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Manatee",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/manatee.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 333,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Hedgehog",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/hedgehog.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 334,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Pangolin",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/pangolin.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 335,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Aardvark",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/aardvark.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 336,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Kangaroo",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/kangaroo.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 337,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Meerkats",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/meerkat.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 338,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Platypus",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/platypus.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 339,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Dung beetle",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/dung_beetle.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 340,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Lemurs",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lemurs.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 341,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Kiwi",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/kiwi.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 342,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Lovebirds",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lovebirds.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 343,
+    "question": "What is the animal in the following image?",
+    "category": "animals",
+    "answer": "Axolotl",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/axolotl.webp",
+    "mediaType": "image"
   }
 ]
