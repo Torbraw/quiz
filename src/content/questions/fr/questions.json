@@ -3735,39 +3735,39 @@
   },
   {
     "id": 466,
-    "question": "Quel est la compagnie avec ce jingle ?",
+    "question": "Quel est la compagnie avec ce thème d'ouverture ?",
     "category": "cartoons",
     "answer": "Looney Tunes",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/images/cartoons/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/audios/looney_tunes.mp3",
+    "mediaType": "audio/mp3"
   },
   {
     "id": 467,
-    "question": "Quel est la compagnie avec ce jingle ?",
+    "question": "Quel est la compagnie avec ce thème d'ouverture ?",
     "category": "cartoons",
     "answer": "Disney",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/images/cartoons/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/audios/disney.mp3",
+    "mediaType": "audio/mp3"
   },
   {
     "id": 468,
-    "question": "Quel est la compagnie avec ce jingle ?",
+    "question": "Quel est la compagnie avec ce thème d'ouverture ?",
     "category": "cartoons",
     "answer": "Universal",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/images/cartoons/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/audios/universal.mp3",
+    "mediaType": "audio/mp3"
   },
   {
     "id": 469,
-    "question": "Quel est la compagnie avec ce jingle ?",
+    "question": "Quel est la compagnie avec ce thème d'ouverture ?",
     "category": "cartoons",
     "answer": "Cartoon Network",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/images/cartoons/TODO",
-    "mediaType": "image"
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/century_fox.mp3",
+    "mediaType": "audio/mp3"
   },
   {
     "id": 470,
@@ -3795,17 +3795,17 @@
     "question": "Quel est le dessin animé avec la chanson suivante ?",
     "category": "cartoons",
     "answer": "Lilo & Stitch",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/audios/TODO",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/lilo_stich.mp3",
     "mediaType": "image"
   },
   {
     "id": 474,
     "question": "Quel est le dessin animé avec la chanson suivante ?",
     "category": "cartoons",
-    "answer": "Mickey Mouse",
+    "answer": "Shrek",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaSrc": "/src/assets/audios/all_stars.mp3",
     "mediaType": "image"
   },
   {
@@ -3814,7 +3814,7 @@
     "category": "cartoons",
     "answer": "L'étrange Noël de Monsieur Jack",
     "difficulty": 2,
-    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaSrc": "/src/assets/audios/this_is_halloween.mp3",
     "mediaType": "image"
   },
   {
@@ -3823,7 +3823,7 @@
     "category": "cartoons",
     "answer": "Histoire de jouets",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaSrc": "/src/assets/audios/friend_in_me.mp3",
     "mediaType": "image"
   },
   {
