@@ -3204,15 +3204,6 @@
     "mediaType": "image"
   },
   {
-    "id": 404,
-    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
-    "category": "translated-lyrics-en",
-    "answer": "Boulevard of Broken Dreams - Green Day",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/images/lyrics/boulevard_broken_dream.png",
-    "mediaType": "image"
-  },
-  {
     "id": 405,
     "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
     "category": "translated-lyrics-en",
@@ -3579,6 +3570,15 @@
     "answer": "Alexandrie Alexandra - Claude François",
     "difficulty": 1,
     "mediaSrc": "/src/assets/images/lyrics/alexandra.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 445,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Boulevard of Broken Dreams - Green Day",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/boulevard_broken_dream.png",
     "mediaType": "image"
   }
 ]
