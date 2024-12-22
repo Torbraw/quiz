@@ -2995,5 +2995,347 @@
     "category": "video-games",
     "answer": "Kirby",
     "difficulty": 1
+  },
+  {
+    "id": 381,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Eye of the Tiger",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/eye_of_tiger.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 382,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Bohemian Rhapsody - Queen",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/bohemian_rhapsody.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 383,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Barbie Girl - Aqua",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/barbie_girl.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 384,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Blinding Lights - The Weeknd",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/blinding_lights.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 385,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Rockstar - Nickelback",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/rockstar.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 386,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Smells Like Teen Spirit - Nirvana",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/smell_like.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 387,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Chop Suey - System of a Down",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/chop_suey.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 388,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Thunder - Imagine Dragons",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/thunder.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 389,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Enemy - Imagine Dragons",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/enemy.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 390,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Lose Yourself - Eminem",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/lose_yourself.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 391,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "My Name Is - Eminem",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/my_name_is.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 392,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Shape of My Heart - Backstreet Boys",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/shape_of_heart.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 393,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "I Want It That Way - Backstreet Boys",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/want_it_that_way.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 394,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Nothing Else Matters - Metallica",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/nothing_else_matters.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 395,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "The Sound of Silence - Disturbed",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/song_of_silence.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 396,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Down with the Sickness - Disturbed",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/down_with_the_sickness.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 397,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Californication - Red Hot Chili Peppers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/californication.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 398,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Can't Stop - Red Hot Chili Peppers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/cant_stop.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 399,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Can't Touch This - MC Hammer",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/cant_touch_this.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 400,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Beat It - Michael Jackson",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/beat_it.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 401,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Remember the Time - Michael Jackson",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/remember.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 402,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "My Heart Will Go On - Céline Dion",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/heart_will_go_on.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 403,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Wannabe - Spice Girls",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/wannabe.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 404,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Boulevard of Broken Dreams - Green Day",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/boulevard_broken_dream.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 405,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Material Girl - Madonna",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/material_girl.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 406,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Creep - Radiohead",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/creep.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 407,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Always - Bon Jovi",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/always.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 408,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Numb - Linkin Park",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/numb.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 409,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Hey Ya - Outkast",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/hey_ya.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 410,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "In Da Club - 50 Cent",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/in_da_club.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 411,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Bills Bills Bills - Destiny's Child",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/bills_bills_bills.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 412,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Say My Name - Destiny's Child",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/say_my_name.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 413,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Feel Good Inc - Gorillaz",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/feel_good_inc.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 414,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Bring Me to Life - Evanescence",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/bring_me_to_life.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 415,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Shape of You - Ed Sheeran",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/shape_of_you.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 416,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Bad Habits - Ed Sheeran",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/bad_habits.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 417,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "Just the Way You Are - Bruno Mars",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/way_you_are.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 418,
+    "question": "Quel est la musique anglaise associée à ces paroles traduites en français ?",
+    "category": "translated-lyrics-en",
+    "answer": "I gotta feeling - Black Eyed Peas",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/i_gotta_feeling.png",
+    "mediaType": "image"
   }
 ]
