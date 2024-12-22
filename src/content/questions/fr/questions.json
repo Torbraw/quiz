@@ -1952,7 +1952,7 @@
     "id": 245,
     "question": "Nomme moi 3 super héros avec un costume de couleur rouge.",
     "category": "for-kids",
-    "answer": "Spider-man, Thor, Iron-Man, Flash, Les invincibles, Superman, Deadpool, Daredevil, Wanda (sorcière rouge), Hellboy",
+    "answer": "Spider-man, Thor, Iron-Man, Flash, Les Indestructibles, Superman, Deadpool, Daredevil, Wanda (sorcière rouge), Hellboy",
     "difficulty": 1
   },
   {
@@ -3580,5 +3580,343 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/lyrics/boulevard_broken_dream.png",
     "mediaType": "image"
+  },
+  {
+    "id": 446,
+    "question": "Quel est le dessin animé où le protagoniste est une éponge ?",
+    "category": "cartoons",
+    "answer": "Bob l'éponge",
+    "difficulty": 1
+  },
+  {
+    "id": 446,
+    "question": "Quel est le dessin animé où le protagoniste est gros chat orange ?",
+    "category": "cartoons",
+    "answer": "Garfield",
+    "difficulty": 1
+  },
+  {
+    "id": 447,
+    "question": "Quel est le dessin animé où les personnages sont jaunes ?",
+    "category": "cartoons",
+    "answer": "Les Simpsons",
+    "difficulty": 1
+  },
+  {
+    "id": 448,
+    "question": "Quel est  le dessin animé où le protagoniste à un chandail rouge et un bonnet bleu/vert ?",
+    "category": "cartoons",
+    "answer": "South Park",
+    "difficulty": 2
+  },
+  {
+    "id": 449,
+    "question": "Quel est le dessin animé où il y a souvent la phrase suivante 'bip bip' ?",
+    "category": "cartoons",
+    "answer": "Bip Bip et Coyote",
+    "difficulty": 2
+  },
+  {
+    "id": 450,
+    "question": "Quel est le dessin animé où l'équipe chassent des fantômes ?",
+    "category": "cartoons",
+    "answer": "Scooby-Doo",
+    "difficulty": 1
+  },
+  {
+    "id": 451,
+    "question": "Quel est le dessin animé où le protagoniste est rose et est un détective ?",
+    "category": "cartoons",
+    "answer": "La panthère rose",
+    "difficulty": 1
+  },
+  {
+    "id": 452,
+    "question": "Quel est le dessin animé avec un chat et une souris ?",
+    "category": "cartoons",
+    "answer": "Tom et Jerry",
+    "difficulty": 1
+  },
+  {
+    "id": 453,
+    "question": "Quel est le dessin animé avec un lapin qui aime les carottes ?",
+    "category": "cartoons",
+    "answer": "Bugs Bunny",
+    "difficulty": 1
+  },
+  {
+    "id": 454,
+    "question": "Quel est le dessin animé où le protagoniste résout des mystères avec l'audience ?",
+    "category": "cartoons",
+    "answer": "Dora l'exploratrice",
+    "difficulty": 2
+  },
+  {
+    "id": 455,
+    "question": "Quel est le dessin animé où les personnages sont bleus ?",
+    "category": "cartoons",
+    "answer": "1",
+    "difficulty": 1
+  },
+  {
+    "id": 456,
+    "question": "Quel est le dessin animé avec un chat et un oiseau ?",
+    "category": "cartoons",
+    "hint": "L'oiseau est jaune",
+    "answer": "Titi et Grosminet",
+    "difficulty": 2
+  },
+  {
+    "id": 457,
+    "question": "Quel est le dessin animé où le protagoniste aime le miel ?",
+    "category": "cartoons",
+    "answer": "Whinnie l'ourson",
+    "difficulty": 1
+  },
+  {
+    "id": 458,
+    "question": "Quel est le dessin animé où le protagoniste aime les épinards ?",
+    "category": "cartoons",
+    "answer": "Popeye",
+    "difficulty": 1
+  },
+  {
+    "id": 459,
+    "question": "Quel est le dessin animé où on entend souvent 'yabba dabba doo!' ?",
+    "category": "cartoons",
+    "answer": "Les Pierrafeu",
+    "difficulty": 1
+  },
+  {
+    "id": 460,
+    "question": "Quel est le dessin animé où on entend souvent 'Quoi de neuf docteur ?' ?",
+    "category": "cartoons",
+    "answer": "Bugs Bunny",
+    "difficulty": 1
+  },
+  {
+    "id": 461,
+    "question": "Quel est le dessin animé où on peut entendre la chanson 'Il en faut peu pour être heureux' ?",
+    "category": "cartoons",
+    "answer": "Le livre de la jungle",
+    "difficulty": 1
+  },
+  {
+    "id": 462,
+    "question": "Quel est le dessin animé où on peut entendre la chanson 'Hakuna Matata' ?",
+    "category": "cartoons",
+    "answer": "Le roi lion",
+    "difficulty": 1
+  },
+  {
+    "id": 463,
+    "question": "Quel est le dessin animé où on peut entenre la chanson 'Prince Ali' ?",
+    "category": "cartoons",
+    "answer": "Aladdin",
+    "difficulty": 1
+  },
+  {
+    "id": 464,
+    "question": "Quel est dessin animé représenté par l'image suivante ?",
+    "category": "cartoons",
+    "answer": "Charlie Brown",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/snoopy.jpg.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 465,
+    "question": "Quel est le dessin animé représenté par l'image suivante ?",
+    "category": "cartoons",
+    "answer": "Betty Boop",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/betty_boop.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 466,
+    "question": "Quel est la compagnie avec ce jingle ?",
+    "category": "cartoons",
+    "answer": "Looney Tunes",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cartoons/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 467,
+    "question": "Quel est la compagnie avec ce jingle ?",
+    "category": "cartoons",
+    "answer": "Disney",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cartoons/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 468,
+    "question": "Quel est la compagnie avec ce jingle ?",
+    "category": "cartoons",
+    "answer": "Universal",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/cartoons/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 469,
+    "question": "Quel est la compagnie avec ce jingle ?",
+    "category": "cartoons",
+    "answer": "Cartoon Network",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/cartoons/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 470,
+    "question": "Quel est le dessin animé avec comme scénario une partie de basket-ball ?",
+    "category": "cartoons",
+    "answer": "Space Jam",
+    "difficulty": 1
+  },
+  {
+    "id": 471,
+    "question": "Quel est le dessin animé avec des robots qui se transforment en véhicules ?",
+    "category": "cartoons",
+    "answer": "Transformers",
+    "difficulty": 1
+  },
+  {
+    "id": 472,
+    "question": "Quel est le dessin animé où la protagoniste est Cruella ?",
+    "category": "cartoons",
+    "answer": "Les 101 dalmatiens",
+    "difficulty": 1
+  },
+  {
+    "id": 473,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "Lilo & Stitch",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 474,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "Mickey Mouse",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 475,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "L'étrange Noël de Monsieur Jack",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 476,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "Histoire de jouets",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 477,
+    "question": "Quel est le dessin animé où des jouets prennent vie ?",
+    "category": "cartoons",
+    "answer": "Histoire de jouets",
+    "difficulty": 1
+  },
+  {
+    "id": 478,
+    "question": "Quel est le dessin animé où un robot nettoyeur est envoyé sur Terre ?",
+    "category": "cartoons",
+    "answer": "Wall-E",
+    "hint": "Eveeee",
+    "difficulty": 2
+  },
+  {
+    "id": 479,
+    "question": "Quel est le dessin animé où l'antagoniste est Ursula ?",
+    "category": "cartoons",
+    "answer": "La petite sirène",
+    "difficulty": 1
+  },
+  {
+    "id": 480,
+    "question": "Quel est le dessin animé où l'antagoniste est Scar ?",
+    "category": "cartoons",
+    "answer": "Le roi lion",
+    "difficulty": 1
+  },
+  {
+    "id": 481,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "Le roi lion",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 482,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "La petite sirène",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 483,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "La bête et la belle",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 484,
+    "question": "Quel est le dessin animé avec la chanson suivante ?",
+    "category": "cartoons",
+    "answer": "Blanche Neige",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/TODO",
+    "mediaType": "image"
+  },
+  {
+    "id": 485,
+    "question": "Quel est le dessin animé avec un dragon noir ?",
+    "category": "cartoons",
+    "answer": "Dragons",
+    "difficulty": 2
+  },
+  {
+    "id": 486,
+    "question": "Quel est le dessin animé avec la fameuse scène du spaghetti ?",
+    "category": "cartoons",
+    "answer": "La belle et le clochard",
+    "difficulty": 2
+  },
+  {
+    "id": 487,
+    "question": "Quel est le dessin animé avec plusieurs émotions ?",
+    "category": "cartoons",
+    "answer": "Vice-Versa",
+    "difficulty": 2
+  },
+  {
+    "id": 488,
+    "question": "Quel est le dessin animé avec des super-héros en costume rouge ?",
+    "category": "cartoons",
+    "answer": "Les indestructibles",
+    "difficulty": 1
   }
 ]
