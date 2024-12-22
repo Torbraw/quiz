@@ -3337,5 +3337,248 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/lyrics/i_gotta_feeling.png",
     "mediaType": "image"
+  },
+  {
+    "id": 419,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Tu M'manques - La Chicane",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/miss_you.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 419,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Sèche tes pleurs - Daniel Bélanger",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/dry_your_tears.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 420,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Libéraux-nous des libéraux - Loco Locass",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/free_liberals.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 421,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Montréal - Ariane Moffatt",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/montreal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 422,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Hawaïenne - Les Trois Accords",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/hawaiian.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 423,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Dégénérations - Mes Aïeux",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/generations.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 424,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Tassez-vous de d’là - Les Colocs",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/get_out_of_the_way.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 425,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Essentiel - Ginette Reno",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/essential.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 426,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "On va s'aimer encore - Vincent Vallières",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/still_love.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 427,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "L'amérique pleure - Les Cowboys Fringants",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/america_cries.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 428,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Illégal - Corbeau",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/illegal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 429,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Une chance qu'on s'a - Jean-Pierre Ferland",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/lucky_to_have.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 430,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Étoiles filantes - Les Cowboys Fringants",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/shooting_stars.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 431,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "La rue principale - Les Colocs",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/principal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 432,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Sous le vent - Garou et Céline Dion",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/under_the_wind.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 433,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Adieu - Coeur de Pirate",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/goodbye.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 434,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Parce qu'on vient de loin - Corneille",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/come_from_afar.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 435,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Les amoureux qui s’aiment - Les Trois Accords",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/lovers.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 436,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Belle - Garou (Notre-Dame de Paris)",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/belle.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 437,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Gitan",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/gitan.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 438,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Parle moi - Isabelle Boulay",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/talk_to_me.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 439,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Elle me dit - Mika",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/she_tells_me.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 440,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Alors on danse - Stromae",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/we_dance.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 441,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "La bohème - Charles Aznavour",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/boheme.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 442,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Mistral gagnant - Renaud",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/mistral.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 443,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Ça plane pour moi - Plastic Bertrand",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/plane.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 444,
+    "question": "Quel est la musique française associée à ces paroles traduites en anglais ?",
+    "category": "translated-lyrics-fr",
+    "answer": "Alexandrie Alexandra - Claude François",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/alexandra.png",
+    "mediaType": "image"
   }
 ]
