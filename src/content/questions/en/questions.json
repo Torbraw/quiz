@@ -2855,5 +2855,336 @@
     "category": "video-games",
     "answer": "Kirby",
     "difficulty": 1
+  },
+  {
+    "id": 446,
+    "question": "What is the cartoon where the protagonist is a large orange cat?",
+    "category": "cartoons",
+    "answer": "Garfield",
+    "difficulty": 1
+  },
+  {
+    "id": 447,
+    "question": "What is the cartoon where the characters are yellow?",
+    "category": "cartoons",
+    "answer": "The Simpsons",
+    "difficulty": 1
+  },
+  {
+    "id": 448,
+    "question": "What is the cartoon where the protagonist wears a red shirt and a blue/green hat?",
+    "category": "cartoons",
+    "answer": "South Park",
+    "difficulty": 2
+  },
+  {
+    "id": 449,
+    "question": "What is the cartoon where the phrase 'beep beep' is often heard?",
+    "category": "cartoons",
+    "answer": "Road Runner and Coyote",
+    "difficulty": 2
+  },
+  {
+    "id": 450,
+    "question": "What is the cartoon where the team hunts ghosts?",
+    "category": "cartoons",
+    "answer": "Scooby-Doo",
+    "difficulty": 1
+  },
+  {
+    "id": 451,
+    "question": "What is the cartoon where the protagonist is pink and a detective?",
+    "category": "cartoons",
+    "answer": "The Pink Panther",
+    "difficulty": 1
+  },
+  {
+    "id": 452,
+    "question": "What is the cartoon with a cat and a mouse?",
+    "category": "cartoons",
+    "answer": "Tom and Jerry",
+    "difficulty": 1
+  },
+  {
+    "id": 453,
+    "question": "What is the cartoon with a rabbit who loves carrots?",
+    "category": "cartoons",
+    "answer": "Bugs Bunny",
+    "difficulty": 1
+  },
+  {
+    "id": 454,
+    "question": "What is the cartoon where the protagonist solves mysteries with the audience?",
+    "category": "cartoons",
+    "answer": "Dora the Explorer",
+    "difficulty": 2
+  },
+  {
+    "id": 455,
+    "question": "What is the cartoon where the characters are blue?",
+    "category": "cartoons",
+    "answer": "The Smurfs",
+    "difficulty": 1
+  },
+  {
+    "id": 456,
+    "question": "What is the cartoon with a cat and a bird?",
+    "category": "cartoons",
+    "hint": "The bird is yellow",
+    "answer": "Sylvester and Tweety",
+    "difficulty": 2
+  },
+  {
+    "id": 457,
+    "question": "What is the cartoon where the protagonist loves honey?",
+    "category": "cartoons",
+    "answer": "Winnie the Pooh",
+    "difficulty": 1
+  },
+  {
+    "id": 458,
+    "question": "What is the cartoon where the protagonist loves spinach?",
+    "category": "cartoons",
+    "answer": "Popeye",
+    "difficulty": 1
+  },
+  {
+    "id": 459,
+    "question": "What is the cartoon where you often hear 'Yabba Dabba Doo!'?",
+    "category": "cartoons",
+    "answer": "The Flintstones",
+    "difficulty": 1
+  },
+  {
+    "id": 460,
+    "question": "What is the cartoon where you often hear 'What's up, Doc?'?",
+    "category": "cartoons",
+    "answer": "Bugs Bunny",
+    "difficulty": 1
+  },
+  {
+    "id": 461,
+    "question": "What is the cartoon where you can hear the song 'The Bare Necessities'?",
+    "category": "cartoons",
+    "answer": "The Jungle Book",
+    "difficulty": 1
+  },
+  {
+    "id": 462,
+    "question": "What is the cartoon where you can hear the song 'Hakuna Matata'?",
+    "category": "cartoons",
+    "answer": "The Lion King",
+    "difficulty": 1
+  },
+  {
+    "id": 463,
+    "question": "What is the cartoon where you can hear the song 'Prince Ali'?",
+    "category": "cartoons",
+    "answer": "Aladdin",
+    "difficulty": 1
+  },
+  {
+    "id": 464,
+    "question": "What is the cartoon represented by the following image?",
+    "category": "cartoons",
+    "answer": "Charlie Brown",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/snoopy.jpg.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 465,
+    "question": "What is the cartoon represented by the following image?",
+    "category": "cartoons",
+    "answer": "Betty Boop",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/betty_boop.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 466,
+    "question": "What is the company with this opening theme?",
+    "category": "blind-test",
+    "answer": "Looney Tunes",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/looney_tunes.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 467,
+    "question": "What is the company with this opening theme?",
+    "category": "blind-test",
+    "answer": "Disney",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/disney.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 468,
+    "question": "What is the company with this opening theme?",
+    "category": "blind-test",
+    "answer": "Universal",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/universal.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 469,
+    "question": "What is the company with this opening theme?",
+    "category": "blind-test",
+    "answer": "Cartoon Network",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/century_fox.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 470,
+    "question": "What is the cartoon with a basketball-themed storyline?",
+    "category": "cartoons",
+    "answer": "Space Jam",
+    "difficulty": 1
+  },
+  {
+    "id": 471,
+    "question": "What is the cartoon with robots that transform into vehicles?",
+    "category": "cartoons",
+    "answer": "Transformers",
+    "difficulty": 1
+  },
+  {
+    "id": 472,
+    "question": "What is the cartoon where the protagonist is Cruella?",
+    "category": "cartoons",
+    "answer": "101 Dalmatians",
+    "difficulty": 1
+  },
+  {
+    "id": 473,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "Lilo & Stitch",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/lilo_stich.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 474,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "Shrek",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/all_stars.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 475,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "The Nightmare Before Christmas",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/this_is_halloween.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 476,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "Toy Story",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/friend_in_me.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 477,
+    "question": "What is the cartoon where toys come to life?",
+    "category": "cartoons",
+    "answer": "Toy Story",
+    "difficulty": 1
+  },
+  {
+    "id": 478,
+    "question": "What is the cartoon where a cleaning robot is sent to Earth?",
+    "category": "cartoons",
+    "answer": "Wall-E",
+    "hint": "Eveeee",
+    "difficulty": 2
+  },
+  {
+    "id": 479,
+    "question": "What is the cartoon where the antagonist is Ursula?",
+    "category": "cartoons",
+    "answer": "The Little Mermaid",
+    "difficulty": 1
+  },
+  {
+    "id": 480,
+    "question": "What is the cartoon where the antagonist is Scar?",
+    "category": "cartoons",
+    "answer": "The Lion King",
+    "difficulty": 1
+  },
+  {
+    "id": 481,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "The Lion King",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lion_king.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 482,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "The Little Mermaid",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/little_mermaid.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 483,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "Beauty and the Beast",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/beauty_and_the_beast.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 484,
+    "question": "What is the cartoon with the following song?",
+    "category": "blind-test",
+    "answer": "Snow White",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/snow_white.mp3",
+    "mediaType": "image"
+  },
+  {
+    "id": 485,
+    "question": "What is the cartoon with a black dragon?",
+    "category": "cartoons",
+    "answer": "How to Train Your Dragon",
+    "difficulty": 2
+  },
+  {
+    "id": 486,
+    "question": "What is the cartoon with the famous spaghetti scene?",
+    "category": "cartoons",
+    "answer": "Lady and the Tramp",
+    "difficulty": 2
+  },
+  {
+    "id": 487,
+    "question": "What is the cartoon with several emotions?",
+    "category": "cartoons",
+    "answer": "Inside Out",
+    "difficulty": 2
+  },
+  {
+    "id": 488,
+    "question": "What is the cartoon with superheroes in red suits?",
+    "category": "cartoons",
+    "answer": "The Incredibles",
+    "difficulty": 1
   }
 ]
