@@ -3589,7 +3589,7 @@
   {
     "id": 466,
     "question": "What is the company with this opening theme?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Looney Tunes",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/looney_tunes.mp3",
@@ -3598,7 +3598,7 @@
   {
     "id": 467,
     "question": "What is the company with this opening theme?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Disney",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/disney.mp3",
@@ -3607,7 +3607,7 @@
   {
     "id": 468,
     "question": "What is the company with this opening theme?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Universal",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/universal.mp3",
@@ -3616,7 +3616,7 @@
   {
     "id": 469,
     "question": "What is the company with this opening theme?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Cartoon Network",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/century_fox.mp3",
@@ -3646,38 +3646,38 @@
   {
     "id": 473,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Lilo & Stitch",
     "difficulty": 3,
     "mediaSrc": "/src/assets/audios/lilo_stich.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 474,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Shrek",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/all_stars.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 475,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "The Nightmare Before Christmas",
     "difficulty": 2,
     "mediaSrc": "/src/assets/audios/this_is_halloween.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 476,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Toy Story",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/friend_in_me.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 477,
@@ -3711,38 +3711,38 @@
   {
     "id": 481,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "The Lion King",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/lion_king.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 482,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "The Little Mermaid",
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/little_mermaid.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 483,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Beauty and the Beast",
     "difficulty": 2,
     "mediaSrc": "/src/assets/audios/beauty_and_the_beast.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 484,
     "question": "What is the cartoon with the following song?",
-    "category": "blind-test",
+    "category": "music-quiz",
     "answer": "Snow White",
     "difficulty": 2,
     "mediaSrc": "/src/assets/audios/snow_white.mp3",
-    "mediaType": "image"
+    "mediaType": "audio/mp3"
   },
   {
     "id": 485,
@@ -4779,5 +4779,428 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/seth_rogen.webp",
     "mediaType": "image"
+  },
+  {
+    "id": 601,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Narcos",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/narcos.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 602,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Friends",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/friends.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 603,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Squid Game",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/squid_game.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 604,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Walking Dead",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/walking_dead.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 605,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Mandalorian",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/mandalorian.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 606,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Queen's Gambit",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/queen_gambit.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 607,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Money Heist",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/case_papel.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 608,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Breaking Bad",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/breaking_bad.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 609,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Sherlock Holmes",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/sherlock_holmes.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 610,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Peaky Blinders",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/peaky_blinders.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 611,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Orange is the New Black",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/orange_black.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 612,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Lucifer",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lucifer.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 613,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "CSI: Miami",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/csi.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 614,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Loki",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/loki.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 615,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Game of Thrones",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/games_of_thrones.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 616,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Stranger Things",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/stranger_things.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 617,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Arcane",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/arcane.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 618,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Wednesday",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/wednesday.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 619,
+    "question": "In which series do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Witcher",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/witcher.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 620,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Harry Potter",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/harry_potter.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 621,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Jaws",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/jaws.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 622,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Transformers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/transformers.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 623,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Mission Impossible",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/mission_impossible.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 624,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Godfather",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/godfather.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 625,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Avatar",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/avatar.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 626,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Back to the Future",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/back_to_the_future.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 627,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Up",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/up.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 628,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Batman - The Dark Knight",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/dark_night.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 629,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Avengers",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/avengers.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 630,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Jurassic Park",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/jurrasick_park.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 631,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "E.T.",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/et.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 632,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Ghostbusters",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/ghostbuster.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 633,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Halloween",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/halloween.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 634,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Lord of the Rings",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lord_of_the_rings.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 635,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Fast and Furious",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/ff.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 636,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Star Wars",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/star_wars.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 637,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Spiderman",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/spiderman.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 638,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Terminator",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/terminator.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 639,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Once Upon a Time in the West",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/once_upon_a_time_in_the_west.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 640,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Pulp Fiction",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/pulp_fiction.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 641,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Pirates of the Caribbean",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/caribbean_pirates.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 642,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "The Good, the Bad, and the Ugly",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/good_bad_ugly.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 643,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "James Bond",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/james_bond.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 644,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Interstellar",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/interstellar.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 645,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Braveheart",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/braveheart.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 646,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "Charlie and the Chocolate Factory",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/charlie_chocolate_factory.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 647,
+    "question": "In which movie do we hear this music?",
+    "category": "music-quiz",
+    "answer": "La La Land",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/la_la_land.mp3",
+    "mediaType": "audio/mp3"
   }
 ]

@@ -3,7 +3,7 @@ import { file } from "astro/loaders";
 
 export const CATEGORIES = z.enum([
   "general",
-  "blind-test",
+  "music-quiz",
   "cinema",
   "cartoons",
   "celebrities-qc",

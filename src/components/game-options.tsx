@@ -142,7 +142,7 @@ export const GameOptions: Component<Props> = (props) => {
 
       const categories = local.categories.map((category) => ({
         category,
-        selected: true,
+        selected: false,
         questionCount: availableQuestions().filter((question) => question.category === category).length,
       }));
       setCategories(categories);
