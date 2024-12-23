@@ -3916,10 +3916,10 @@
     "id": 489,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
-    "answer": "Kingsman",
+    "answer": "Kingsman - Services secrets",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/kingsman.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 490,
@@ -3927,8 +3927,8 @@
     "category": "cinema",
     "answer": "Fast and Furious 5",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/fast_five.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 491,
@@ -3936,8 +3936,8 @@
     "category": "cinema",
     "answer": "Fast and Furious 1",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/fast_first.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 492,
@@ -3945,17 +3945,17 @@
     "category": "cinema",
     "answer": "Fast and Furious 2",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/fast_second.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 493,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Le parrain",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/godfather.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 494,
@@ -3963,8 +3963,8 @@
     "category": "cinema",
     "answer": "Seigneur des anneaux - Les deux tours",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/two_towers.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 495,
@@ -3972,8 +3972,8 @@
     "category": "cinema",
     "answer": "Star Wars - L'empire contre-attaque",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/star_wars_v.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 496,
@@ -3981,8 +3981,8 @@
     "category": "cinema",
     "answer": "Star Wars - La menace fantôme",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/star_wars_1.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 497,
@@ -3990,8 +3990,8 @@
     "category": "cinema",
     "answer": "Harry Potter - La chambre des secrets",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/secrets_chamber.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 498,
@@ -3999,18 +3999,17 @@
     "category": "cinema",
     "answer": "Batman - Le chevalier noir",
     "difficulty": 2,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/dark_knight.mp4",
+    "mediaType": "video/mp4"
   },
-
   {
     "id": 499,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
-    "answer": "Batman - Le chevalier noir",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "answer": "Deadpool & Wolverine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/deadpool_wolverine.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 500,
@@ -4018,17 +4017,17 @@
     "category": "cinema",
     "answer": "Titanic",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/titanic.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 501,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Die Hard - Piège de cristal",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/die_hard.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 502,
@@ -4036,8 +4035,8 @@
     "category": "cinema",
     "answer": "Iron Man 1",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/iron_man.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 503,
@@ -4045,8 +4044,8 @@
     "category": "cinema",
     "answer": "Jumanji",
     "difficulty": 2,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/jumanji.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 504,
@@ -4054,8 +4053,8 @@
     "category": "cinema",
     "answer": "Avengers - Endgame",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/endgame.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 505,
@@ -4063,17 +4062,17 @@
     "category": "cinema",
     "answer": "Elf",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/elf.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 506,
     "question": "Quel est la série avec la scène suivante ?",
     "category": "cinema",
     "answer": "Arcane",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/arcane.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 507,
@@ -4081,26 +4080,26 @@
     "category": "cinema",
     "answer": "Peaky Blinders",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/peaky_blinders.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 508,
     "question": "Quel est la série avec la scène suivante ?",
     "category": "cinema",
     "answer": "The Witcher",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/witcher.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 509,
     "question": "Quel est la série avec la scène suivante ?",
     "category": "cinema",
     "answer": "Stranger Things",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/stranger_things.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 510,
@@ -4108,8 +4107,8 @@
     "category": "cinema",
     "answer": "The Mandalorian",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/mandalorian.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 511,
@@ -4117,8 +4116,8 @@
     "category": "cinema",
     "answer": "The boys",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/the_boys.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 512,
@@ -4126,8 +4125,8 @@
     "category": "cinema",
     "answer": "Lucifer",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/lucifer.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 513,
@@ -4135,17 +4134,17 @@
     "category": "cinema",
     "answer": "Reacher",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/reacher.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 514,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Jaws",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/jaws.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 515,
@@ -4153,8 +4152,8 @@
     "category": "cinema",
     "answer": "Jurrasick Park",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/jurrasick_park.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 516,
@@ -4162,17 +4161,17 @@
     "category": "cinema",
     "answer": "Avatar",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/avatar.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 517,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Inception",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/inception.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 518,
@@ -4180,17 +4179,17 @@
     "category": "cinema",
     "answer": "Blade Runner 2049",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/blade_runner.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 519,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Ready player one",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/ready_player_one.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 520,
@@ -4198,8 +4197,8 @@
     "category": "cinema",
     "answer": "Interstellar",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/interstellar.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 521,
@@ -4207,8 +4206,8 @@
     "category": "cinema",
     "answer": "Top Gun Maverick",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/maverick.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 522,
@@ -4216,26 +4215,26 @@
     "category": "cinema",
     "answer": "Pulp Fiction",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/pulp_fiction.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 523,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Il faut sauver le soldat Ryan",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/saving_private_ryan.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 524,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Dune",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/dune.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 525,
@@ -4243,17 +4242,17 @@
     "category": "cinema",
     "answer": "The karate kid",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/karate_kid.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 526,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Retour vers le futur",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/back_to_the_future.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 527,
@@ -4261,35 +4260,35 @@
     "category": "cinema",
     "answer": "E.T",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/et.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 528,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Narnia",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/narnia.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 529,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Sauvez Willy",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/willy.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 530,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
-    "answer": "Beetlejuice",
+    "answer": "La ligne verte",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/green_mile.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 531,
@@ -4297,17 +4296,17 @@
     "category": "cinema",
     "answer": "Mercredi",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/wednesday.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 532,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
-    "answer": "Forest Gump",
+    "answer": "Forrest Gump",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/forrest_gump.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 533,
@@ -4315,8 +4314,8 @@
     "category": "cinema",
     "answer": "Maman j'ai raté l'avion",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/home_alone.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 534,
@@ -4324,8 +4323,8 @@
     "category": "cinema",
     "answer": "High School Musical",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/high_school_musical.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 535,
@@ -4333,17 +4332,17 @@
     "category": "cinema",
     "answer": "Le Grinch",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/grinch.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 536,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Dumb and Dumber",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/dumb_and_dumber.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 537,
@@ -4351,26 +4350,26 @@
     "category": "cinema",
     "answer": "Joker",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/joker.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 538,
     "question": "Quel est la série avec la scène suivante ?",
     "category": "cinema",
     "answer": "Narcos",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/narcos.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 539,
     "question": "Quel est la série avec la scène suivante ?",
     "category": "cinema",
-    "answer": "House of cards",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "answer": "Fallout",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/fallout.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 540,
@@ -4378,26 +4377,26 @@
     "category": "cinema",
     "answer": "Squid Game",
     "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "mediaSrc": "/src/assets/videos/squid_game.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 541,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Black Panther",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/black_panther.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 542,
     "question": "Quel est le film avec la scène suivante ?",
     "category": "cinema",
     "answer": "Oppenheimer",
-    "difficulty": 1,
-    "mediaSrc": "/src/assets/videos/TODO",
-    "mediaType": "image"
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/oppenheimer.mp4",
+    "mediaType": "video/mp4"
   },
   {
     "id": 543,
