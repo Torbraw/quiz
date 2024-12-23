@@ -74,7 +74,7 @@ export const ui = {
     autoShowAnswer: "Afficher la réponse automatiquement",
     durationSeconds: "Durée (secondes)",
     numberOfQuestions: "Nombre de questions",
-    maximumNumberOfQuestions: "Maximum number of questions",
+    maximumNumberOfQuestions: "Nombre maximum de questions",
     "error.autoShowAnswer": "L'affichage automatique de la réponse nécessite que le chronomètre soit activé",
     "error.noQuestions": "Aucune question trouvée pour les catégories sélectionnées",
     startGame: "Commencer la Partie",
