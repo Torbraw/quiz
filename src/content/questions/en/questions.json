@@ -3978,5 +3978,221 @@
     "difficulty": 1,
     "mediaSrc": "/src/assets/images/marie_mai.avif",
     "mediaType": "image"
+  },
+  {
+    "id": 577,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Will Smith",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/will_smith.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 578,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Jason Statham",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jason_statham.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 579,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Keanu Reeves",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/keanu_reeves.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 580,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "John Cena",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/john_cena.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 581,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Jenna Ortega",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/jenna_ortega.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 582,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Taylor Swift",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/taylor_swift.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 583,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Snoop Dogg",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/snoop_dogg.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 584,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Doja Cat",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/doja_cat.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 585,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Denzel Washington",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/denzel_washington.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 586,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "John Bernthal",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/john_bernthal.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 587,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Childish Gambino",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/childish_gambino.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 588,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Jason Momoa",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jason_momoa.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 589,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Ryan Reynolds",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/ryan_reynolds.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 590,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Jennifer Lawrence",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jennifer_lawrence.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 591,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Joaquin Phoenix",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/joaquin_phoenix.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 592,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Alan Ritchson",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/alan_ritchson.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 593,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Skrillex",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/skrillex.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 594,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Angus Young",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/angus_young.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 595,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Sia",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/sia.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 596,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Jack Black",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jack_black.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 597,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Sabrina Carpenter",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/sabrina_carpenter.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 598,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Idris Elba",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/idris_elba.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 599,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Katy Perry",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/katy_perry.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 600,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities",
+    "answer": "Seth Rogen",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/seth_rogen.webp",
+    "mediaType": "image"
   }
 ]
