@@ -2857,6 +2857,591 @@
     "difficulty": 1
   },
   {
+    "id": 381,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Eye of the Tiger",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/eye_of_tiger.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 382,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Bohemian Rhapsody - Queen",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/bohemian_rhapsody.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 383,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Barbie Girl - Aqua",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/barbie_girl.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 384,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Blinding Lights - The Weeknd",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/blinding_lights.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 385,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Rockstar - Nickelback",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/rockstar.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 386,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Smells Like Teen Spirit - Nirvana",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/smell_like.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 387,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Chop Suey - System of a Down",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/chop_suey.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 388,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Thunder - Imagine Dragons",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/thunder.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 389,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Enemy - Imagine Dragons",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/enemy.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 390,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Lose Yourself - Eminem",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/lose_yourself.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 391,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "My Name Is - Eminem",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/my_name_is.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 392,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Shape of My Heart - Backstreet Boys",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/shape_of_heart.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 393,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "I Want It That Way - Backstreet Boys",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/want_it_that_way.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 394,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Nothing Else Matters - Metallica",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/nothing_else_matters.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 395,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "The Sound of Silence - Disturbed",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/song_of_silence.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 396,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Down with the Sickness - Disturbed",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/down_with_the_sickness.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 397,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Californication - Red Hot Chili Peppers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/californication.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 398,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Can't Stop - Red Hot Chili Peppers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/cant_stop.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 399,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Can't Touch This - MC Hammer",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/cant_touch_this.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 400,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Beat It - Michael Jackson",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/beat_it.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 401,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Remember the Time - Michael Jackson",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/remember.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 402,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "My Heart Will Go On - Céline Dion",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/heart_will_go_on.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 403,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Wannabe - Spice Girls",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/wannabe.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 405,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Material Girl - Madonna",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/material_girl.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 406,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Creep - Radiohead",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/creep.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 407,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Always - Bon Jovi",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/always.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 408,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Numb - Linkin Park",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/numb.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 409,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Hey Ya - Outkast",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/hey_ya.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 410,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "In Da Club - 50 Cent",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/in_da_club.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 411,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Bills Bills Bills - Destiny's Child",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/bills_bills_bills.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 412,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Say My Name - Destiny's Child",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/say_my_name.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 413,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Feel Good Inc - Gorillaz",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/feel_good_inc.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 414,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Bring Me to Life - Evanescence",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/bring_me_to_life.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 415,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Shape of You - Ed Sheeran",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/shape_of_you.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 416,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Bad Habits - Ed Sheeran",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/bad_habits.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 417,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Just the Way You Are - Bruno Mars",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/way_you_are.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 418,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "I Gotta Feeling - Black Eyed Peas",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/i_gotta_feeling.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 419,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Tu M'manques - La Chicane",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/miss_you.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 419,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Sèche tes pleurs - Daniel Bélanger",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/dry_your_tears.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 420,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Libéraux-nous des libéraux - Loco Locass",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/free_liberals.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 421,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Montréal - Ariane Moffatt",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/montreal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 422,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Hawaïenne - Les Trois Accords",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/hawaiian.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 423,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Dégénérations - Mes Aïeux",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/generations.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 424,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Tassez-vous de d’là - Les Colocs",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/get_out_of_the_way.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 425,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Essentiel - Ginette Reno",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/essential.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 426,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "On va s'aimer encore - Vincent Vallières",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/still_love.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 427,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "L'amérique pleure - Les Cowboys Fringants",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/america_cries.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 428,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Illégal - Corbeau",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/illegal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 429,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Une chance qu'on s'a - Jean-Pierre Ferland",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/lyrics/lucky_to_have.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 430,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Étoiles filantes - Les Cowboys Fringants",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/shooting_stars.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 431,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "La rue principale - Les Colocs",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/principal.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 432,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Sous le vent - Garou et Céline Dion",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/under_the_wind.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 433,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Adieu - Coeur de Pirate",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/goodbye.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 434,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Parce qu'on vient de loin - Corneille",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/come_from_afar.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 435,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Les amoureux qui s’aiment - Les Trois Accords",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/lovers.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 436,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Belle - Garou (Notre-Dame de Paris)",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/belle.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 437,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Gitan",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/gitan.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 438,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Parle moi - Isabelle Boulay",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/talk_to_me.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 439,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Elle me dit - Mika",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/she_tells_me.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 440,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Alors on danse - Stromae",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/we_dance.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 441,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "La bohème - Charles Aznavour",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/boheme.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 442,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Mistral gagnant - Renaud",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/mistral.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 443,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Ça plane pour moi - Plastic Bertrand",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/plane.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 444,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Alexandrie Alexandra - Claude François",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lyrics/alexandra.png",
+    "mediaType": "image"
+  },
+  {
+    "id": 445,
+    "question": "What is the English song associated with these lyrics translated into French?",
+    "category": "translated-lyrics-en",
+    "answer": "Boulevard of Broken Dreams - Green Day",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/boulevard_broken_dream.png",
+    "mediaType": "image"
+  },
+  {
     "id": 446,
     "question": "What is the cartoon where the protagonist is a large orange cat?",
     "category": "cartoons",
