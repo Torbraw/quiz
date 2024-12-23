@@ -3186,5 +3186,797 @@
     "category": "cartoons",
     "answer": "The Incredibles",
     "difficulty": 1
+  },
+  {
+    "id": 489,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Kingsman: The Secret Service",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/kingsman.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 490,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Fast and Furious 5",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/fast_five.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 491,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Fast and Furious 1",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/fast_first.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 492,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Fast and Furious 2",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/fast_second.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 493,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Godfather",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/godfather.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 494,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Lord of the Rings: The Two Towers",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/two_towers.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 495,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Star Wars: The Empire Strikes Back",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/star_wars_v.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 496,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Star Wars: The Phantom Menace",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/star_wars_1.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 497,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Harry Potter: The Chamber of Secrets",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/secrets_chamber.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 498,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Dark Knight",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/dark_knight.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 499,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Deadpool & Wolverine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/deadpool_wolverine.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 500,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Titanic",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/titanic.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 501,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Die Hard",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/die_hard.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 502,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Iron Man 1",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/iron_man.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 503,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Jumanji",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/jumanji.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 504,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Avengers: Endgame",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/endgame.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 505,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Elf",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/elf.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 506,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Arcane",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/arcane.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 507,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Peaky Blinders",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/peaky_blinders.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 508,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Witcher",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/witcher.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 509,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Stranger Things",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/stranger_things.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 510,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Mandalorian",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/mandalorian.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 511,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Boys",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/the_boys.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 512,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Lucifer",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/lucifer.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 513,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Reacher",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/reacher.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 514,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Jaws",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/jaws.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 515,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Jurassic Park",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/jurassic_park.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 516,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Avatar",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/avatar.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 517,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Inception",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/inception.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 518,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Blade Runner 2049",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/blade_runner.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 519,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Ready Player One",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/ready_player_one.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 520,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Interstellar",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/interstellar.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 521,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Top Gun Maverick",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/maverick.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 522,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Pulp Fiction",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/pulp_fiction.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 523,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Saving Private Ryan",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/saving_private_ryan.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 524,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Dune",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/dune.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 525,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Karate Kid",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/karate_kid.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 526,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Back to the Future",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/back_to_the_future.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 527,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "E.T.",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/et.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 528,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Narnia",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/narnia.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 529,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Free Willy",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/willy.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 530,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Green Mile",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/green_mile.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 531,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Wednesday",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/wednesday.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 532,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Forrest Gump",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/forrest_gump.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 533,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Home Alone",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/home_alone.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 534,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "High School Musical",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/high_school_musical.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 535,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "The Grinch",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/grinch.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 536,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Dumb and Dumber",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/dumb_and_dumber.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 537,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Joker",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/joker.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 538,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Narcos",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/narcos.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 539,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Fallout",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/fallout.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 540,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Squid Game",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/squid_game.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 541,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Black Panther",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/black_panther.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 542,
+    "question": "What is the movie with the following scene?",
+    "category": "cinema",
+    "answer": "Oppenheimer",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/oppenheimer.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 543,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Céline Dion",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/celine_dion.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 544,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Roch Voisine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/roch_voisine.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 545,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Corneille",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/corneille.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 546,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Garou",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/garou.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 547,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Roxane Bruneau",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/roxane_bruneau.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 548,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Martin Matte",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/martin_matte.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 549,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Denys Arcand",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/denys_arcand.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 550,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Éric Lapointe",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/eric_lapointe.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 551,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Maripier Morin",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/maripier_morin.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 552,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Monia Chokri",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/monia_chokri.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 553,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Lise Dion",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/lise_dion.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 554,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Mel Charlot",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/images/mel_charlot.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 555,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Louis-Jean Cormier",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/louis_jean_cormier.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 556,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Pier-Luc Funk",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pier_luc_funk.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 557,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Sophie Desmarais",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/sophie_desmarais.webp",
+    "mediaType": "image"
+  },
+  {
+    "id": 558,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Louise Latraverse",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/louise_latraverse.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 559,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Patrick Hivon",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/patrick_hivon.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 560,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Nour Belkhiria",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/nour_belkhiria.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 561,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Robert Lepage",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/robert_lepage.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 562,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Normand Brathwaite",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/normand_brathwaite.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 563,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Emile Bilodeau",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/emile_bilodeau.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 564,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Gregory Charles",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/gregory_charles.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 565,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Pascale Montpetit",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/pascale_montpetit.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 566,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Frédéric Pierre",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/frederic_pierre.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 567,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Dominique Fils-Aimé",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/dominique_fils_aime.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 568,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Marilou",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/marilou.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 569,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Gisèle Lullaby",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/gisele_lullaby.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 570,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Matthieu Pepper",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/matthieu_pepper.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 571,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Sarahmée",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/sarahmee.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 572,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Michel Jean",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/michel_jean.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 573,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Martin Michaud",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/martin_michaud.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 574,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Rachid Badouri",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/rachid_badouri.avif",
+    "mediaType": "image"
+  },
+  {
+    "id": 575,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Jean Michel Anctil",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/jean_michel_anctil.jpg",
+    "mediaType": "image"
+  },
+  {
+    "id": 576,
+    "question": "Who is the celebrity in the following image?",
+    "category": "celebrities-qc",
+    "answer": "Marie Mai",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/images/marie_mai.avif",
+    "mediaType": "image"
   }
 ]
