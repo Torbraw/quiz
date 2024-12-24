@@ -7,6 +7,7 @@ export const defaultLang = "fr";
 
 export const ui = {
   en: {
+    clear: "Clear",
     replayGame: "Replay Game",
     seeHistory: "See History",
     clearHistory: "Clear History",
@@ -57,6 +58,7 @@ export const ui = {
     "difficulty.3": "Hard",
   },
   fr: {
+    clear: "Effacer",
     replayGame: "Rejouer",
     seeHistory: "Voir l'historique",
     clearHistory: "Effacer l'historique",

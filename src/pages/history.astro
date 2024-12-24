@@ -1,15 +1,22 @@
 ---
+import { getCollection } from "astro:content";
 import { HistoryTable } from "../components/history-table";
 import BaseLayout from "../layouts/base-layout.astro";
 
 const locale = Astro.currentLocale ?? "fr";
+const questions = await getCollection("questionsFr");
 ---
 
 <BaseLayout title="History">
   <div class="justify flex h-full flex-col items-center justify-center">
     <div class="flex max-w-5xl flex-col items-center gap-16">
       <h1 class="text-5xl font-extrabold text-primary">Historique</h1>
-      <HistoryTable locale={locale} client:load />
+      <HistoryTable locale={locale} client:load questions={questions.map((q) => {
+        return {
+          ...q.data,
+          id: q.id,
+        };
+      })} />
     </div>
   </div>
 </BaseLayout>
