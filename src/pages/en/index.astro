@@ -8,7 +8,7 @@ import { getRelativeLocaleUrl } from "astro:i18n";
 import { CATEGORIES } from "../../content.config";
 
 const optionsUrl = getRelativeLocaleUrl(Astro.currentLocale ?? "fr", "/options");
-const questionsCount = (await getCollection("questionsFr")).length;
+const questionsCount = (await getCollection("questionsEn")).length;
 const categoriesCount = CATEGORIES.options.length;
 ---
 
