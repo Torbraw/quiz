@@ -67,7 +67,7 @@ export const Timer: Component<Props> = (props) => {
         </svg>
       </div>
 
-      <div class="text-white font-bold text-2xl">{formatTime()}</div>
+      <div class="text-foreground font-bold text-2xl">{formatTime()}</div>
     </div>
   );
 };

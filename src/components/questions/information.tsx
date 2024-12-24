@@ -27,9 +27,9 @@ export const Information: Component<Props> = (props) => {
           variant="outline"
           classList={{
             "flex flex-row gap-2 items-center": true,
-            "bg-green-500/20 text-green-200": question().difficulty === 1,
-            "bg-yellow-500/20 text-yellow-200": question().difficulty === 2,
-            "bg-red-500/20 text-red-200": question().difficulty === 3,
+            "bg-green-500/20 dark:text-green-200 text-green-800": question().difficulty === 1,
+            "bg-yellow-500/20 dark:text-yellow-200 text-yellow-800": question().difficulty === 2,
+            "bg-red-500/20 dark:text-red-200 text-red-800": question().difficulty === 3,
           }}
         >
           <DiamongFourIcon class="w-6 h-6" />
