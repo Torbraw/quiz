@@ -4214,15 +4214,6 @@
     "mediaType": "video/mp4"
   },
   {
-    "id": 538,
-    "question": "What is the series with the following scene?",
-    "category": "cinema",
-    "answer": "Narcos",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/videos/narcos.mp4",
-    "mediaType": "video/mp4"
-  },
-  {
     "id": 539,
     "question": "What is the series with the following scene?",
     "category": "cinema",
