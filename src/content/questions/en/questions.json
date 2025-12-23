@@ -3193,15 +3193,6 @@
     "id": 419,
     "question": "What is the French song associated with these lyrics translated into English?",
     "category": "translated-lyrics-fr",
-    "answer": "Tu M'manques - La Chicane",
-    "difficulty": 2,
-    "mediaSrc": "/src/assets/images/lyrics/miss_you.png",
-    "mediaType": "image"
-  },
-  {
-    "id": 419,
-    "question": "What is the French song associated with these lyrics translated into English?",
-    "category": "translated-lyrics-fr",
     "answer": "Sèche tes pleurs - Daniel Bélanger",
     "difficulty": 3,
     "mediaSrc": "/src/assets/images/lyrics/dry_your_tears.png",
@@ -5679,5 +5670,338 @@
     "difficulty": 1,
     "mediaSrc": "/src/assets/audios/sucker.mp3",
     "mediaType": "audio/mp3"
+  },
+  {
+    "id": 702,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Incendies",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/incendies.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 703,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Starbuck",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/starbuck.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 704,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "De Père en flic",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/de_pere_en_flic.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 705,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "The Big Lebowski",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/the_big_lebowski.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 706,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Fight Club",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/fight_club.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 707,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Breaking Bad",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/breaking_bad.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 708,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Shawshank Redemption",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/shawshank_redemption.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 709,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Matrix",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/matrix.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 710,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Sopranos",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/the_sopranos.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 711,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Game of Thrones",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/games_of_thrones.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 712,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Lost",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/lost.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 713,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Barbie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/barbie.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 714,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "5e rang",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/5e_rang.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 715,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Stat",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/stat.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 716,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Un gars une fille",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/un_gars_une_fille.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 717,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "Double jeu",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/double_jeu.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 718,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Dune: Part Two",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/dune_part_two.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 719,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Guardians of the Galaxy Vol. 3",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/guardians_of_the_galaxy_vol_3.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 720,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Last of Us",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/videos/the_last_of_us.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 721,
+    "question": "What is the series with the following scene?",
+    "category": "cinema",
+    "answer": "The Bear",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/the_bear.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 722,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Rush Hour",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/rush_hour.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 723,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "American Pie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/american_pie.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 724,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Legally Blonde",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/legally_blonde.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 725,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Zoolander",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/zoolander.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 726,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Scary Movie",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/scary_movie.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 727,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Spider-Man 3",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/spiderman_3.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 728,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "X-Men: Apocalypse",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/xmen_apocalypse.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 729,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Baby Driver",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/baby_driver.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 730,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Kick-Ass",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/kickass.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 731,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Suicide Squad",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/suicide_squad.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 732,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "The Hangover",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/the_hangover.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 733,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Bad Boys: Ride or Die",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/bad_boys_ride_or_die.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 734,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "X-Men Origins: Wolverine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/xmen_origins_wolverine.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 735,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Now You See Me 2",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/videos/now_you_see_me_2.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 736,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Sonic The Hedgehog",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/sonic_the_hedgehog.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 737,
+    "question": "Which movie is this scene from?",
+    "category": "cinema",
+    "answer": "Transformers",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/videos/transformers.mp4",
+    "mediaType": "video/mp4"
+  },
+  {
+    "id": 738,
+    "question": "What is the French song associated with these lyrics translated into English?",
+    "category": "translated-lyrics-fr",
+    "answer": "Tu M'manques - La Chicane",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/images/lyrics/miss_you.png",
+    "mediaType": "image"
   }
 ]
