@@ -6143,5 +6143,788 @@
     "difficulty": 2,
     "mediaSrc": "/src/assets/images/lyrics/miss_you.png",
     "mediaType": "image"
+  },
+  {
+    "id": 739,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "AC/DC - Thunderstruck",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/acdc_thunderstruck.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 740,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Adele - Rolling in the Deep",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/adele_rolling_in_the_deep.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 741,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Alex Warren - Ordinary",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/alex_warren_ordinary.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 742,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Avicii - Levels",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/avicii_levels.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 743,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Avril Lavigne - Complicated",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/avril_lavigne_complicated.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 744,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "bbno$ - gigolo",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/bbno_gigolo.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 745,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "bbno$ & Rich Brian - edamame",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/bbno_rich_brian_edamame.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 746,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Beau Dommage - La Complainte Du Phoque En Alaska",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/beau_dommage_la_complainte_du_phoque_en_alaska.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 747,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Benson Boone - Beautiful Things",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/benson_boone_beautiful_things.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 748,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Beyoncé - Crazy In Love ft. JAY Z",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/beyonc_crazy_in_love_ft_jay_z.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 749,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Bon Jovi - It's My Life",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/bon_jovi_its_my_life.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 750,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Britney Spears - Toxic",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/britney_spears_toxic.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 751,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Bruno Mars - 24K Magic",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/bruno_mars_24k_magic.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 752,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Capital Cities - Safe And Sound",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/capital_cities_safe_and_sound.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 753,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Coldplay - Yellow",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/coldplay_yellow.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 754,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "David Guetta - Titanium ft. Sia",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/david_guetta_titanium_ft_sia.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 755,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "David Kushner - Daylight",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/david_kushner_daylight.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 756,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Destiny's Child - Survivor",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/destinys_child_survivor.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 757,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Disturbed - Down With The Sickness",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/disturbed_down_with_the_sickness.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 758,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Drake - God's Plan",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/drake_gods_plan.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 759,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Ed Sheeran - A Little More",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/ed_sheeran_a_little_more.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 760,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Ed Sheeran - Sapphire",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/ed_sheeran_sapphire.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 761,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Ed Sheeran - Shape of You",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/ed_sheeran_shape_of_you.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 762,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Ed Sheeran - Thinking Out Loud",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/ed_sheeran_thinking_out_loud.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 763,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Edward Maya & Vika Jigulina - Stereo Love",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/edward_maya_vika_jigulina_stereo_love.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 764,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Ellie Goulding - Love Me Like You Do",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/ellie_goulding_love_me_like_you_do.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 765,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Evanescence - Bring Me To Life",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/evanescence_bring_me_to_life.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 766,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Green Day - American Idiot",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/green_day_american_idiot.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 767,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Green Day - Boulevard of Broken Dreams",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/green_day_boulevard_of_broken_dreams.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 768,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Guns N' Roses - Welcome To The Jungle",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/guns_n_roses_welcome_to_the_jungle.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 769,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Harmonium - Pour Un Instant",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/harmonium_pour_un_instant.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 770,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Icona Pop - I Love It",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/icona_pop_i_love_it.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 771,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Imagine Dragons - Bones",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/imagine_dragons_bones.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 772,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Imagine Dragons & JID - Enemy",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/imagine_dragons_jid_enemy.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 773,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Isabelle Boulay - Parle-moi",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/isabelle_boulay_parlemoi.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 774,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Jean Pierre Ferland - Une chance qu'on s'a",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/jean_pierre_ferland_une_chance_quon_sa.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 775,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "John Lennon - Imagine",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/john_lennon_imagine.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 776,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Juice WRLD - Lucid Dreams",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/juice_wrld_lucid_dreams.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 777,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Kendrick Lamar - Not Like Us",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/kendrick_lamar_not_like_us.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 778,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Kpop Demon Hunters - Golden",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/kpop_demon_hunters_golden.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 779,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Kpop Demon Hunters - Soda Pop",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/kpop_demon_hunters_soda_pop.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 780,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "La bottine Souriante - La ziguezon",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/la_bottine_souriante_la_ziguezon.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 781,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Lady Gaga - Bad Romance",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lady_gaga_bad_romance.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 782,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Lady Gaga, Bruno Mars - Die With A Smile",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lady_gaga_bruno_mars_die_with_a_smile.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 783,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Lady Gaga - Poker Face",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lady_gaga_poker_face.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 784,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Led Zeppelin - Stairway To Heaven",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/led_zeppelin_stairway_to_heaven.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 785,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Les Colocs - Tassez vous de d'là",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/les_colocs_tassez_vous_de_dl.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 786,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "LES COWBOYS FRINGANTS - L'Amérique pleure",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/les_cowboys_fringants_lamrique_pleure.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 787,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "LES COWBOYS FRINGANTS - Les étoiles filantes",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/les_cowboys_fringants_les_toiles_filantes.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 788,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Lil Nas X, Jack Harlow - INDUSTRY BABY",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lil_nas_x_jack_harlow_industry_baby.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 789,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Limp Bizkit - Rollin'",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/limp_bizkit_rollin.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 790,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Linkin Park - In the End",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/linkin_park_in_the_end.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 791,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Linkin Park - Numb",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/linkin_park_numb.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 792,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "LMFAO - Party Rock Anthem",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/lmfao_party_rock_anthem.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 793,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "M83 - Midnight City",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/m83_midnight_city.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 794,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "MAGIC! - Rude",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/magic_rude.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 795,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Mark Ronson - Uptown Funk ft. Bruno Mars",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/mark_ronson_uptown_funk_ft_bruno_mars.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 796,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Mes Aïeux - Dégénérations",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/mes_aeux_dgnrations.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 797,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Metallica - Enter Sandman",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/metallica_enter_sandman.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 798,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "MGMT - Kids",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/mgmt_kids.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 799,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Michael Jackson - Billie Jean",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/michael_jackson_billie_jean.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 800,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Miley Cyrus - Flowers",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/miley_cyrus_flowers.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 801,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "NF - The Search",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/nf_the_search.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 802,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Nirvana - Smells Like Teen Spirit",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/nirvana_smells_like_teen_spirit.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 803,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "*NSYNC - Bye Bye Bye",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/nsync_bye_bye_bye.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 804,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Oasis - Wonderwall",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/oasis_wonderwall.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 805,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "OMI - Cheerleader",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/omi_cheerleader.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 806,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Peter Bjorn And John - Young Folks",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/peter_bjorn_and_john_young_folks.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 807,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Queen - Bohemian Rhapsody",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/queen_bohemian_rhapsody.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 808,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Rage Against The Machine - Killing In the Name",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/rage_against_the_machine_killing_in_the_name.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 809,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Rihanna - Umbrella",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/rihanna_umbrella.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 810,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Sabrina Carpenter - Espresso",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/sabrina_carpenter_espresso.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 811,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Sam Smith, Kim Petras - Unholy",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/sam_smith_kim_petras_unholy.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 812,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Shaboozey - A Bar Song (Tipsy)",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/shaboozey_a_bar_song_tipsy.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 813,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "System Of A Down - Chop Suey!",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/system_of_a_down_chop_suey.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 814,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Teddy Swims - Lose Control",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/teddy_swims_lose_control.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 815,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Black Eyed Peas - Let's Get It Started",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/the_black_eyed_peas_lets_get_it_started.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 816,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Black Eyed Peas - Pump It",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/the_black_eyed_peas_pump_it.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 817,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Killers - Mr. Brightside",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/the_killers_mr_brightside.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 818,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Weeknd - Blinding Lights",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/the_weeknd_blinding_lights.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 819,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Weeknd - Save Your Tears",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/the_weeknd_save_your_tears.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 820,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "The Weeknd - Starboy ft. Daft Punk",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/the_weeknd_starboy_ft_daft_punk.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 821,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Tom Odell - Another Love",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/tom_odell_another_love.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 822,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "twenty one pilots - Heathens",
+    "difficulty": 2,
+    "mediaSrc": "/src/assets/audios/twenty_one_pilots_heathens.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 823,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "twenty one pilots - Stressed Out",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/twenty_one_pilots_stressed_out.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 824,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Twenty One Pilots - The Line",
+    "difficulty": 3,
+    "mediaSrc": "/src/assets/audios/twenty_one_pilots_the_line.mp3",
+    "mediaType": "audio/mp3"
+  },
+  {
+    "id": 825,
+    "question": "Quel est le nom et l'artiste de cette musique ?",
+    "category": "music-quiz",
+    "answer": "Wiz Khalifa - See You Again ft. Charlie Puth",
+    "difficulty": 1,
+    "mediaSrc": "/src/assets/audios/wiz_khalifa_see_you_again_ft_charlie_puth.mp3",
+    "mediaType": "audio/mp3"
   }
 ]
